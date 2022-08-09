@@ -1,6 +1,6 @@
-# Learn Database Management Systems Together
+# Learn Distributed Systems Together
 
-Awesome collection of learning materials to learn modern DBMS.
+Awesome collection of learning materials to learn modern Distributed Systems, DevOps and DBMS.
 
 <!-- - []() by []() ( _:movie_camera:_ ) -->
 
