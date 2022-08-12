@@ -10,3 +10,4 @@ Here you can find:
 
 - __:mortar_board:__ [Learn](./learn.md) : collection of materials to learn Systems Design.
 - __:old_key:__ [Comprehend](./concepts.md) : key concepts and dichotomies of Systems Design.
+- __:chart_with_upwards_trend:__ [Systemize](./cheatsheets.md) : cheatsheets of Systems Design.
