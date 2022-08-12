@@ -8,5 +8,5 @@ This repostory contains nearly dozen curated collection: learning materials, too
 
 Here you can find:
 
-- :mortar_board: [Learn](./learn.md) : collection of materials to learn Systems Design.
-- :old_key: [Comprehend](./concepts.md) : key concepts and dichotomies of Systems Design.
+- __:mortar_board:__ [Learn](./learn.md) : collection of materials to learn Systems Design.
+- __:old_key:__ [Comprehend](./concepts.md) : key concepts and dichotomies of Systems Design.

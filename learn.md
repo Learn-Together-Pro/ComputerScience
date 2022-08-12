@@ -6,6 +6,12 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 
 <!-- - __:movie_camera:__ []() by []() -->
 
+## Courses
+
+__:mortar_board:__
+
+- __:mortar_board:__ __:movie_camera:__  [Distributed Systems](https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB) by [Martin Kleppmann](https://www.youtube.com/channel/UClB4KPy5LkJj1t3SgYVtMOQ/videos) ( _systems_design_ ) ( _distributed_system_ )
+
 ## Systems design key concepts
 
 ( _systems_design_ )
@@ -16,11 +22,17 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 - __:movie_camera:__ [Horizontal vs. Vertical Scaling](https://www.youtube.com/watch?v=xpDnVSmNFX0) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 - __:movie_camera:__ [Distributed Consensus and Data Replication strategies](https://www.youtube.com/watch?v=GeGxgmPTe4c) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 
-## DBMS comparison
+## DBMS concepts
 
 ( _dbms_ )
 
 - __:movie_camera:__ [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw) by [Fireship](https://www.youtube.com/c/Fireship) ( _short_ )
+- __:movie_camera:__ [What is Database Sharding?](https://www.youtube.com/watch?v=5faMjKuB9bc) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos)
+
+## DBMS comparison
+
+( _dbms_ )
+
 - __:movie_camera:__ [Introduction to NoSQL databases](https://www.youtube.com/watch?v=xQnIN9bW0og) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos)
 - __:movie_camera:__ [Relational database index vs. NoSQL index](https://www.youtube.com/watch?v=mTNkqMDCasI) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos)
 - __:movie_camera:__ [Column vs Row Oriented Databases](https://www.youtube.com/watch?v=Vw1fCeD06YI) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering)
@@ -50,7 +62,7 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 
 - __:movie_camera:__ [What is InfluxDB?](https://www.youtube.com/watch?v=qye_c4_pWQ4) by [CBT Nuggets](https://www.youtube.com/c/cbtnuggets/videos)
 
-## Monitoring, logging, aggregation and diagnostics
+## Monitoring, logging, aggregation and diagnostics of a distributed system
 
 ( _monitoring_ )
 
@@ -69,6 +81,7 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 ## Tags legend
 
 - __:movie_camera:__ - video material
+- __:mortar_board:__ - online course with or without feedback
 - ( _short_ ) - short overview
 - ( _dbms_ ) - database manageement systems
 - ( _key-value_ ) - key-value database
@@ -76,6 +89,6 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 - ( _document-oriented_ ) - document-oriented DBMS
 - ( _wide_column_ ) - wide column database
 - ( _relational_ ) - relational database
-- ( _monitoring_ ) - monitoring, logging and diagnostics
+- ( _monitoring_ ) - monitoring, logging, aggregation and diagnostics of a distributed system
 - ( _infrastructure_as_a_code_ ) - infrastructure as a code
 - ( _time_series_ ) - time-series database
