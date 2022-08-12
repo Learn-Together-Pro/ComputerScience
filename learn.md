@@ -1,6 +1,8 @@
 # Learn Systems Design Together
 
-Awesome collection of learning materials to learn modern Distributed Systems, DevOps and DBMS.
+Awesome collection of learning materials to learn modern Systems Design, Distributed Systems, DevOps and DBMS.
+
+[:arrow_down: Tags legend](#tags-legend) at the end of the page.
 
 <!-- - __:movie_camera:__ []() by []() -->
 
