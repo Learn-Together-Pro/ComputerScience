@@ -16,6 +16,7 @@ __:mortar_board:__
 
 ( _systems_design_ )
 
+- __:movie_camera:__ [CAP theorem](https://www.youtube.com/watch?v=KmGy3sU6Xw8) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
 - __:movie_camera:__ [What is the Publisher Subscriber Model?](https://www.youtube.com/watch?v=FMhbR_kQeHw) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 - __:movie_camera:__ [What is a microservice architecture and it's advantages?](https://www.youtube.com/watch?v=qYhRvH9tJKw) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 - __:movie_camera:__ [Moving from Monoliths to Microservices](https://www.youtube.com/watch?v=rckfN7xFig0) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )

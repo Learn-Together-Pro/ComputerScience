@@ -31,6 +31,9 @@ Split brain
 Sharding
 : a database architecture pattern related to horizontal partitioning — the practice of separating one table’s rows into multiple different tables, known as partitions.
 
+CAP Theorem
+: in theoretical computer science, the CAP theorem, states that any distributed data store can provide only two of the following three guarantees.
+
 <!-- ## Tags legend -->
 <!-- - ( _:movie_camera:_ ) - video material -->
 <!-- - ( _short_ ) - short overview -->

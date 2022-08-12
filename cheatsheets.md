@@ -6,14 +6,18 @@ Cheatsheets for Systems Design, Distributed Systems, DevOps and DBMS.
 
 <!-- - []() by []() ( _:movie_camera:_ ) -->
 
+## CAP Theorem
+
+![CAP Theorem](./cheatsheet/cap_theorem.png)
+
 ## Horizontal vs Vertical scaling
 
 ![Horizontal vs Vertical scaling](./cheatsheet/horizontal_vs_vertical.png)
 
-<!-- ## Tags legend -->
-<!-- - ( _:movie_camera:_ ) - video material -->
-<!-- - ( _short_ ) - short overview -->
-
 ## Sharding / database partitiioning
 
 ![Horizontal vs Vertical scaling](./cheatsheet/sharding_partitiioning.png)
+
+<!-- ## Tags legend -->
+<!-- - ( _:movie_camera:_ ) - video material -->
+<!-- - ( _short_ ) - short overview -->
