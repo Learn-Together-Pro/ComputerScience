@@ -4,7 +4,7 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 
 ## What is this about?
 
-This repostory contains nearly dozen curated collection: learning materials, toolboxes, newspapers, working groups, collection of other collections. Everything you will find useful if you are interested in Systems Design.
+This repostory contains nearly dozen curated collections: learning materials, toolboxes, newspapers, working groups, collection of other collections. Everything you will find useful if you are interested in Systems Design.
 
 Here you can find:
 
