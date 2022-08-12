@@ -28,6 +28,7 @@ __:mortar_board:__
 
 - __:movie_camera:__ [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw) by [Fireship](https://www.youtube.com/c/Fireship) ( _short_ )
 - __:movie_camera:__ [What is Database Sharding?](https://www.youtube.com/watch?v=5faMjKuB9bc) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos)
+- __:movie_camera:__ [Database Indexing](https://www.youtube.com/watch?v=-qNSXK7s7_w) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
 
 ## DBMS comparison
 
@@ -35,7 +36,7 @@ __:mortar_board:__
 
 - __:movie_camera:__ [Introduction to NoSQL databases](https://www.youtube.com/watch?v=xQnIN9bW0og) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos)
 - __:movie_camera:__ [Relational database index vs. NoSQL index](https://www.youtube.com/watch?v=mTNkqMDCasI) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos)
-- __:movie_camera:__ [Column vs Row Oriented Databases](https://www.youtube.com/watch?v=Vw1fCeD06YI) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering)
+- __:movie_camera:__ [Column vs Row Oriented Databases](https://www.youtube.com/watch?v=Vw1fCeD06YI) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
 
 ## Key-value database
 
