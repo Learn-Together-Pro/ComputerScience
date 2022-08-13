@@ -10,13 +10,17 @@ Cheatsheets for Systems Design, Distributed Systems, DevOps and DBMS.
 
 ![CAP Theorem](./cheatsheet/cap_theorem.png)
 
-## Horizontal vs Vertical scaling
+## Horizontal / Vertical scaling
 
 ![Horizontal vs Vertical scaling](./cheatsheet/horizontal_vs_vertical.png)
 
-## Sharding / database partitiioning
+## Sharding ~ database partitiioning
 
 ![Horizontal vs Vertical scaling](./cheatsheet/sharding_partitiioning.png)
+
+## Resilience design patterns
+
+![Horizontal vs Vertical scaling](./cheatsheet/resilience_patterns.png)
 
 <!-- ## Tags legend -->
 <!-- - ( _:movie_camera:_ ) - video material -->
