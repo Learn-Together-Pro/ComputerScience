@@ -15,6 +15,15 @@ Horizontal / Vertical scaling
 High-level design / Low-level design
 : High-level design : explains the architecture that would be used to develop a system. Low-level design is a component-level design process that follows a step-by-step refinement process, this process can be used for designing data structures, required software architecture, source code and ultimately, performance algorithms.
 
+Column-based database / Row-based database
+: ...
+
+Relational database / Document-oriented database
+: ...
+
+Pub-Sub / Publish-Subscribe / Broker / Message queue
+: implementation of publish-subscribe as a service
+
 Sharding
 : ...
 
@@ -26,7 +35,7 @@ Replication strategy
 : ...
 
 Split brain
-: failure ...
+: failure when more than single component believes it is a master
 
 Sharding
 : a database architecture pattern related to horizontal partitioning — the practice of separating one table’s rows into multiple different tables, known as partitions.
