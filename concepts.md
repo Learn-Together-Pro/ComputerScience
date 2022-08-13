@@ -21,12 +21,6 @@ Column-based database / Row-based database
 Relational database / Document-oriented database
 : ...
 
-Pub-Sub ~ Publish-Subscribe ~ Broker ~ Message queue
-: implementation of publish-subscribe as a service
-
-Sharding
-: ...
-
 Distributed consensus
 : ...
 Types: 2PC, 3PC, SAGA
@@ -42,6 +36,20 @@ Sharding
 
 CAP Theorem
 : in theoretical computer science, the CAP theorem, states that any distributed data store can provide only two of the following three guarantees.
+
+## Communication
+
+Pub-Sub ~ Publish-Subscribe ~ Broker ~ Message queue
+: implementation of publish-subscribe as a service
+
+Consistent hashing
+: ...
+
+Proxy / Reverse Proxy
+: ...
+
+Load Balancing
+: ...
 
 <!-- ## Tags legend -->
 <!-- - ( _:movie_camera:_ ) - video material -->

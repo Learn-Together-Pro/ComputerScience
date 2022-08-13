@@ -19,6 +19,7 @@ __:mortar_board:__
 - __:movie_camera:__ [CAP theorem](https://www.youtube.com/watch?v=KmGy3sU6Xw8) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
 - __:movie_camera:__ [What is a microservice architecture and it's advantages?](https://www.youtube.com/watch?v=qYhRvH9tJKw) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 - __:movie_camera:__ [Moving from Monoliths to Microservices](https://www.youtube.com/watch?v=rckfN7xFig0) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
+- __:movie_camera:__ [Microservices Explained and their Pros & Cons](https://www.youtube.com/watch?v=T-m7ZFxeg1A) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
 - __:movie_camera:__ [Horizontal vs. Vertical Scaling](https://www.youtube.com/watch?v=xpDnVSmNFX0) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 - __:movie_camera:__ [Distributed Consensus and Data Replication strategies](https://www.youtube.com/watch?v=GeGxgmPTe4c) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 
@@ -28,6 +29,7 @@ __:mortar_board:__
 
 - __:movie_camera:__ [The Journey of an HTTP request](https://www.youtube.com/watch?v=K2qV6VpfR7I) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
 - __:movie_camera:__ [Proxy vs Reverse Proxy](https://www.youtube.com/watch?v=SqqrOspasag) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
+- __:movie_camera:__ [What is Load Balancing](https://www.youtube.com/watch?v=K0Ta65OqQkY) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 - __:movie_camera:__ [Pub-Sub Architecture](https://www.youtube.com/watch?v=O1PgqUqZKTA) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
 - __:movie_camera:__ [What is the Publisher Subscriber Model?](https://www.youtube.com/watch?v=FMhbR_kQeHw) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 
