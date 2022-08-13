@@ -21,7 +21,7 @@ Column-based database / Row-based database
 Relational database / Document-oriented database
 : ...
 
-Pub-Sub / Publish-Subscribe / Broker / Message queue
+Pub-Sub ~ Publish-Subscribe ~ Broker ~ Message queue
 : implementation of publish-subscribe as a service
 
 Sharding
