@@ -41,6 +41,8 @@ _systems_design_ )
 - __:movie_camera:__ [What is the Publisher Subscriber Model?](https://www.youtube.com/watch?v=FMhbR_kQeHw) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 - __:movie_camera:__ [What's an Event Driven System?](https://www.youtube.com/watch?v=rJHTK2TfZ1I) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 - __:movie_camera:__ [What are the differences between publisher subscriber and message queue models?](https://www.youtube.com/watch?v=PT-FO_6wdZM) by [Knowledge Powerhouse](https://www.youtube.com/channel/UC27-kZjEVZmon1rQ3Qk_AyQ/videos)
+- __:movie_camera:__ [HTTP Request vs HTTP Long-Polling vs WebSockets vs Server-Sent Events](https://www.youtube.com/watch?v=k56H0DHqu5Y) by [AfterAcademy](https://www.youtube.com/c/AfterAcademy/videos)
+- __:movie_camera:__ [Long Polling and how it differs from Push, Poll and SSE](https://www.youtube.com/watch?v=J0okraIFPJ0) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
 
 ## DBMS concepts
 
