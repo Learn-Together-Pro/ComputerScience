@@ -135,6 +135,12 @@ _systems_design_ )
 - :movie_camera: [Linux Firewall Tutorial](https://www.youtube.com/watch?v=XtRXm4FFK7Q) by [Linode](https://www.youtube.com/c/linode/videos)
 - :movie_camera: [Hardening Access to Your Server](https://www.youtube.com/watch?v=eeaFoZlSq6I) by [Linode](https://www.youtube.com/c/linode/videos)
 
+## Shell environment
+
+( _shell_ )
+
+- :movie_camera: [Linux Commands](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) by [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv/playlists)
+
 ## Tags legend
 
 - :movie_camera: - video material
@@ -154,3 +160,4 @@ _systems_design_ )
 - ( _ci_cd_ ) - continuous integration / continuous deployment
 - ( _ipc_ ) - inter-process communication
 - ( _remote_access_ ) - remote access
+- ( _shell_ ) - shell environment
