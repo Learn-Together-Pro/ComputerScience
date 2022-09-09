@@ -110,6 +110,7 @@ _systems_design_ )
 ( _virtualization_ )
 
 - :movie_camera: [Docker Tutorial](https://www.youtube.com/watch?v=3c-iBn73dDE) by [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana/videos)
+- :movie_camera: [Docker Compose](https://www.youtube.com/watch?v=DM65_JyGxCo) by [ NetworkChuck ](https://www.youtube.com/c/NetworkChuck/videos)
 
 ## CI/CD
 
