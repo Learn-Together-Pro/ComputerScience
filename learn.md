@@ -142,12 +142,15 @@ _systems_design_ )
 - :mortar_board: :movie_camera: [Linux Commands](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) by [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv/playlists)
 - :mortar_board: :movie_camera: [Linux Crash Course](https://www.youtube.com/playlist?list=PLT98CRl2KxKHKd_tH3ssq0HPrThx2hESW) by [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv/playlists)
 - :page_facing_up: [30 Handy Shell Aliases](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html) by [cyberciti.biz](https://www.cyberciti.biz/)
+- :chart_with_upwards_trend: [Bash cheatsheet](https://devhints.io/bash) by [Rico](https://devhints.io/)
+- :chart_with_upwards_trend: [Bash cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh) by [Julien Le Coupanec](https://github.com/LeCoupa)
 
 ## Tags legend
 
 - :movie_camera: - video material
 - :page_facing_up: - reading
 - :mortar_board: - online course with or without feedback
+- :chart_with_upwards_trend: - cheetsheets
 - ( _short_ ) - short overview
 - ( _communication_ ) - back-end, networking, RPC, IPC
 - ( _dbms_ ) - database manageement systems
