@@ -103,6 +103,7 @@ _systems_design_ )
 
 - :movie_camera: [Terraform in 100 Seconds](https://www.youtube.com/watch?v=tomUWcQ0P3k) by [Fireship](https://www.youtube.com/c/Fireship) ( _short_ ) ( _infrastructure_as_a_code_ )
 - :movie_camera: [Terraform in 15 mins](https://www.youtube.com/watch?v=l5k1ai_GBDE) by [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana/videos) ( _infrastructure_as_a_code_ )
+- :movie_camera: [Terraform Course](https://www.youtube.com/watch?v=7xngnjfIlK4) by [DevOps Directive](https://www.youtube.com/c/DevOpsDirective/playlists) ( _infrastructure_as_a_code_ )
 - :movie_camera: [What is GitOps](https://www.youtube.com/watch?v=f5EpcWp0THw) by [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana/videos)
 
 ## Virtualization
