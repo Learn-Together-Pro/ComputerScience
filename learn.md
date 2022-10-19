@@ -12,11 +12,21 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 
 - :mortar_board: :movie_camera:  [Distributed Systems](https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB) by [Martin Kleppmann](https://www.youtube.com/channel/UClB4KPy5LkJj1t3SgYVtMOQ/videos) ( _systems_design_ ) ( _distributed_system_ )
 
+## Architecture
+
+( _architecture_ )
+
+- :movie_camera: [What is a microservice architecture and it's advantages?](https://www.youtube.com/watch?v=qYhRvH9tJKw) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _architecture_ )
+- :movie_camera: [Introduction to DDD](https://www.youtube.com/watch?v=H5--9pMmuK4) by [Geekific](https://www.youtube.com/c/Geekific/playlists) ( _architecture_ )
+- :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLlsmxlJgn1HJpa28yHzkBmUY-Ty71ZUGc) by [Geekific](https://www.youtube.com/c/Geekific/playlists) ( _architecture_ )
+- :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ )
+- :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) by [Derek Banas](https://www.youtube.com/c/derekbanas/playlists)
+- :mortar_board: :movie_camera: [Low Level System Design](https://www.youtube.com/playlist?list=PL564gOx0bCLqTolRIHIsR2JPv11w8LESW) by [Udit Agarwal](https://www.youtube.com/c/anomaly2104/playlists)
+
 ## Systems design key concepts
 
 ( _systems_design_ )
 
-- :movie_camera: [What is a microservice architecture and it's advantages?](https://www.youtube.com/watch?v=qYhRvH9tJKw) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 - :movie_camera: [Moving from Monoliths to Microservices](https://www.youtube.com/watch?v=rckfN7xFig0) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 - :movie_camera: [Microservices explained](https://www.youtube.com/watch?v=rv4LlmLmVWk) by [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana/videos)
 - :movie_camera: [Microservices Explained and their Pros & Cons](https://www.youtube.com/watch?v=T-m7ZFxeg1A) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
