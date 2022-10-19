@@ -6,12 +6,6 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 
 <!-- - :movie_camera: []() by []() -->
 
-## Courses
-
-:mortar_board:
-
-- :mortar_board: :movie_camera:  [Distributed Systems](https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB) by [Martin Kleppmann](https://www.youtube.com/channel/UClB4KPy5LkJj1t3SgYVtMOQ/videos) ( _systems_design_ ) ( _distributed_system_ )
-
 ## Architecture
 
 ( _architecture_ )
@@ -27,6 +21,7 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 
 ( _systems_design_ )
 
+- :mortar_board: :movie_camera:  [Distributed Systems](https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB) by [Martin Kleppmann](https://www.youtube.com/channel/UClB4KPy5LkJj1t3SgYVtMOQ/videos) ( _systems_design_ ) ( _distributed_system_ )
 - :movie_camera: [Moving from Monoliths to Microservices](https://www.youtube.com/watch?v=rckfN7xFig0) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 - :movie_camera: [Microservices explained](https://www.youtube.com/watch?v=rv4LlmLmVWk) by [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana/videos)
 - :movie_camera: [Microservices Explained and their Pros & Cons](https://www.youtube.com/watch?v=T-m7ZFxeg1A) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
