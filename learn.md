@@ -113,6 +113,7 @@ _systems_design_ )
 
 - :movie_camera: [Terraform in 100 Seconds](https://www.youtube.com/watch?v=tomUWcQ0P3k) by [Fireship](https://www.youtube.com/c/Fireship) ( _short_ ) ( _infrastructure_as_a_code_ )
 - :movie_camera: [Terraform in 15 mins](https://www.youtube.com/watch?v=l5k1ai_GBDE) by [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana/videos) ( _infrastructure_as_a_code_ )
+- :movie_camera: [Terraform Course](https://www.youtube.com/watch?v=7xngnjfIlK4) by [DevOps Directive](https://www.youtube.com/c/DevOpsDirective/playlists) ( _infrastructure_as_a_code_ )
 - :movie_camera: [What is GitOps](https://www.youtube.com/watch?v=f5EpcWp0THw) by [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana/videos)
 
 ## Virtualization
@@ -151,13 +152,16 @@ _systems_design_ )
 
 - :mortar_board: :movie_camera: [Linux Commands](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) by [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv/playlists)
 - :mortar_board: :movie_camera: [Linux Crash Course](https://www.youtube.com/playlist?list=PLT98CRl2KxKHKd_tH3ssq0HPrThx2hESW) by [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv/playlists)
-
-
+- :page_facing_up: [30 Handy Shell Aliases](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html) by [cyberciti.biz](https://www.cyberciti.biz/)
+- :chart_with_upwards_trend: [Bash cheatsheet](https://devhints.io/bash) by [Rico](https://devhints.io/)
+- :chart_with_upwards_trend: [Bash cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh) by [Julien Le Coupanec](https://github.com/LeCoupa)
 
 ## Tags legend
 
 - :movie_camera: - video material
+- :page_facing_up: - reading
 - :mortar_board: - online course with or without feedback
+- :chart_with_upwards_trend: - cheetsheets
 - ( _short_ ) - short overview
 - ( _communication_ ) - back-end, networking, RPC, IPC
 - ( _dbms_ ) - database manageement systems
