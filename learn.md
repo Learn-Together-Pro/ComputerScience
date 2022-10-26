@@ -5,6 +5,7 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 [:arrow_down: Tags legend](#tags-legend) at the end of the page.
 
 <!-- - :movie_camera: []() by []() -->
+<!-- - :mortar_board: :movie_camera: []() by []() -->
 
 ## Architecture
 
@@ -12,6 +13,8 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 
 - :movie_camera: [What is a microservice architecture and it's advantages?](https://www.youtube.com/watch?v=qYhRvH9tJKw) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _architecture_ )
 - :movie_camera: [Introduction to DDD](https://www.youtube.com/watch?v=H5--9pMmuK4) by [Geekific](https://www.youtube.com/c/Geekific/playlists) ( _architecture_ )
+- :movie_camera: [Domain Driven Design with BDD](https://www.youtube.com/watch?v=Ju50D11EIoE) by [Continuous Delivery](https://www.youtube.com/c/ContinuousDelivery)
+- :mortar_board: :movie_camera: [Event Sourcery Full Course](https://www.youtube.com/playlist?list=PLQuwqoolg4aI6v1GvtRg3NgT0PBBHVqii) by [Event Sourcery](https://www.youtube.com/c/EventSourcery/playlists)
 - :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLlsmxlJgn1HJpa28yHzkBmUY-Ty71ZUGc) by [Geekific](https://www.youtube.com/c/Geekific/playlists) ( _architecture_ )
 - :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ )
 - :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) by [Derek Banas](https://www.youtube.com/c/derekbanas/playlists)
