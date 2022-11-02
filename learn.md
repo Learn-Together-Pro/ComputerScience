@@ -13,32 +13,43 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 
 - :movie_camera: [What is a microservice architecture and it's advantages?](https://www.youtube.com/watch?v=qYhRvH9tJKw) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _architecture_ )
 - :movie_camera: [Introduction to DDD](https://www.youtube.com/watch?v=H5--9pMmuK4) by [Geekific](https://www.youtube.com/c/Geekific/playlists) ( _architecture_ )
-- :movie_camera: [Robustness Principle Is WRONG?](https://www.youtube.com/watch?v=1B4KjAhQJoQ) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists)
-- :movie_camera: [Liskov Substitution Principle](https://www.youtube.com/watch?v=bVwZquRH1Vk) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists)
-- :movie_camera: [Interface Segregation Principle](https://www.youtube.com/watch?v=xahwVmf8itI) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists)
-- :movie_camera: [Dependency Inversion - how, what, why?](https://www.youtube.com/watch?v=S9awxA1wNNY) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists)
-- :movie_camera: [Single Responsibility Principle](https://www.youtube.com/watch?v=AEnePs2Evg0) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists)
-- :movie_camera: [Open/closed principle](https://www.youtube.com/watch?v=DJF_sGOs2V4) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists)
 - :movie_camera: [Domain Driven Design with BDD](https://www.youtube.com/watch?v=Ju50D11EIoE) by [Continuous Delivery](https://www.youtube.com/c/ContinuousDelivery)
 - :mortar_board: :movie_camera: [Event Sourcery Full Course](https://www.youtube.com/playlist?list=PLQuwqoolg4aI6v1GvtRg3NgT0PBBHVqii) by [Event Sourcery](https://www.youtube.com/c/EventSourcery/playlists)
-- :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLlsmxlJgn1HJpa28yHzkBmUY-Ty71ZUGc) by [Geekific](https://www.youtube.com/c/Geekific/playlists) ( _architecture_ )
-- :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ )
-- :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) by [Derek Banas](https://www.youtube.com/c/derekbanas/playlists)
-- :mortar_board: :movie_camera: [SOLID principles](https://www.youtube.com/playlist?list=PLrhzvIcii6GMQceffIgKCRK98yTm0oolm) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ )
-- :mortar_board: :movie_camera: [SOLID principles](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9) by [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified/playlists) ( _architecture_ )
+
+## Architecture Principles
+
+( _architecture_ ) ( _principle_ )
+
+- :mortar_board: :movie_camera: [SOLID principles](https://www.youtube.com/playlist?list=PLrhzvIcii6GMQceffIgKCRK98yTm0oolm) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ ) ( _principle_ )
+- :mortar_board: :movie_camera: [SOLID principles](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9) by [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified/playlists) ( _architecture_ ) ( _principle_ )
+- :movie_camera: [Liskov Substitution Principle](https://www.youtube.com/watch?v=bVwZquRH1Vk) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ ) ( _principle_ )
+- :movie_camera: [Interface Segregation Principle](https://www.youtube.com/watch?v=xahwVmf8itI) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ ) ( _principle_ )
+- :movie_camera: [Dependency Inversion - how, what, why?](https://www.youtube.com/watch?v=S9awxA1wNNY) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ ) ( _principle_ )
+- :movie_camera: [Single Responsibility Principle](https://www.youtube.com/watch?v=AEnePs2Evg0) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ ) ( _principle_ )
+- :movie_camera: [Open/closed principle](https://www.youtube.com/watch?v=DJF_sGOs2V4) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ ) ( _principle_ )
+- :movie_camera: [Robustness Principle Is WRONG?](https://www.youtube.com/watch?v=1B4KjAhQJoQ) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ ) ( _principle_ )
+
+## Patterns
+
+( _architecture_ ) ( _pattern_ )
+
+- :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLlsmxlJgn1HJpa28yHzkBmUY-Ty71ZUGc) by [Geekific](https://www.youtube.com/c/Geekific/playlists) ( _architecture_ ) ( _pattern_ )
+- :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ ) ( _pattern_ )
+- :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) by [Derek Banas](https://www.youtube.com/c/derekbanas/playlists) ( _architecture_ ) ( _pattern_ )
 
 ## Architecture and Testing
 
-( _architecture_and_testing_ )
+( _architecture_ ) ( _testing_ )
 
-- :movie_camera: [A Testing Strategy for Hexagonal Applications](https://www.youtube.com/watch?v=LtbHAFsEu5g) by [DocPlanner Tech](https://www.youtube.com/c/DocPlannerTech/playlists)
-- :movie_camera: [More Testable Code with the Hexagonal Architecture](https://www.youtube.com/watch?v=ujb_O6myknY) by [JitterTed](https://www.youtube.com/c/JitterTed)
-- :movie_camera: [Onion Architecture - Software Design Patterns Explained](https://www.youtube.com/watch?v=oC2Ty8H9jck) by [Professional Programming](https://www.youtube.com/channel/UCG1YLXtmiGyNyRfEFO6ifKw)
+- :movie_camera: [A Testing Strategy for Hexagonal Applications](https://www.youtube.com/watch?v=LtbHAFsEu5g) by [DocPlanner Tech](https://www.youtube.com/c/DocPlannerTech/playlists) ( _architecture_ ) ( _testing_ )
+- :movie_camera: [More Testable Code with the Hexagonal Architecture](https://www.youtube.com/watch?v=ujb_O6myknY) by [JitterTed](https://www.youtube.com/c/JitterTed) ( _architecture_ ) ( _testing_ )
+- :movie_camera: [Onion Architecture - Software Design Patterns Explained](https://www.youtube.com/watch?v=oC2Ty8H9jck) by [Professional Programming](https://www.youtube.com/channel/UCG1YLXtmiGyNyRfEFO6ifKw) ( _architecture_ ) ( _testing_ )
 
 ## Low-level design
 
-- :mortar_board: :movie_camera: [Low Level System Design](https://www.youtube.com/playlist?list=PL564gOx0bCLqTolRIHIsR2JPv11w8LESW) by [Udit Agarwal](https://www.youtube.com/c/anomaly2104/playlists)
+( _lld_ )
 
+- :mortar_board: :movie_camera: [Low Level System Design](https://www.youtube.com/playlist?list=PL564gOx0bCLqTolRIHIsR2JPv11w8LESW) by [Udit Agarwal](https://www.youtube.com/c/anomaly2104/playlists)
 
 ## Systems design key concepts
 
@@ -203,3 +214,8 @@ _systems_design_ )
 - ( _ipc_ ) - inter-process communication
 - ( _remote_access_ ) - remote access
 - ( _shell_ ) - shell environment, Linux
+- ( _architecture_ ) - software architecture in general
+- ( _principle_ ) - principles of software engineering
+- ( _pattern_ ) - patterns of software engineering
+- ( _testing_ ) - testing related aspects of architecture
+- ( _lld_ ) - low-level design
