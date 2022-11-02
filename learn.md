@@ -25,6 +25,14 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 - :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ )
 - :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) by [Derek Banas](https://www.youtube.com/c/derekbanas/playlists)
 
+## Architecture and Testing
+
+( _architecture_and_testing_ )
+
+- :movie_camera: [A Testing Strategy for Hexagonal Applications](https://www.youtube.com/watch?v=LtbHAFsEu5g) by [DocPlanner Tech](https://www.youtube.com/c/DocPlannerTech/playlists)
+- :movie_camera: [More Testable Code with the Hexagonal Architecture](https://www.youtube.com/watch?v=ujb_O6myknY) by [JitterTed](https://www.youtube.com/c/JitterTed)
+- :movie_camera: [Onion Architecture - Software Design Patterns Explained](https://www.youtube.com/watch?v=oC2Ty8H9jck) by [Professional Programming](https://www.youtube.com/channel/UCG1YLXtmiGyNyRfEFO6ifKw)
+
 ## Low-level design
 
 - :mortar_board: :movie_camera: [Low Level System Design](https://www.youtube.com/playlist?list=PL564gOx0bCLqTolRIHIsR2JPv11w8LESW) by [Udit Agarwal](https://www.youtube.com/c/anomaly2104/playlists)
