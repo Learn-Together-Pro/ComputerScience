@@ -24,6 +24,8 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 - :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLlsmxlJgn1HJpa28yHzkBmUY-Ty71ZUGc) by [Geekific](https://www.youtube.com/c/Geekific/playlists) ( _architecture_ )
 - :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ )
 - :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) by [Derek Banas](https://www.youtube.com/c/derekbanas/playlists)
+- :mortar_board: :movie_camera: [SOLID principles](https://www.youtube.com/playlist?list=PLrhzvIcii6GMQceffIgKCRK98yTm0oolm) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ )
+- :mortar_board: :movie_camera: [SOLID principles](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH9kocFX7R7BAe_CvvOCO_p9) by [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified/playlists) ( _architecture_ )
 
 ## Architecture and Testing
 
