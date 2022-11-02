@@ -146,6 +146,12 @@ _systems_design_ )
 - :chart_with_upwards_trend: [Bash cheatsheet](https://devhints.io/bash) by [Rico](https://devhints.io/)
 - :chart_with_upwards_trend: [Bash cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh) by [Julien Le Coupanec](https://github.com/LeCoupa)
 
+## Benchmarking
+
+( _about:benchmarking_ )
+
+- :page_facing_up: [Linux Perf Analysis](https://brendangregg.com/Articles/Netflix_Linux_Perf_Analysis_60s.pdf) by [Netflix](https://netflixtechblog.com/)
+
 ## Tags legend
 
 - :movie_camera: - video material
