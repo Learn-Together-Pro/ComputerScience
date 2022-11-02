@@ -5,18 +5,44 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 [:arrow_down: Tags legend](#tags-legend) at the end of the page.
 
 <!-- - :movie_camera: []() by []() -->
+<!-- - :mortar_board: :movie_camera: []() by []() -->
 
-## Courses
+## Architecture
 
-:mortar_board:
+( _architecture_ )
 
-- :mortar_board: :movie_camera:  [Distributed Systems](https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB) by [Martin Kleppmann](https://www.youtube.com/channel/UClB4KPy5LkJj1t3SgYVtMOQ/videos) ( _systems_design_ ) ( _distributed_system_ )
+- :movie_camera: [What is a microservice architecture and it's advantages?](https://www.youtube.com/watch?v=qYhRvH9tJKw) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _architecture_ )
+- :movie_camera: [Introduction to DDD](https://www.youtube.com/watch?v=H5--9pMmuK4) by [Geekific](https://www.youtube.com/c/Geekific/playlists) ( _architecture_ )
+- :movie_camera: [Robustness Principle Is WRONG?](https://www.youtube.com/watch?v=1B4KjAhQJoQ) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists)
+- :movie_camera: [Liskov Substitution Principle](https://www.youtube.com/watch?v=bVwZquRH1Vk) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists)
+- :movie_camera: [Interface Segregation Principle](https://www.youtube.com/watch?v=xahwVmf8itI) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists)
+- :movie_camera: [Dependency Inversion - how, what, why?](https://www.youtube.com/watch?v=S9awxA1wNNY) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists)
+- :movie_camera: [Single Responsibility Principle](https://www.youtube.com/watch?v=AEnePs2Evg0) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists)
+- :movie_camera: [Open/closed principle](https://www.youtube.com/watch?v=DJF_sGOs2V4) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists)
+- :movie_camera: [Domain Driven Design with BDD](https://www.youtube.com/watch?v=Ju50D11EIoE) by [Continuous Delivery](https://www.youtube.com/c/ContinuousDelivery)
+- :mortar_board: :movie_camera: [Event Sourcery Full Course](https://www.youtube.com/playlist?list=PLQuwqoolg4aI6v1GvtRg3NgT0PBBHVqii) by [Event Sourcery](https://www.youtube.com/c/EventSourcery/playlists)
+- :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLlsmxlJgn1HJpa28yHzkBmUY-Ty71ZUGc) by [Geekific](https://www.youtube.com/c/Geekific/playlists) ( _architecture_ )
+- :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ )
+- :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) by [Derek Banas](https://www.youtube.com/c/derekbanas/playlists)
+
+## Architecture and Testing
+
+( _architecture_and_testing_ )
+
+- :movie_camera: [A Testing Strategy for Hexagonal Applications](https://www.youtube.com/watch?v=LtbHAFsEu5g) by [DocPlanner Tech](https://www.youtube.com/c/DocPlannerTech/playlists)
+- :movie_camera: [More Testable Code with the Hexagonal Architecture](https://www.youtube.com/watch?v=ujb_O6myknY) by [JitterTed](https://www.youtube.com/c/JitterTed)
+- :movie_camera: [Onion Architecture - Software Design Patterns Explained](https://www.youtube.com/watch?v=oC2Ty8H9jck) by [Professional Programming](https://www.youtube.com/channel/UCG1YLXtmiGyNyRfEFO6ifKw)
+
+## Low-level design
+
+- :mortar_board: :movie_camera: [Low Level System Design](https://www.youtube.com/playlist?list=PL564gOx0bCLqTolRIHIsR2JPv11w8LESW) by [Udit Agarwal](https://www.youtube.com/c/anomaly2104/playlists)
+
 
 ## Systems design key concepts
 
 ( _systems_design_ )
 
-- :movie_camera: [What is a microservice architecture and it's advantages?](https://www.youtube.com/watch?v=qYhRvH9tJKw) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
+- :mortar_board: :movie_camera:  [Distributed Systems](https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB) by [Martin Kleppmann](https://www.youtube.com/channel/UClB4KPy5LkJj1t3SgYVtMOQ/videos) ( _systems_design_ ) ( _distributed_system_ )
 - :movie_camera: [Moving from Monoliths to Microservices](https://www.youtube.com/watch?v=rckfN7xFig0) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 - :movie_camera: [Microservices explained](https://www.youtube.com/watch?v=rv4LlmLmVWk) by [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana/videos)
 - :movie_camera: [Microservices Explained and their Pros & Cons](https://www.youtube.com/watch?v=T-m7ZFxeg1A) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
@@ -52,6 +78,7 @@ _systems_design_ )
 ( _dbms_ )
 
 - :movie_camera: [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw) by [Fireship](https://www.youtube.com/c/Fireship) ( _short_ )
+- :movie_camera: [ACID Explained: Atomic, Consistent, Isolated & Durable](https://www.youtube.com/watch?v=yaQ5YMWkxq4) by [the roadmap](https://www.youtube.com/c/theroadmap/playlists)
 - :movie_camera: [What is Database Sharding?](https://www.youtube.com/watch?v=5faMjKuB9bc) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos)
 - :movie_camera: [Database Indexing](https://www.youtube.com/watch?v=-qNSXK7s7_w) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
 

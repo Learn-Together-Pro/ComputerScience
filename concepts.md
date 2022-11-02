@@ -6,6 +6,20 @@ Key concepts of Systems Design, Distributed Systems, DevOps and DBMS.
 
 <!-- - []() by []() ( _:movie_camera:_ ) -->
 
+## Architecture
+
+SOA ~ Service-oriented architecture
+: An architectural style that focuses on discrete services instead of a monolithic design. Loosely coupled service-oriented architecture with bounded context.
+
+MVC
+: ...
+
+DDD
+: ...
+
+BDD
+: ...
+
 ## Geneal
 
 Horizontal / Vertical scaling
@@ -16,6 +30,9 @@ High-level design / Low-level design
 : High-level design : explains the architecture that would be used to develop a system. Low-level design is a component-level design process that follows a step-by-step refinement process, this process can be used for designing data structures, required software architecture, source code and ultimately, performance algorithms.
 
 Column-based database / Row-based database
+: ...
+
+OLTP DB / OLAP DB
 : ...
 
 Relational database / Document-oriented database
@@ -48,10 +65,16 @@ CAP Theorem
 ## Communication
 
 Pub-Sub ~ Publish-Subscribe ~ Broker
-: implementation of publish-subscribe as a service. Conceptually it is message queue + namespace ~ channels ~ types of events.
+: Implementation of publish-subscribe as a service. Conceptually it is message queue + namespace ~ channels ~ types of events.
 
 Message queue
-: implementation of publish-subscribe as a service. Conceptually it is pub-sub with a single channel ~ type of event.
+: Implementation of publish-subscribe as a service. Conceptually it is pub-sub with a single channel ~ type of event.
+
+CQRS ~ Command and Query Responsibility Segregation
+: Pattern that separates read and update operations for a data store. Implementing CQRS in your application can maximize its performance, scalability, and security. The flexibility created by migrating to CQRS allows a system to better evolve over time and prevents update commands from causing merge conflicts at the domain level.
+
+Event Sourcing
+: Pattern that defines an approach to handling operations on data that's driven by a sequence of events, each of which is recorded in an append-only store.
 
 Consistent hashing
 : ...
