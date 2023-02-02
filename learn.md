@@ -192,6 +192,12 @@ _systems_design_ )
 
 - :page_facing_up: [Linux Perf Analysis](https://brendangregg.com/Articles/Netflix_Linux_Perf_Analysis_60s.pdf) by [Netflix](https://netflixtechblog.com/)
 
+## Other awesome collections
+
+( _collection_ )
+
+- [Collection on System Design Interview](https://github.com/checkcheckzz/system-design-interview) by [Zach](https://github.com/checkcheckzz/system-design-interview) ( _collection_ )
+
 ## Tags legend
 
 - :movie_camera: - video material
