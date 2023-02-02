@@ -37,6 +37,12 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 - :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ ) ( _pattern_ )
 - :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) by [Derek Banas](https://www.youtube.com/c/derekbanas/playlists) ( _architecture_ ) ( _pattern_ )
 
+## Algorithms
+
+( _algorithm_ )
+
+- :movie_camera: [3 Levels of Sorting Algorithms](https://www.youtube.com/watch?v=qk7b4-iyCJ4) by [kite](https://www.youtube.com/@KiteHQ) ( _algorithm_ )
+
 ## Architecture and Testing
 
 ( _architecture_ ) ( _testing_ )
@@ -223,5 +229,6 @@ _systems_design_ )
 - ( _architecture_ ) - software architecture in general
 - ( _principle_ ) - principles of software engineering
 - ( _pattern_ ) - patterns of software engineering
+- ( _algorithm_ ) - algorithms
 - ( _testing_ ) - testing related aspects of architecture
 - ( _lld_ ) - low-level design
