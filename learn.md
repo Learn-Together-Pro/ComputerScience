@@ -176,7 +176,7 @@ _systems_design_ )
 - :chart_with_upwards_trend: [Bash Cheatsheet](https://devhints.io/bash) by [Rico](https://devhints.io/)
 - :chart_with_upwards_trend: [Bash Cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh) by [Julien Le Coupanec](https://github.com/LeCoupa)
 - :chart_with_upwards_trend: [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) by [Dylan Araps](https://github.com/dylanaraps) : a collection of bash recipies
-- :chart_with_upwards_trend: [Bash Variables](https://www.gnu.org/software/bash/manual/html_node/Bash-Variables.html)
+- :chart_with_upwards_trend: [Bash Built-in Variables](https://www.gnu.org/software/bash/manual/html_node/Bash-Variables.html)
 
 ## Inter-process communication
 
