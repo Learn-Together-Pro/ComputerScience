@@ -166,6 +166,17 @@ _systems_design_ )
 - :movie_camera: [Github Actions Tutorial](https://www.youtube.com/watch?v=eB0nUzAI7M8) by [Fireship](https://www.youtube.com/c/Fireship)
 - :movie_camera: [GitHub Actions Tutorial](https://www.youtube.com/watch?v=R8_veQiYBjI) by [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana/videos)
 
+## Shell environment, Linux
+
+( _shell_ )
+
+- :mortar_board: :movie_camera: [Linux Commands](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) by [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv/playlists)
+- :mortar_board: :movie_camera: [Linux Crash Course](https://www.youtube.com/playlist?list=PLT98CRl2KxKHKd_tH3ssq0HPrThx2hESW) by [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv/playlists)
+- :page_facing_up: [30 Handy Shell Aliases](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html) by [cyberciti.biz](https://www.cyberciti.biz/)
+- :chart_with_upwards_trend: [Bash cheatsheet](https://devhints.io/bash) by [Rico](https://devhints.io/)
+- :chart_with_upwards_trend: [Bash cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh) by [Julien Le Coupanec](https://github.com/LeCoupa)
+- :chart_with_upwards_trend: [Pure bash bible](https://github.com/dylanaraps/pure-bash-bible) by [Dylan Araps](https://github.com/dylanaraps) : a collection of pure bash recipies
+
 ## Inter-process communication
 
 ( _ipc_ )
@@ -181,16 +192,6 @@ _systems_design_ )
 - :movie_camera: [Linux Desktop in the Cloud](https://www.youtube.com/watch?v=633OWaW3cyo) by [Linode](https://www.youtube.com/c/linode/videos)
 - :movie_camera: [Linux Firewall Tutorial](https://www.youtube.com/watch?v=XtRXm4FFK7Q) by [Linode](https://www.youtube.com/c/linode/videos)
 - :movie_camera: [Hardening Access to Your Server](https://www.youtube.com/watch?v=eeaFoZlSq6I) by [Linode](https://www.youtube.com/c/linode/videos)
-
-## Shell environment, Linux
-
-( _shell_ )
-
-- :mortar_board: :movie_camera: [Linux Commands](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) by [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv/playlists)
-- :mortar_board: :movie_camera: [Linux Crash Course](https://www.youtube.com/playlist?list=PLT98CRl2KxKHKd_tH3ssq0HPrThx2hESW) by [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv/playlists)
-- :page_facing_up: [30 Handy Shell Aliases](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html) by [cyberciti.biz](https://www.cyberciti.biz/)
-- :chart_with_upwards_trend: [Bash cheatsheet](https://devhints.io/bash) by [Rico](https://devhints.io/)
-- :chart_with_upwards_trend: [Bash cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh) by [Julien Le Coupanec](https://github.com/LeCoupa)
 
 ## Benchmarking
 
