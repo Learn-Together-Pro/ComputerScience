@@ -175,7 +175,7 @@ _systems_design_ )
 - :page_facing_up: [30 Handy Shell Aliases](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html) by [cyberciti.biz](https://www.cyberciti.biz/)
 - :chart_with_upwards_trend: [Bash cheatsheet](https://devhints.io/bash) by [Rico](https://devhints.io/)
 - :chart_with_upwards_trend: [Bash cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh) by [Julien Le Coupanec](https://github.com/LeCoupa)
-- :chart_with_upwards_trend: [Pure bash bible](https://github.com/dylanaraps/pure-bash-bible) by [Dylan Araps](https://github.com/dylanaraps) : a collection of pure bash recipies
+- :chart_with_upwards_trend: [Pure bash bible](https://github.com/dylanaraps/pure-bash-bible) by [Dylan Araps](https://github.com/dylanaraps) : a collection of bash recipies
 
 ## Inter-process communication
 
