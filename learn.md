@@ -1,4 +1,4 @@
-# Learn Systems Design Together
+# Learn Software Achitecture
 
 Awesome collection of learning materials to learn modern Systems Design, Distributed Systems, DevOps and DBMS.
 
@@ -36,6 +36,12 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 - :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLlsmxlJgn1HJpa28yHzkBmUY-Ty71ZUGc) by [Geekific](https://www.youtube.com/c/Geekific/playlists) ( _architecture_ ) ( _pattern_ )
 - :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ ) ( _pattern_ )
 - :mortar_board: :movie_camera: [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) by [Derek Banas](https://www.youtube.com/c/derekbanas/playlists) ( _architecture_ ) ( _pattern_ )
+
+## Algorithms
+
+( _algorithm_ )
+
+- :movie_camera: [3 Levels of Sorting Algorithms](https://www.youtube.com/watch?v=qk7b4-iyCJ4) by [kite](https://www.youtube.com/@KiteHQ) ( _algorithm_ )
 
 ## Architecture and Testing
 
@@ -160,6 +166,18 @@ _systems_design_ )
 - :movie_camera: [Github Actions Tutorial](https://www.youtube.com/watch?v=eB0nUzAI7M8) by [Fireship](https://www.youtube.com/c/Fireship)
 - :movie_camera: [GitHub Actions Tutorial](https://www.youtube.com/watch?v=R8_veQiYBjI) by [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana/videos)
 
+## Shell environment, Linux
+
+( _shell_ )
+
+- :mortar_board: :movie_camera: [Linux Commands](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) by [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv/playlists)
+- :mortar_board: :movie_camera: [Linux Crash Course](https://www.youtube.com/playlist?list=PLT98CRl2KxKHKd_tH3ssq0HPrThx2hESW) by [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv/playlists)
+- :page_facing_up: [30 Handy Shell Aliases](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html) by [cyberciti.biz](https://www.cyberciti.biz/)
+- :chart_with_upwards_trend: [Bash Cheatsheet](https://devhints.io/bash) by [Rico](https://devhints.io/)
+- :chart_with_upwards_trend: [Bash Cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh) by [Julien Le Coupanec](https://github.com/LeCoupa)
+- :chart_with_upwards_trend: [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) by [Dylan Araps](https://github.com/dylanaraps) : a collection of bash recipies
+- :chart_with_upwards_trend: [Bash Built-in Variables](https://www.gnu.org/software/bash/manual/html_node/Bash-Variables.html)
+
 ## Inter-process communication
 
 ( _ipc_ )
@@ -176,21 +194,17 @@ _systems_design_ )
 - :movie_camera: [Linux Firewall Tutorial](https://www.youtube.com/watch?v=XtRXm4FFK7Q) by [Linode](https://www.youtube.com/c/linode/videos)
 - :movie_camera: [Hardening Access to Your Server](https://www.youtube.com/watch?v=eeaFoZlSq6I) by [Linode](https://www.youtube.com/c/linode/videos)
 
-## Shell environment, Linux
-
-( _shell_ )
-
-- :mortar_board: :movie_camera: [Linux Commands](https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ) by [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv/playlists)
-- :mortar_board: :movie_camera: [Linux Crash Course](https://www.youtube.com/playlist?list=PLT98CRl2KxKHKd_tH3ssq0HPrThx2hESW) by [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv/playlists)
-- :page_facing_up: [30 Handy Shell Aliases](https://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html) by [cyberciti.biz](https://www.cyberciti.biz/)
-- :chart_with_upwards_trend: [Bash cheatsheet](https://devhints.io/bash) by [Rico](https://devhints.io/)
-- :chart_with_upwards_trend: [Bash cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh) by [Julien Le Coupanec](https://github.com/LeCoupa)
-
 ## Benchmarking
 
 ( _about:benchmarking_ )
 
 - :page_facing_up: [Linux Perf Analysis](https://brendangregg.com/Articles/Netflix_Linux_Perf_Analysis_60s.pdf) by [Netflix](https://netflixtechblog.com/)
+
+## Other awesome collections
+
+( _collection_ )
+
+- [Collection on System Design Interview](https://github.com/checkcheckzz/system-design-interview) by [Zach](https://github.com/checkcheckzz/system-design-interview) ( _collection_ )
 
 ## Tags legend
 
@@ -217,5 +231,6 @@ _systems_design_ )
 - ( _architecture_ ) - software architecture in general
 - ( _principle_ ) - principles of software engineering
 - ( _pattern_ ) - patterns of software engineering
+- ( _algorithm_ ) - algorithms
 - ( _testing_ ) - testing related aspects of architecture
 - ( _lld_ ) - low-level design

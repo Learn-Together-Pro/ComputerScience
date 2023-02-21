@@ -1,4 +1,4 @@
-# Learn Systems Design Together
+# Learn Software Arhcitecture Together
 
 Awesome collection of learning materials to learn modern Systems Design, Distributed Systems, DevOps and DBMS.
 
