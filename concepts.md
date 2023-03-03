@@ -43,10 +43,16 @@ Sharding
 
 ## Database
 
-Data lake
+Data Lake
 : ...
 
-Data base / Data warehouse
+Data Mesh
+: ...
+
+Data Fabric
+: ...
+
+Data base / Data Warehouse
 : ...
 
 ETL: Extract Transform Load
