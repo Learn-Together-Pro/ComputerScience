@@ -20,23 +20,13 @@ DDD
 BDD
 : ...
 
-## Geneal
+## Distrubuted Systems
 
 Horizontal / Vertical scaling
 : ...
 
-
 High-level design / Low-level design
 : High-level design : explains the architecture that would be used to develop a system. Low-level design is a component-level design process that follows a step-by-step refinement process, this process can be used for designing data structures, required software architecture, source code and ultimately, performance algorithms.
-
-Column-based database / Row-based database
-: ...
-
-OLTP DB / OLAP DB
-: ...
-
-Relational database / Document-oriented database
-: ...
 
 Distributed consensus
 : ...
@@ -50,6 +40,29 @@ Split brain
 
 Sharding
 : a database architecture pattern related to horizontal partitioning — the practice of separating one table’s rows into multiple different tables, known as partitions.
+
+## Database
+
+Data lake
+: ...
+
+Data base / Data warehouse
+: ...
+
+ETL: Extract Transform Load
+: ...
+
+BI : ?
+: ...
+
+Column-based database / Row-based database
+: ...
+
+OLTP DB / OLAP DB
+: ...
+
+Relational database / Document-oriented database
+: ...
 
 ## Characteristics
 
