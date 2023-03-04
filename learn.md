@@ -168,6 +168,8 @@ _systems_design_ )
 - :movie_camera: [Github Actions Tutorial](https://www.youtube.com/watch?v=eB0nUzAI7M8) by [Fireship](https://www.youtube.com/c/Fireship)
 - :movie_camera: [GitHub Actions Tutorial](https://www.youtube.com/watch?v=R8_veQiYBjI) by [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana/videos)
 
+- :movie_camera: [Continuous Deployment vs. Continuous Delivery](https://www.youtube.com/watch?v=LNLKZ4Rvk8w) by [IBM Technology](https://www.youtube.com/c/IBMTechnology/playlists)
+
 ## Shell environment, Linux
 
 ( _shell_ )

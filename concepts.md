@@ -41,24 +41,36 @@ Split brain
 Sharding
 : a database architecture pattern related to horizontal partitioning — the practice of separating one table’s rows into multiple different tables, known as partitions.
 
+Ifrastructure as code
+: methodology ...
+
 ## Database
 
 Data Lake
 : ...
 
-Data Mesh
+Data Lakehouse
 : ...
+
+Data Mesh
+: method ...
 
 Data Fabric
+: method ...
+
+Data base vs Data Warehouse
 : ...
 
-Data base / Data Warehouse
+Data Warehouse ~ EDW
 : ...
 
 ETL: Extract Transform Load
 : ...
 
-BI : ?
+BI ~ Business Intelligence
+: ...
+
+PAML ~ Prediction Analytic Machine Learning
 : ...
 
 Column-based database / Row-based database
@@ -83,11 +95,14 @@ CAP Theorem
 
 ## Communication
 
+APM ~ application performance monitoring
+: ...
+
 Pub-Sub ~ Publish-Subscribe ~ Broker
 : Implementation of publish-subscribe as a service. Conceptually it is message queue + namespace ~ channels ~ types of events.
 
 Message queue
-: Implementation of publish-subscribe as a service. Conceptually it is pub-sub with a single channel ~ type of event.
+: Implementation of publish-subscribe with a single channel as a service. Conceptually it is pub-sub with a single channel ~ type of event.
 
 CQRS ~ Command and Query Responsibility Segregation
 : Pattern that separates read and update operations for a data store. Implementing CQRS in your application can maximize its performance, scalability, and security. The flexibility created by migrating to CQRS allows a system to better evolve over time and prevents update commands from causing merge conflicts at the domain level.
