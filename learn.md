@@ -109,8 +109,7 @@ _systems_design_ )
 - :movie_camera: [Relational database index vs. NoSQL index](https://www.youtube.com/watch?v=mTNkqMDCasI) by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos)
 - :movie_camera: [Column vs Row Oriented Databases](https://www.youtube.com/watch?v=Vw1fCeD06YI) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
 - :movie_camera: [OLAP vs OLTP](https://www.youtube.com/watch?v=iw-5kFzIdgY) by [IBM Technology](https://www.youtube.com/@IBMTechnology/playlists)
-
-
+- :movie_camera: [Database vs Data Warehouse vs Data Lake](https://www.youtube.com/watch?v=-bSkREem8dM) by [Alex Freberg](https://www.youtube.com/@AlexTheAnalyst)
 
 ## Key-value database
 
@@ -168,6 +167,8 @@ _systems_design_ )
 
 - :movie_camera: [Github Actions Tutorial](https://www.youtube.com/watch?v=eB0nUzAI7M8) by [Fireship](https://www.youtube.com/c/Fireship)
 - :movie_camera: [GitHub Actions Tutorial](https://www.youtube.com/watch?v=R8_veQiYBjI) by [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana/videos)
+
+- :movie_camera: [Continuous Deployment vs. Continuous Delivery](https://www.youtube.com/watch?v=LNLKZ4Rvk8w) by [IBM Technology](https://www.youtube.com/c/IBMTechnology/playlists)
 
 ## Shell environment, Linux
 
