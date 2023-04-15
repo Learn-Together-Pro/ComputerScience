@@ -22,6 +22,11 @@ Cheatsheets for Systems Design, Distributed Systems, DevOps and DBMS.
 
 ![Horizontal vs Vertical scaling](./cheatsheet/resilience_patterns.png)
 
+## IaaS vs PaaS vs SaaS
+
+![Horizontal vs Vertical scaling](./cheatsheet/aas_2.jpg)
+![Horizontal vs Vertical scaling](./cheatsheet/aas_1.webp)
+
 <!-- ## Tags legend -->
 <!-- - ( _:movie_camera:_ ) - video material -->
 <!-- - ( _short_ ) - short overview -->
