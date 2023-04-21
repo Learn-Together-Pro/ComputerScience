@@ -20,7 +20,7 @@ DDD
 BDD
 : ...
 
-## Distrubuted Systems
+## Cloud
 
 Horizontal / Vertical scaling
 : ...
@@ -54,6 +54,21 @@ SaaS
 : ...
 
 On-Premises Service
+: ...
+
+Fail Over
+: ...
+
+Disaster Recovery
+: ...
+
+Business Continuity Plan
+: ...
+
+Recovery Point Objective
+: ...
+
+Recovery Time Objective
 : ...
 
 ## Database
