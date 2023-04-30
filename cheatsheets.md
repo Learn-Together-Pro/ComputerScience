@@ -22,6 +22,10 @@ Cheatsheets for Systems Design, Distributed Systems, DevOps and DBMS.
 
 ![Horizontal vs Vertical scaling](./cheatsheet/resilience_patterns.png)
 
+## Isolation levels vs read phenomena
+
+![Isolation levels vs read phenomena](./cheatsheet/isolation_levels_vs_read_phenomena.jpg)
+
 <!-- ## Tags legend -->
 <!-- - ( _:movie_camera:_ ) - video material -->
 <!-- - ( _short_ ) - short overview -->

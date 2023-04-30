@@ -46,40 +46,85 @@ Ifrastructure as code
 
 ## Database
 
-Data Lake
+### Data Lake
 : ...
 
-Data Lakehouse
+### Data Lakehouse
 : ...
 
-Data Mesh
+### Data Mesh
 : method ...
 
-Data Fabric
+### Data Fabric
 : method ...
 
-Data base vs Data Warehouse
+### Data base / Data Mesh / Data Warehouse / Data Lake
 : ...
 
-Data Warehouse ~ EDW
+### Data Warehouse ~ EDW
 : ...
 
-ETL: Extract Transform Load
+### ETL ~ Extract Transform Load
 : ...
 
-BI ~ Business Intelligence
+### BI ~ Business Intelligence
 : ...
 
-PAML ~ Prediction Analytic Machine Learning
+### PAML ~ Prediction Analytic Machine Learning
 : ...
 
-Column-based database / Row-based database
+### Column-oriented database / Row-oriented database
 : ...
 
-OLTP DB / OLAP DB
+### Column-based database ~ Column-wide database ~ Big Table database
 : ...
 
-Relational database / Document-oriented database
+##### Example
+
+HBase, Google Big Table, Cassandra
+
+### Graph DB
+...
+
+##### Example
+
+Neo4J, FlockDB
+
+### Strict Consistence / Eventual Consistency / Causal consistency
+
+**Strict consistency** is a guarantee that any read operation on the data will always return the latest version of the data. In other words, if a data is updated, any subsequent read of that data will always return the latest version. Strict consistency is often achieved by locking data during updates, which can cause delays and potentially slow down the system.
+
+**Causal consistency** ensures that causally related operations are seen in a specific order by all nodes in the system, but does not necessarily require that all nodes see all operations in the same order. This means that there may be some operations that are seen in a different order by different nodes, as long as there is a causal relationship between them.
+
+**Eventual consistency** is a weaker form of consistency that allows for temporary inconsistencies to exist between replicas of the data, but guarantees that the replicas will eventually converge to the same value. This means that if a data is updated, there may be a delay before all replicas of the data are updated with the latest version. However, given enough time and no new updates, all replicas will eventually be updated and converge to the same value.
+
+In summary, strict consistency guarantees immediate consistency at the expense of performance, while eventual consistency allows for temporary inconsistencies in exchange for higher performance and availability. Causal consistency strikes a balance between strong consistency and weak consistency, and is often used in distributed systems where strict consistency is not feasible due to performance or network limitations. Causal consistency provides strong ordering guarantees while eventual consistency provides weaker ordering guarantees but allows for more flexibility and scalability.
+
+### Atomicity : All-or-nothing atomicity / Atomicity with partial failure
+
+**All-or-nothing atomicity**: In this type of atomicity, a transaction is either completed in its entirety or not at all. If any part of the transaction fails, the entire transaction is rolled back and the database is left in the state it was in before the transaction began.
+
+**Atomicity with partial failure**: In this type of atomicity, a transaction can be partially completed even if some part of it fails. The completed part of the transaction is still committed to the database, while the failed part is rolled back.
+
+### Isolation : Read uncommitted / Read committed / Repeatable read / Serializable
+
+**Read uncommitted**: In this level of isolation, transactions are not isolated from each other, and a transaction can read uncommitted data from another transaction. This level provides no protection against dirty reads, non-repeatable reads, or phantom reads.
+
+**Read committed**: In this level of isolation, a transaction can only read committed data from other transactions. This level provides protection against dirty reads, but still allows non-repeatable and phantom reads.
+
+**Repeatable read**: In this level of isolation, a transaction can read data that has been committed by other transactions, but cannot read data that has been modified but not yet committed. This level provides protection against dirty reads and non-repeatable reads, but still allows phantom reads.
+
+**Serializable**: This is the highest level of isolation, where transactions are completely isolated from each other. A transaction can only read data that has been committed by other transactions, and no other transaction can modify the data until the transaction is complete. This level provides complete protection against dirty reads, non-repeatable reads, and phantom reads, but can result in slower performance due to locking.
+
+In summary, the differences between these levels of isolation are based on the degree of protection against different types of read inconsistencies and the level of concurrency that is allowed between transactions.
+
+### Document-based database
+...
+
+### OLTP DB / OLAP DB
+: ...
+
+### Relational database / Document-based database
 : ...
 
 ## Characteristics
