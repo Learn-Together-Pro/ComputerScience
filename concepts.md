@@ -20,7 +20,7 @@ DDD
 BDD
 : ...
 
-## Distrubuted Systems
+## Cloud
 
 Horizontal / Vertical scaling
 : ...
@@ -41,8 +41,35 @@ Split brain
 Sharding
 : a database architecture pattern related to horizontal partitioning — the practice of separating one table’s rows into multiple different tables, known as partitions.
 
-Ifrastructure as code
+Infrastructure as code
 : methodology ...
+
+IaaS
+: ...
+
+PaaS
+: ...
+
+SaaS
+: ...
+
+On-Premises Service
+: ...
+
+Fail Over
+: ...
+
+Disaster Recovery
+: ...
+
+Business Continuity Plan
+: ...
+
+Recovery Point Objective
+: ...
+
+Recovery Time Objective
+: ...
 
 ## Database
 
