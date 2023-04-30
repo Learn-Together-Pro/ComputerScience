@@ -117,7 +117,7 @@ HBase, Google Big Table, Cassandra
 
 Neo4J, FlockDB
 
-### Strict Consistence / Eventual Consistency / Causal consistency
+### Consistency in reads : Strict Consistence / Eventual Consistency / Causal consistency
 
 **Strict consistency** is a guarantee that any read operation on the data will always return the latest version of the data. In other words, if a data is updated, any subsequent read of that data will always return the latest version. Strict consistency is often achieved by locking data during updates, which can cause delays and potentially slow down the system.
 
@@ -126,6 +126,22 @@ Neo4J, FlockDB
 **Eventual consistency** is a weaker form of consistency that allows for temporary inconsistencies to exist between replicas of the data, but guarantees that the replicas will eventually converge to the same value. This means that if a data is updated, there may be a delay before all replicas of the data are updated with the latest version. However, given enough time and no new updates, all replicas will eventually be updated and converge to the same value.
 
 In summary, strict consistency guarantees immediate consistency at the expense of performance, while eventual consistency allows for temporary inconsistencies in exchange for higher performance and availability. Causal consistency strikes a balance between strong consistency and weak consistency, and is often used in distributed systems where strict consistency is not feasible due to performance or network limitations. Causal consistency provides strong ordering guarantees while eventual consistency provides weaker ordering guarantees but allows for more flexibility and scalability.
+
+### Consistency in data
+
+Consistency in data refers to the property of data being accurate and valid over time. It means that the data remains consistent in all copies of the database, even when it is updated or modified. In a consistent database, all data is correctly synchronized, and there are no conflicting or contradictory copies of the same data. Consistency ensures that data is reliable and can be trusted by users and applications. It is a fundamental aspect of database design and is achieved through various mechanisms such as transactions, locking, and replication.
+
+### Durability of data storage
+
+In the context of data storage and database systems, durability refers to the ability of a transaction to survive permanently in the event of a system failure. In other words, once a transaction has been committed, its changes must be stored and protected in a way that ensures they will not be lost or undone due to hardware or software failure.
+
+There are typically two types of durability guarantees:
+
+**Volatile Durability**: In this level of durability, changes are written to volatile memory (such as RAM) before they are stored on disk. As a result, if the system fails before the changes are written to disk, they may be lost.
+
+**Non-Volatile Durability**: In this level of durability, changes are written directly to disk or other non-volatile storage before a transaction is considered to be complete. This guarantees that the changes will be retained even in the event of a system failure.
+
+Most modern database systems provide some form of non-volatile durability, as it is considered to be a critical component of transaction processing.
 
 ### Atomicity : All-or-nothing atomicity / Atomicity with partial failure
 
