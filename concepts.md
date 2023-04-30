@@ -104,11 +104,34 @@ Recovery Time Objective
 : ...
 
 ### Column-based database ~ Column-wide database ~ Big Table database
-: ...
+
+A column-based database, also known as a columnar database, is a type of database management system that stores data in columns rather than in rows. In a column-based database, each column of a table is stored separately on disk, rather than storing each row as a separate record. This makes columnar databases well-suited for analytics workloads that require complex queries across large volumes of data, as it allows for much faster querying and analysis of data. Column-based databases are often used for data warehousing and business intelligence applications, as well as for storing large amounts of structured and semi-structured data. They are known for their high performance, scalability, and ability to handle large volumes of data with low latency. Some popular examples of column-based databases include Apache Cassandra, Apache HBase, and Google Bigtable.
+
+Data Model: Wide column databases use a non-relational or NoSQL data model, while relational databases use a relational data model.
+
+High Availability: Wide column databases can achieve high availability and fault tolerance through data replication across multiple nodes or servers. Relational databases typically rely on backup and recovery methods.
+
+Query Language: Wide column databases use a variety of query languages, including CQL (Cassandra Query Language) and SQL-like query languages. Relational databases use SQL.
+
+Use Cases: Wide column databases are often used for big data applications, such as IoT, real-time analytics, and high-traffic websites. Relational databases are commonly used for transactional systems, such as e-commerce and financial applications.
+
+Schema flexibility: In a wide column database, the schema can be more flexible, allowing for the addition or removal of columns without affecting the rest of the schema. This is because the data is stored in columns rather than rows, which allows for a more dynamic schema.
+
+Distributed architecture: Wide column databases are often designed to be distributed across multiple nodes, allowing for horizontal scalability and fault tolerance. This is in contrast to relational databases, which are often designed to run on a single node or a small cluster of nodes.
+
+High write performance: Because wide column databases are optimized for write-heavy workloads, they often have very high write performance compared to relational databases. This is because they use a log-structured merge tree (LSM tree) data structure, which allows for efficient writes and compaction of data.
+
+Query performance: Wide column databases may have slower query performance than relational databases, especially for complex queries that require joins or aggregation. However, they are often optimized for specific types of queries, such as range queries or key-value lookups.
+
+Strong consistency: Some wide column databases, such as Apache Cassandra, offer strong consistency guarantees through features like tunable consistency levels and lightweight transactions. However, achieving strong consistency in a distributed system can be challenging, and it may come at the cost of performance or availability.
+
+NoSQL paradigm: Wide column databases are part of the NoSQL movement, which emphasizes flexibility, scalability, and performance over strict adherence to the relational data model. This means that wide column databases may have different trade-offs and design principles than relational databases.
+
+Column-oriented storage: Wide column databases store data in column families, which are groups of columns that are often accessed together. This allows for efficient storage and retrieval of data, especially when only a subset of columns is needed for a particular query. Relational databases, on the other hand, store data in rows, which can make it harder to optimize queries for specific subsets of columns.
 
 ##### Example
 
-HBase, Google Big Table, Cassandra
+HBase, Google Big Table, Cassandra, ScyllaDB
 
 ### Graph DB
 ...
