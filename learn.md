@@ -72,6 +72,7 @@ Awesome collection of learning materials to learn modern Systems Design, Distrib
 
 ( _systems_design_ )
 
+- :movie_camera: [CAP Theorem Simplified](https://www.youtube.com/watch?v=BHqjEjzAicA) by [ ByteByteGo](https://www.youtube.com/@ByteByteGo)
 - :movie_camera: [CAP theorem](https://www.youtube.com/watch?v=KmGy3sU6Xw8) by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)
 - :movie_camera: [What is Resiliency?](https://www.youtube.com/watch?v=NIy9HMRlpjQ) by [Knowledge Powerhouse](https://www.youtube.com/channel/UC27-kZjEVZmon1rQ3Qk_AyQ/videos)
 - :movie_camera: [Resiliency design patterns](https://www.youtube.com/watch?v=xdYBB3-5aEU) by [Knowledge Powerhouse](https://www.youtube.com/channel/UC27-kZjEVZmon1rQ3Qk_AyQ/videos)
