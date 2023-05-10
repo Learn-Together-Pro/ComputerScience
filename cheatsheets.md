@@ -22,6 +22,10 @@ Cheatsheets for Systems Design, Distributed Systems, DevOps and DBMS.
 
 ![Horizontal vs Vertical scaling](./cheatsheet/resilience_patterns.png)
 
+## Isolation levels vs read phenomena
+
+![Isolation levels vs read phenomena](./cheatsheet/isolation_levels_vs_read_phenomena.jpg)
+
 ## IaaS vs PaaS vs SaaS
 
 ![Horizontal vs Vertical scaling](./cheatsheet/aas_2.jpg)
