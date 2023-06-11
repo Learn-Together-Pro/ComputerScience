@@ -1,6 +1,6 @@
 # Learn Software Arhcitecture Together
 
-Awesome collection of learning materials to learn modern Systems Design, Distributed Systems, DevOps and DBMS.
+Awesome collection of learning materials to learn modern Computer Science including Operating Systems, Systems Design, Distributed Systems, DevOps and DBMS.
 
 ## What is this about?
 
