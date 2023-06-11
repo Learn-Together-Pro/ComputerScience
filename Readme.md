@@ -1,4 +1,4 @@
-# Learn Software Arhcitecture Together
+# Learn Computer Science Together
 
 Awesome collection of learning materials to learn modern Computer Science including Operating Systems, Systems Design, Distributed Systems, DevOps and DBMS.
 
