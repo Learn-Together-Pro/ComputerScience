@@ -1,10 +1,10 @@
-# 🧭 Learn Software Arhcitecture Together
+# 🧭 Learn Computer Science Together
 
-Awesome collection of learning materials to master modern Systems Design, Distributed Systems, DevOps and DBMS.
+Awesome collection of learning materials to master modern Computer Science including Operating Systems, Systems Design, Distributed Systems, DevOps and DBMS.
 
 ## What is this about?
 
-This repository contains curated collections: learning materials, toolboxes, newspapers, working groups, collection of other collections. Everything you will find useful if you are interested in Systems Design.
+This repostory contains nearly dozen curated collections: learning materials, toolboxes, newspapers, working groups, collection of other collections. Everything you will find useful if you are interested in Computer Science.
 
 Here you can find:
 
