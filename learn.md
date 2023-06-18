@@ -1,6 +1,6 @@
-# Learn Software Achitecture
+# :mortar_board: Learn Software Achitecture
 
-Awesome collection of learning materials to learn modern Systems Design, Distributed Systems, DevOps and DBMS.
+Awesome collection of learning materials to master modern Systems Design, Distributed Systems, DevOps and DBMS.
 
 [:arrow_down: Tags legend](#tags-legend) at the end of the page.
 
