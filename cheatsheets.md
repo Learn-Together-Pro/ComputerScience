@@ -10,6 +10,10 @@ Cheatsheets for Systems Design, Distributed Systems, DevOps and DBMS.
 
 ![Asynchronous vs Multithreading](./cheatsheet/concurrent_programming.jpeg)
 
+## Latencies
+
+![Asynchronous vs Multithreading](./cheatsheet/latencies.jpg)
+
 ## CAP Theorem
 
 ![CAP Theorem](./cheatsheet/cap_theorem.png)
