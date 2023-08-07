@@ -201,3 +201,7 @@ In Message Passing communication, the visibility is explicit, which means that t
 On the other hand, with the Data Parallel model, the communication visibility is implicit. The programmer doesn't need to write specific communication code as data exchanges are automatically handled by the system. The programmer simply specifies the parallel operations, and the underlying system decides when and how to exchange data to fulfill those operations. While this can make programming simpler and more streamlined, it may not be as efficient or flexible since the programmer does not have direct control over when communication occurs. In this model, communication is abstracted away, allowing the programmer to focus more on computation logic.
 
 Visibility of communication is a crucial factor when choosing a programming model for parallel computing, as it directly influences programming complexity, control over efficiency, and potential performance optimization.
+
+##### Bitonic Sequence
+
+Sequence of numbers that first increases monotonically (either strictly or not), and then decreases monotonically. In other words, it's a sequence that first goes up, then goes down. Alternatively, it can be a sequence that first decreases, then increases.

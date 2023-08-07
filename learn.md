@@ -42,8 +42,8 @@ Awesome collection of learning materials to master modern Systems Design, Distri
 ( _algorithm_ ) ( _complexity_ )
 
 - :star: [Big O Notation - Full Course](https://www.youtube.com/watch?v=Mo4vesaut8g) by [Free Code Camp](https://www.youtube.com/@freecodecamp) :movie_camera:
-- [What Is Big O Notation?](https://www.youtube.com/watch?v=Q_1M2JaijjQ) by []() :movie_camera:
-- [Big-O Notation](https://www.youtube.com/watch?v=BgLTDT03QtU) by []() :movie_camera:
+- :star: [Big-O Notation](https://www.youtube.com/watch?v=BgLTDT03QtU) by [Neet Code](https://www.youtube.com/@NeetCode) :movie_camera:
+- [What Is Big-O Notation?](https://www.youtube.com/watch?v=Q_1M2JaijjQ) by [Reducible](https://www.youtube.com/@Reducible/videos) :movie_camera:
 
 ## Algorithms
 
