@@ -7,21 +7,33 @@ Awesome collection of learning materials to master modern Algorithms and Data St
 <!-- - []() by []() :movie_camera: -->
 <!-- - []() by []() :movie_camera: :mortar_board: -->
 
-## Algorithms Complexity
+### Algorithms Complexity
 
-( _algorithm_ ) ( _complexity_ )
+( _complexity_ )
 
 - :star: [Big-O Notation](https://www.youtube.com/watch?v=BgLTDT03QtU) by [Neet Code](https://www.youtube.com/@NeetCode) :movie_camera:
 - :star: [Big O Notation - Full Course](https://www.youtube.com/watch?v=Mo4vesaut8g) by [Free Code Camp](https://www.youtube.com/@freecodecamp) :movie_camera:
 - [What Is Big-O Notation?](https://www.youtube.com/watch?v=Q_1M2JaijjQ) by [Reducible](https://www.youtube.com/@Reducible/videos) :movie_camera:
 
-## Algorithms
+### Sort Algorithms
 
-( _algorithm_ )
+( _sort_ )
 
-- [3 Levels of Sorting Algorithms](https://www.youtube.com/watch?v=qk7b4-iyCJ4) by [kite](https://www.youtube.com/@KiteHQ) :movie_camera: ( _algorithm_ )
+- [3 Levels of Sorting Algorithms](https://www.youtube.com/watch?v=qk7b4-iyCJ4) by [kite](https://www.youtube.com/@KiteHQ) :movie_camera:
 
-## Tags legend
+### Hashing
+
+( _hashing_ )
+
+- [Hashing](https://www.youtube.com/playlist?list=PLEJXowNB4kPxWxRGSSn4qLdZm0h_XHqzt) by [Techdose](https://www.youtube.com/@techdose4u) :movie_camera: :mortar_board: ( _hashing_ )
+
+### Heap
+
+( _tree_ ) ( _heap_ )
+
+- [Heap Full Course](https://www.youtube.com/playlist?list=PLEJXowNB4kPyP2PdMhOUlTY6GrRIITx28) by [Techdose](https://www.youtube.com/@techdose4u) :movie_camera: :mortar_board: ( _tree_ ) ( _heap_ )
+
+### Tags legend
 
 - :movie_camera: - video material
 - :page_facing_up: - reading
@@ -29,3 +41,7 @@ Awesome collection of learning materials to master modern Algorithms and Data St
 - :chart_with_upwards_trend: - cheetsheets
 - ( _algorithm_ ) - algorithms
 - ( _complexity_ ) - complexity
+- ( _sort_ ) - sort algorithms
+- ( _hashing_ ) - hashing algorithms
+- ( _tree_ ) - tree data structure
+- ( _heap_ ) - heap data structure

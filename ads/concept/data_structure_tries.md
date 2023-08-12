@@ -1,7 +1,5 @@
 # :chart_with_upwards_trend: Data Structure : Tries Concepts
 
-### Concepts
-
 ##### Tries
 
 - B-Tree
@@ -14,6 +12,28 @@
 - Tries Tree
 - Ternary Tree
 - Suffix Tree
+
+##### Complete Binary Tree
+
+A binary tree is complete if all levels except possibly the last are completely filled, and all nodes are as left as possible.
+
+In other words, if you think of it as an array representation, there are no missing elements in the array except for the last level, where the missing elements are all on the right side.
+
+##### Complete Binary Tree Types
+
+- Almost Complete Binary Tree
+- Perfect Binary Tree
+
+##### Almost Complete Binary Tree
+
+This term is often used interchangeably with a complete binary tree, and it follows the same rules: all levels except possibly the last are completely filled, and the last level has all its nodes as left as possible.
+
+##### Perfect Binary Tree
+
+A perfect binary tree is a type of binary tree in which every internal node has exactly two children, and all the leaf nodes are at the same level.
+
+Every level of the tree is fully filled, so it is both complete and full.
+In a perfect binary tree of height h, there will be exactly 2h−1 nodes.
 
 ##### B-Tree
 
@@ -87,9 +107,107 @@ It is an important structure because it's efficient for priority queue operation
 
 ##### Heap Tree Invariants
 
-- Heap Order Property: For any given node II, value(I)≥value(J)value(I)≥value(J) for all children JJ of node II.
+- Heap Order Property: For any given node II, value(I)≥value(J) for all children J of node I.
 - Complete Binary Tree: Every level, except possibly the last, is completely filled, and all nodes are as left as possible.
 - Structural Property: A max-heap must be a complete binary tree, meaning all levels of the tree are fully filled except possibly for the last level, which is filled from left to right.
+
+##### Binomial Heap
+
+A binomial heap is a collection of binomial trees where each binomial tree follows the heap property, and there is at most one binomial tree of each degree.
+
+Binominal heap is extension of binary heap.
+
+##### Binomial Heap Invariants
+
+- The root list property: The root list of a binomial heap is a list of all the trees in the heap, in decreasing order of tree size.
+- The degree property: The degree of a tree in a binomial heap is at most 1.
+- The root list merging property: If two trees with the same degree are merged, then the resulting tree has degree 2.
+- The minimum property: The root list of a binomial heap always contains a tree with the minimum key value.
+
+##### Binomial Heap Complexity
+
+- **Structure**: Strict, enforced by binomial trees.
+- **Insertion**: O(log n).
+- **Merging**: O(log n).
+- **Decrease Key**: O(log n).
+- **Delete Min**: O(log n).
+
+##### Binominal Heap as Array
+
+```rust
+fn parent( i : usize ) -> usize
+{
+  ( i - 1 ) / 2
+}
+
+fn left_child( i : usize ) -> usize
+{
+  2 * i + 1
+}
+
+fn right_child( i : usize ) -> usize
+{
+  2 * i + 2
+}
+
+fn number_of_node( height : usize ) -> usize
+{
+  2_usize.pow( height as u32 ) - 1
+}
+
+fn height_of_tree( nnodes : usize ) -> u32
+{
+  nnodes.ilog( 2 )
+}
+
+fn branches_range( nnodes : usize ) -> ( usize, usize )
+{
+  ( 0, nnodes / 2 - 1 )
+}
+
+fn leaves_range( nnodes : usize ) -> ( usize, usize )
+{
+  ( nnodes / 2, nnodes - 1 )
+}
+
+```
+
+##### Leftist Heap
+
+A leftist heap or leftist tree is a type of binary heap that satisfies the heap property and where the null path length (the shortest path from a node to a descendant leaf) of the left child is always greater or equal to that of the right child.
+
+#### Leftist Heap Invariants
+
+- The leftist property: for every node `x`, the size of the left subtree of `x` is at least as large as the size of the right subtree of `x`.
+- The rank property: the rank of a node `x` is the length of the longest path from `x` to a leaf in the leftist heap.
+- The null path length property: for every node `x`, the null path length of `x` is equal to the rank of `x` minus 1.
+
+##### Leftist Heap Complexity
+
+- **Structure**: Binary heap with added balancing condition.
+- **Insertion**: O(log n).
+- **Merging**: O(log n).
+- **Decrease Key**: O(log n).
+- **Delete Min**: O(log n).
+
+##### Fibonacci Heap
+
+A Fibonacci heap is a collection of marked unordered trees where no constraints are enforced on the child and sibling pointers.
+
+##### Fibonacci Heap Invariants
+
+- The **root list property:** The root list of a Fibonacci heap is a doubly linked list of all the nodes in the heap, in decreasing order of key value.
+- The **degree property:** No node in a Fibonacci heap has more than two children.
+- The **marked property:** At most one node in a Fibonacci heap can be marked at any given time.
+- The **fibonacci heap property:** The children of a marked node form a Fibonacci heap.
+
+##### Fibonacci Heap Complexity
+
+- **Structure**: Flexible, no strict rules for child and sibling pointers.
+- **Insertion**: O(1) amortized.
+- **Merging**: O(1) amortized.
+- **Decrease Key**: O(1) amortized.
+- **Delete Min**: O(log n) amortized.
 
 ##### Cartesian Tree
 
