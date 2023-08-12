@@ -37,20 +37,6 @@ Awesome collection of learning materials to master modern Systems Design, Distri
 - [Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) :mortar_board: :movie_camera: by [Christopher Okhravi](https://www.youtube.com/c/ChristopherOkhravi/playlists) ( _architecture_ ) ( _pattern_ )
 - [Design Patterns](https://www.youtube.com/playlist?list=PLF206E906175C7E07) :mortar_board: :movie_camera: by [Derek Banas](https://www.youtube.com/c/derekbanas/playlists) ( _architecture_ ) ( _pattern_ )
 
-## Algorithms Complexity
-
-( _algorithm_ ) ( _complexity_ )
-
-- :star: [Big O Notation - Full Course](https://www.youtube.com/watch?v=Mo4vesaut8g) by [Free Code Camp](https://www.youtube.com/@freecodecamp) :movie_camera:
-- :star: [Big-O Notation](https://www.youtube.com/watch?v=BgLTDT03QtU) by [Neet Code](https://www.youtube.com/@NeetCode) :movie_camera:
-- [What Is Big-O Notation?](https://www.youtube.com/watch?v=Q_1M2JaijjQ) by [Reducible](https://www.youtube.com/@Reducible/videos) :movie_camera:
-
-## Algorithms
-
-( _algorithm_ )
-
-- [3 Levels of Sorting Algorithms](https://www.youtube.com/watch?v=qk7b4-iyCJ4) :movie_camera: by [kite](https://www.youtube.com/@KiteHQ) ( _algorithm_ )
-
 ## Architecture and Testing
 
 ( _architecture_ ) ( _testing_ )
@@ -252,7 +238,5 @@ _systems_design_ )
 - ( _architecture_ ) - software architecture in general
 - ( _principle_ ) - principles of software engineering
 - ( _pattern_ ) - patterns of software engineering
-- ( _algorithm_ ) - algorithms
-- ( _complexity_ ) - complexity
 - ( _testing_ ) - testing related aspects of architecture
 - ( _lld_ ) - low-level design
