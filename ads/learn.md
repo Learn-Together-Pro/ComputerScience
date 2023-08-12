@@ -19,7 +19,9 @@ Awesome collection of learning materials to master modern Algorithms and Data St
 
 ( _sort_ )
 
-- [3 Levels of Sorting Algorithms](https://www.youtube.com/watch?v=qk7b4-iyCJ4) by [kite](https://www.youtube.com/@KiteHQ) :movie_camera:
+- [3 Levels of Sorting Algorithms](https://www.youtube.com/watch?v=qk7b4-iyCJ4) by [kite](https://www.youtube.com/@KiteHQ) :movie_camera: ( _sort_ )
+- [Quick Select](https://www.youtube.com/watch?v=XEmy13g1Qxc) by [NeetCode](https://www.youtube.com/@NeetCode) :movie_camera: ( _sort_ )
+- [Quick Select](https://www.youtube.com/watch?v=BP7GCALO2v8) by [Techdose](https://www.youtube.com/@techdose4u) :movie_camera: ( _sort_ )
 
 ### Hashing
 
