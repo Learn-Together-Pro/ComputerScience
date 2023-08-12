@@ -1,6 +1,19 @@
-# :mortar_board: Data Structures
+# :chart_with_upwards_trend: Data Structure : Tries Concepts
 
 ### Concepts
+
+##### Tries
+
+- B-Tree
+- AVL Tree
+- Red Black Tree
+- Heap Tree
+- Cartesian Tree
+- Treap
+- Splay Tree
+- Tries Tree
+- Ternary Tree
+- Suffix Tree
 
 ##### B-Tree
 
@@ -144,8 +157,7 @@ Treaps can be a compelling choice when you want the benefits of a balanced binar
 
 ##### Cartesian Tree vs Treap
 
-A treap and a Cartesian tree are related data structures but are not exactly the same. They both combine properties of binary search trees (BST) and heaps, but they are used in different contexts and have different properties. Let's break down the differences:
-Treap
+A treap and a Cartesian tree are related data structures but are not exactly the same. They both combine properties of binary search trees (BST) and heaps, but they are used in different contexts and have different properties.
 
 A treap is a type of randomized Cartesian tree. When you add random priorities to the nodes in a specific sequence, the resulting Cartesian tree is a treap. Thus, you can view the treap as a specialized version of the Cartesian tree, where the randomization helps achieve balance.
 

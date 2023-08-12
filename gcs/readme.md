@@ -1,4 +1,4 @@
-# 🧭 Learn Practical Computer Science Together
+# 🧭 Learn Computer Science Together
 
 Awesome collection of learning materials to master modern Computer Science including Operating Systems, Systems Design, Distributed Systems, DevOps and DBMS.
 
@@ -8,7 +8,6 @@ This repostory contains nearly dozen curated collections: learning materials, to
 
 Here you can find:
 
-- [General Computer Science](./gcs)
-- [Algorithms and Data Structures](./ads)
-- [High Performance Computation](./hpc)
-- [Git and GitHub](./git)
+- __:mortar_board:__ [Learn](./learn.md) : collection of materials to master Systems Design.
+- __:old_key:__ [Comprehend](./concepts.md) : key concepts and dichotomies of Systems Design.
+- __:chart_with_upwards_trend:__ [Systemize](./cheatsheets.md) : cheatsheets on Systems Design.
