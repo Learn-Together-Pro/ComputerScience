@@ -93,7 +93,7 @@ Tens: [2, 3, 3, 4, 5]
 
 ##### Counting Sort
 
-Counting sort is a non-comparison sorting algorithm that sorts elements based on their frequencies.
+Counting sort is a non-comparison integer sorting algorithm that sorts elements based on their frequencies.
 
 The algorithm is efficient when the range of values (i.e., `k`) is not significantly larger than the number of values being sorted.
 
