@@ -1,4 +1,4 @@
-# :chart_with_upwards_trend: Data Structure : Tries Concepts
+# :chart_with_upwards_trend: Data Structure : Trees Concepts
 
 ##### Tries
 
@@ -344,3 +344,21 @@ It is a powerful data structure used in various string operations like pattern m
 - Uniqueness of Internal Nodes: Every internal node, other than the root, must have at least two children. This helps in the compression of the trie into a tree structure.
 - Leaf Labels: The leaves are often labeled with the start indices of the suffixes in the original string. This allows for efficient pattern matching and other operations.
 - Single String Representation: A Suffix Tree is typically built for a single input string. If used for multiple strings, a unique termination symbol must be appended to each string to ensure that no string is a prefix of another.
+
+##### Fenwick Tree ~ Binary Indexed Tree ~ BIT
+
+The *Fenwick Tree*, also known as *Binary Indexed Tree (BIT)*, is a data structure that provides efficient methods for performing prefix sums (cumulative sums) on an array of numbers.
+
+It's especially beneficial for arrays that are frequently updated. The Fenwick Tree strikes a balance between the raw speed of array-based structures and the dynamic properties of tree-based structures. Its logarithmic operation time makes it a valuable tool for specific problems where both updates to the data and cumulative queries are frequent.
+
+##### Fenwick Tree : Time Complexity
+
+- *Query (Prefix Sum)*: `O(log n)`
+- *Update*: `O(log n)`
+
+##### Fenwick Tree : Application
+
+- *Dynamic Cumulative Sums*: If you need to maintain a dynamic list of numbers where you frequently update the numbers and query the cumulative sum, a Fenwick Tree offers a balance between update and query efficiency.
+- *Range Sum Queries*: With slight modifications, it can be used for range sum queries, where you want to find out the sum of numbers between any two indices quickly.
+- *Inversion Count in an Array*: Fenwick Tree can be employed to count the number of inversions in an array more efficiently than using a simple nested loop approach.
+- *Implementing Advanced Data Structures*: It can be used to implement more advanced data structures like order-statistic trees.
