@@ -21,7 +21,6 @@ Awesome list of high-quality study materials for learning database management sy
 
 - [SQL Lessons](https://www.youtube.com/playlist?list=PL2WDxXzl0Y2BVRdpYqqmkBv7fj0zb5Vk8) :movie_camera: by [Bert Wagner](https://www.youtube.com/@DataWithBert) ( _level_3_ ) : playlist cover many unrelated SQL-specific topcis
 - [PostgresSQL Lessons](https://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj) :movie_camera: by [Hussein Nasser](https://www.youtube.com/@hnasr) ( _level_3_ ) : playlist cover many unrelated PostgresSQL-specific topcis
-
 - [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw) :movie_camera: by [Fireship](https://www.youtube.com/c/Fireship) ( _short_ )
 - [ACID Explained: Atomic, Consistent, Isolated & Durable](https://www.youtube.com/watch?v=yaQ5YMWkxq4) :movie_camera: by [the roadmap](https://www.youtube.com/c/theroadmap/playlists)
 - [What is Database Sharding?](https://www.youtube.com/watch?v=5faMjKuB9bc) :movie_camera: by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos)
