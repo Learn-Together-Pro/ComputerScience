@@ -4,7 +4,44 @@ Key concepts of DBMS.
 
 <!-- [:arrow_down: Tags legend](#tags-legend) at the end of the page. -->
 
-## Database
+### Page
+
+Fundamental unit of data storage and retrieval on disk. A page is a fixed-length block of data that is read from or written to the disk. In a DBMS, the data of tables (rows/tuples) is stored in these pages. A page is the term used within the context of a DBMS and refers to the unit of data that is read from or written to the disk by the database.
+
+Pages are often composed of one or more disk blocks. The DBMS manages data in terms of pages.
+
+In a Database Management System (DBMS), "blocks" and "pages" are often used interchangeably to refer to the fundamental units of data storage and retrieval on disk. While both blocks and pages represent data units on the disk, "block" is a more general term used in computing and storage, while "page" is specific to the context of databases and how the DBMS handles data. The DBMS abstracts the complexities of block-level operations, presenting a more manageable unit, the page, for storing and handling data.
+
+### Blocks
+
+These are units of data storage at the file system level. A block is typically a collection of data stored on the disk, and databases read or write data in blocks.
+
+Pages are often composed of one or more disk blocks. The DBMS manages data in terms of pages.
+
+In a Database Management System (DBMS), "blocks" and "pages" are often used interchangeably to refer to the fundamental units of data storage and retrieval on disk. While both blocks and pages represent data units on the disk, "block" is a more general term used in computing and storage, while "page" is specific to the context of databases and how the DBMS handles data. The DBMS abstracts the complexities of block-level operations, presenting a more manageable unit, the page, for storing and handling data.
+
+### Directory Page / Data Page
+
+A directory page, also known as an index page in some contexts, is used to store metadata about data pages, for indexing and to store variable-length records. This metadata typically includes pointers or references to data pages. A data page is where the actual data records (rows/tuples) of a database table are stored.
+
+### Slot
+
+In a Database Management System (DBMS), a "slot" typically refers to a specific location or position within a data page where a record (row or tuple) is stored. In the structure of a data page:
+
+Each data page is divided into multiple slots.
+Each slot holds one record or provides a reference (like a pointer) to a record.
+The DBMS uses these slots to efficiently locate and manage individual records within a page.
+
+### Buckets
+
+In the context of hash-based structures or algorithms, a bucket is a slot in a hash table where data entries are stored. Buckets help in organizing data for efficient retrieval.
+
+### Tuples ~ Rows ~ Record
+
+A row ~ tuple ~ record in a relational database represents a single, implicitly structured data item in a table.
+
+A row in the table, where each column of the row represents a value of an attribute of the tuple.
+Each record is usually uniquely identified by a 'page_id' and a 'slot_id'.
 
 ### Data Lake
 : ...
@@ -126,7 +163,7 @@ In summary, the differences between these levels of isolation are based on the d
 ### Relational database / Document-based database
 : ...
 
-## Characteristics
+### Characteristics of a System
 
 [Resilience](https://www.youtube.com/watch?v=NIy9HMRlpjQ)
 : ability to handle and recovery from failure gracefully.

@@ -11,6 +11,7 @@ Awesome list of high-quality study materials for learning database management sy
 
 ( _dbms_ )
 
+- [Database Systems](https://www.youtube.com/playlist?list=PLBlnK6fEyqRiyryTrbKHX1Sh9luYI0dhX) :movie_camera: :mortar_board: by [Neso Academy](https://www.youtube.com/@nesoacademy/playlists) ( _level_0_ )
 - [Database Systems](https://www.youtube.com/watch?v=4cWkVbC2bNE) :movie_camera: :mortar_board: by Cornell University ( _level_1_ )
 - [Database Systems](https://www.youtube.com/playlist?list=PL78V83xV2fYlT11CJXE77H0LD7C_gZmyf) :movie_camera: :mortar_board: by [The Magic of SQL](https://www.youtube.com/@TheMagicofSQL) ( _level_2_ )
 - [SQL Course](https://www.youtube.com/playlist?list=PLeb33PCuqDdcezLKJLBM9KgtycqrPBY0x) :movie_camera: :mortar_board: by [SQL TV](https://www.youtube.com/@SQLTVChannel/playlists) ( _level_2_ )
