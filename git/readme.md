@@ -1,6 +1,6 @@
 # 🧭 Learn Git Together
 
-Awesome list of learn materials on Git.
+Awesome list of high-quality study materials for learning Git and GitHub.
 
 [:arrow_down: Tags legend](#tags-legend) at the end of the page.
 
