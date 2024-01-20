@@ -42,6 +42,99 @@ A row ~ tuple ~ record in a relational database represents a single, implicitly 
 
 A row in the table, where each column of the row represents a value of an attribute of the tuple.
 Each record is usually uniquely identified by a 'page_id' and a 'slot_id'.
+In Postgress tuple can mean an occupied slot.
+
+### Join Algorithms
+
+**Nested Loop Join**
+
+Iterates over each row of one table (outer loop) and for each row, it iterates over all rows of the other table (inner loop), checking for matches. It's straightforward but can be inefficient for large tables.
+
+- **Memory Usage**: Low.
+- **Disk I/O Efficiency**: Low for large datasets.
+- **Speed**: Generally slow, especially for large datasets.
+- **Scalability**: Poor with large datasets.
+- **Dependency on Indexes**: High performance if an inner table is indexed.
+- **Parallelizability**: Limited.
+- **Improvement**: No, original.
+
+**Block Nested Loop Join**
+
+Enhances the basic nested loop join by reading blocks of rows from the outer table, reducing the number of disk accesses needed.
+
+- **Memory Usage**: Moderate.
+- **Disk I/O Efficiency**: Better than a simple nested loop.
+- **Speed**: Faster than a simple nested loop for medium-sized datasets.
+- **Scalability**: Moderate.
+- **Dependency on Indexes**: Less than simple nested loop.
+- **Parallelizability**: Moderate.
+- **Improvement**: Nested Loop Join.
+
+**Indexed Join**
+
+Utilizes an index on the join key of one table to efficiently find matching rows in the other table. Highly efficient when an appropriate index is available. Might be perceived as Nested Loop Join improvement.
+
+- **Memory Usage**: Low.
+- **Disk I/O Efficiency**: Very efficient if using indexes.
+- **Speed**: Fast when indexes are available.
+- **Scalability**: Good for indexed tables.
+- **Dependency on Indexes**: High.
+- **Parallelizability**: Dependent on the database's ability to handle parallel index scans.
+- **Improvement**: Nested Loop Join.
+
+**Hash Join**
+
+Builds a hash table for one table (usually the smaller one), then iterates through the other table, using the hash table to quickly find matching rows. It's efficient for equi-joins and large datasets.
+
+- **Memory Usage**: High due to hash table creation.
+- **Disk I/O Efficiency**: Good for equi-joins.
+- **Speed**: Fast for equi-joins, especially with proper memory.
+- **Scalability**: Good, but dependent on memory.
+- **Dependency on Indexes**: Not required.
+- **Parallelizability**: Good.
+- **Improvement**: No, original.
+
+**Grace Hash Join**
+
+Splits the tables into partitions that fit into memory, applies hash join on these smaller parts. It's designed for handling very large tables that don't fit into memory.
+
+- **Memory Usage**: Designed to handle memory limitations.
+- **Disk I/O Efficiency**: Handles large datasets efficiently.
+- **Speed**: Good for large datasets.
+- **Scalability**: Excellent for large datasets.
+- **Dependency on Indexes**: Not required.
+- **Parallelizability**: Good.
+- **Improvement**: Hash Join.
+
+**Sort-Merge Join**
+
+Sorts both tables by the join key and then merges them, efficiently finding matches. Best suited for tables that are already sorted or partially sorted.
+
+- **Memory Usage**: Moderate.
+- **Disk I/O Efficiency**: Good, especially if data is pre-sorted.
+- **Speed**: Good for sorted datasets.
+- **Scalability**: Good.
+- **Dependency on Indexes**: Benefits from sorted data.
+- **Parallelizability**: Good.
+- **Improvement**: No, original.
+
+### SQL Sub-languages
+
+SQL (Structured Query Language) encompasses several sub-languages, each serving different purposes in the database environment.
+
+- DDL (Data Definition Language): Used for defining and modifying the database structure and schema. Key commands include:
+- DML (Data Manipulation Language): Used for managing data within database objects (like tables). Key commands include:
+- DCL (Data Control Language): Used for controlling access to data in the database. Key commands include:
+- TCL (Transaction Control Language): Used to manage transactions within the database. Key commands include:
+- DQL (Data Query Language): It deals primarily with the retrieval of data and includes the SELECT command, which is used to query data from the database. Technically part of DML, but sometimes considered separately.
+
+Some commands.
+
+- DDL: CREATE, ALTER, DROP, TRUNCATE, COMMENT, RENAME
+- DML: SELECT, INSERT, UPDATE, DELETE, MERGE
+- DCL: GRANT, REVOKE
+- TCL: COMMIT, ROLLBACK, SAVEPOINT, SET TRANSACTION
+- DQL: SELECT
 
 ### Data Lake
 : ...
