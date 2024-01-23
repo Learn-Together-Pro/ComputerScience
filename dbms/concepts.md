@@ -118,6 +118,40 @@ Sorts both tables by the join key and then merges them, efficiently finding matc
 - **Parallelizability**: Good.
 - **Improvement**: No, original.
 
+### Joins
+
+**Inner Join ~ Cross Join**
+
+Returns rows with matching values in both tables. Produces the Cartesian product of the two tables. Semantically cross join and inner join are same.
+
+**Self Join**
+
+Comparing rows within the same table. Self join is also inner join and cross join, but not all innder join is self join.
+
+**Outer Join**
+
+Return all rows from one or both of the joined tables, regardless of whether a matching row exists in the other table.
+
+**Left Outer Join**
+
+Returns all rows from the left table and matching rows from the right table. Uses null for missing in the right table rows.
+
+**Right Outer Join**
+
+Returns all rows from the right table and matching rows from the left table. Uses null for missing in the left table rows.
+
+**Full Outer Join**
+
+Returns rows when there is a match in either left or right table. Uses null for missing in either left or right table rows.
+
+**Semi Join**
+
+Returns rows from the first table where a match exists in the second table.
+
+**Anti Join**
+
+Returns rows from the first table where no match exists in the second table.
+
 ### SQL Sub-languages
 
 SQL (Structured Query Language) encompasses several sub-languages, each serving different purposes in the database environment.
@@ -135,6 +169,18 @@ Some commands.
 - DCL: GRANT, REVOKE
 - TCL: COMMIT, ROLLBACK, SAVEPOINT, SET TRANSACTION
 - DQL: SELECT
+
+### Clustered Index / Non-Clustered Index
+
+A **clustered index** determines the physical order of data in a table. It sorts and stores the data rows of the table based on the indexed columns. Each table can have only one clustered index because the data rows themselves can be sorted in only one order. The primary key of a table is often a clustered index.
+
+A **non-clustered index**, on the other hand, does not alter the physical order of the rows. It creates a separate structure within the table which holds the values of the indexed columns and pointers to the corresponding rows. A table can have multiple non-clustered indexes.
+
+### Left-Deep Plans / Right-Deep Plans
+
+In a **left-deep join** tree, the left child of each join node is always a base table, not another join. This allows for the possibility of using nested loops joins efficiently, where the left table can be kept in memory while the right table is scanned multiple times. It is advantageous in scenarios where indexes are available on the inner tables.
+
+In a **right-deep join** tree, the right child is always a base table. This structure is more conducive to hash joins, where each table is read only once and can be used for building or probing a hash table.
 
 ### Data Lake
 : ...
