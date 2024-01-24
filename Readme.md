@@ -9,7 +9,7 @@ This repostory contains nearly dozen curated collections: learning materials, to
 Here you can find:
 
 - [General Computer Science](./cs)
-- [General Computer Science](./devops)
+- [DevOps](./devops)
 - [Algorithms and Data Structures](./ads)
 - [High Performance Computation](./hpc)
 - [Git and GitHub](./git)
