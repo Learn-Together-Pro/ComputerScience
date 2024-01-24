@@ -1,6 +1,6 @@
 # 🧭 Learn Computer Science Together
 
-Awesome collection of learning materials to master modern Computer Science including Operating Systems, Systems Design, Distributed Systems, DevOps.
+Awesome collection of learning materials to master modern Computer Science including Operating Systems, Systems Design, Distributed Systems.
 
 ## What is this about?
 

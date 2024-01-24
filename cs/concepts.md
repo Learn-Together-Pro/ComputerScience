@@ -1,6 +1,6 @@
-# Key concepts of Systems Design
+# Key concepts of Computer Science
 
-Key concepts of Systems Design, Distributed Systems, DevOps and DBMS.
+Key concepts of Computer Science.
 
 <!-- [:arrow_down: Tags legend](#tags-legend) at the end of the page. -->
 

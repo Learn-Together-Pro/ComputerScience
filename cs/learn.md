@@ -1,11 +1,19 @@
-# :mortar_board: Learn Software Achitecture
+# :mortar_board: Learn Computer Science
 
-Awesome collection of learning materials to master modern Systems Design, Distributed Systems, DevOps and DBMS.
+Awesome collection of learning materials to master modern Computer Science.
 
 [:arrow_down: Tags legend](#tags-legend) at the end of the page.
 
 <!-- - []() by []() :movie_camera: -->
 <!-- - []() by []() :movie_camera: :mortar_board: -->
+
+## Systems Desgin
+
+( _systems_design_ )
+
+- [The System Design Primer](https://github.com/donnemartin/system-design-primer) by [ View donnemartin's full-sized avatar
+Donne Martin ](https://github.com/donnemartin) ( _systems_design_ )
+- [Collection on System Design Interview](https://github.com/checkcheckzz/system-design-interview) by [Zach](https://github.com/checkcheckzz) ( _collection_ ) ( _systems_design_ )
 
 ## Architecture
 
@@ -163,12 +171,6 @@ _systems_design_ )
 
 - :page_facing_up: [Linux Perf Analysis](https://brendangregg.com/Articles/Netflix_Linux_Perf_Analysis_60s.pdf) by [Netflix](https://netflixtechblog.com/)
 
-## Other awesome collections
-
-( _collection_ )
-
-- [Collection on System Design Interview](https://github.com/checkcheckzz/system-design-interview) by [Zach](https://github.com/checkcheckzz/system-design-interview) ( _collection_ )
-
 ## Tags legend
 
 - :movie_camera: - video material
@@ -176,6 +178,7 @@ _systems_design_ )
 - :mortar_board: - online course with or without feedback
 - :chart_with_upwards_trend: - cheetsheets
 - ( _short_ ) - short overview
+- ( _systems_design_ ) - systems design
 - ( _communication_ ) - back-end, networking, RPC, IPC
 - ( _monitoring_ ) - monitoring, logging, aggregation and diagnostics of a distributed system
 - ( _infrastructure_as_a_code_ ) - infrastructure as a code
