@@ -24,7 +24,7 @@ Awesome list of high-quality study materials for learning database management sy
 ( _dbms_ )
 
 - [Database Systems](https://www.youtube.com/playlist?list=PL78V83xV2fYlT11CJXE77H0LD7C_gZmyf) :movie_camera: :mortar_board: by [The Magic of SQL](https://www.youtube.com/@TheMagicofSQL) ( _level_2_ )
-- [SQL Course](https://www.youtube.com/playlist?list=PLeb33PCuqDdcezLKJLBM9KgtycqrPBY0x) :movie_camera: :mortar_board: by [SQL TV](https://www.youtube.com/@SQLTVChannel/playlists) ( _level_2_ )
+- [SQL Course](https://www.youtube.com/playlist?list=PLeb33PCuqDdcezLKJLBM9KgtycqrPBY0x) :movie_camera: :mortar_board: by [SQL TV](https://www.youtube.com/@SQLTVChannel/playlists) ( _level_3_ )
 
 ## SQL Drills
 
@@ -111,9 +111,8 @@ Awesome list of high-quality study materials for learning database management sy
 - :moneybag: - paid
 - ( _certificate_ ) - certification
 - 🔽 - download
-- ⚡ - practice
+- ⚡ - practice, it is possible to interact and get feedback from the system
 - ( _official_ ) - official material
-- ( _interactive_ ) - it is possible to interact and get feedback from the system
 - ( _blog_ ) - blogs
 - ( _example_ ) - code sample that can be executed
 - ( _short_ ) - short overview

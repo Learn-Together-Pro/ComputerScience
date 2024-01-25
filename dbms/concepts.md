@@ -182,6 +182,59 @@ In a **left-deep join** tree, the left child of each join node is always a base 
 
 In a **right-deep join** tree, the right child is always a base table. This structure is more conducive to hash joins, where each table is read only once and can be used for building or probing a hash table.
 
+### Classes of Schedules
+
+**Serial Schedule**
+
+A schedule is serial if the actions of the different transactions are not interleaved; they are executed one after another.
+
+**Serializable Schedule**
+
+A schedule where the outcome of executing transactions concurrently is the same as if the transactions had been executed serially. It doesn't require transactions to be executed in a strictly sequential manner but ensures that the final state of the database is as if they were.
+
+Uniot of all 4 sets: Serial, Conflict Serializable, View Equivalent, Final State Equivalent schedules.
+
+Size of sets: Serial < Conflict Serializable < View Equivalent < Final State Equivalent
+
+**Conflict Serializable Schedule** ~ **Conflict Equivalence**
+
+Two schedules are conflict equivalent if they have the same set of operations, and every pair of conflicting operations is executed in the same order in both schedules.
+
+Conflict-serializable schedules are serializable, but serializable schedules is not necessarily conflict-serializable. Even more restrictive than view equivalent schedule, but it's computationally cheap to come up and check schedule validity. Some valid view equivalent schedules are not conflict serializable schedule and perfectly good to use, but are droped by the algorithm because it's computation expansive to check their serializabness.
+
+**View Equivalent Schedules**
+
+Two schedules are view equivalent if they ensure that each read operation in the schedules reads the same value from the same write operation. It focuses on the consistency of the visible data in each transaction.
+
+More restrictive schedule thant final state equivalent schedules is the least restrictive one, but anomalies are not possible. Also it has slow concurrency control because making up perfect schedule of such time NP hard problem.
+
+**Final State Equivalent Schedules**
+
+Two schedules have final state equivalence if they result in the same final state of the database after all the transactions are complete. This includes the final value of all data items.
+
+The largest subset. Serial, conflict serializable and view equivalent schedules are final State Equivalent. Final state equivalent schedules is the least restrictive one, but anomalies are possible.
+
+### Conflicting Actions
+
+Two actions in a schedule conflict if they:
+- are from different transactions,
+- involve the same data item, and
+- one of the actions is a write.
+
+### Schedule Conflicts
+
+**Write Read Conflcit** (WR)
+
+There is a WR conflict between T1 and T2 if there is an item Y: T1 writes Y and afterwards, T2 reads Y. If T, has not committed this is a *dirty read*.
+
+**Read Write Conflict** (RW)
+
+There is a RW conflict between Ty and Tz if there is an item Y Ty reads Y and afterwards, Tz writes Y. This read becomes *unrepeatable*.
+
+**Write Write Conflict** (WW)
+
+There is a WW conflict between T, and Ta if there is an item Y: Ty writes Y and afterwards, Ta writes Y. This write becomes overwritten, in another words it might cause *lost update*. But if there is no action which depends on the first write it's called **xxx writes**.
+
 ### Read Anomalies ~ Lack of Isolation
 
 [Look](./cheatsheet.md#SQL-Isolation-Levels)
@@ -233,6 +286,68 @@ Prevents dirty and non-repeatable reads by ensuring that the rows a transaction 
 **Serializable**
 
 The highest isolation level, providing full isolation from other transactions. It prevents dirty reads, non-repeatable reads, and phantom reads, ensuring complete consistency.
+
+### Two-Phase Locking Protocol ~ (2PL)
+
+Concurrency control method used in database systems to ensure serializability of transactions. It involves two phases. Locking Phase: In the first phase, a transaction may acquire locks but cannot release any. The transaction locks all the data items it needs to access. Unlocking Phase: In the second phase, the transaction releases all locks and cannot acquire any new ones.
+
+This protocol ensures that the schedule (order of transactions) will be serializable, meaning the outcome is equivalent to some serial execution of the transactions. However, while it prevents non-serializable schedules, 2PL can lead to deadlocks and decreased system throughput due to the extensive locking it requires.
+
+### Variations of Two-Phase Locking Protocol: Strict 2PL / Preclaiming 2PL
+
+**Strict Two-Phase Locking ~ Strict 2PL**
+
+In this protocol, a transaction holds all its exclusive locks (write locks) until it commits or aborts. This ensures strict serializability and also avoids the issue of cascading rollbacks, as it only releases locks after the transaction is finalized.
+
+**Preclaiming 2PL**
+
+Here, a transaction requests all the locks it needs at the beginning. If all the required locks are granted, the transaction proceeds; otherwise, it either waits or is rolled back. This approach can reduce the likelihood of deadlocks but may lead to underutilization of resources due to holding locks for extended periods.
+
+### Deadlocks Resolving Strategies
+
+**Deadlock Prevention**
+
+Adjust system conditions to prevent deadlocks, such as ordering resources or preallocating resources.
+
+**Deadlock Avoidance**
+
+Use algorithms like Banker’s Algorithm to avoid deadlocks by ensuring safe resource allocation.
+
+**Deadlock Detection and Recovery**
+
+Regularly check for deadlocks and take actions like terminating or rolling back transactions to resolve them. Tricky to select a victim, because it leads either to starvation or computational investments been thrown.
+
+**Timeout**
+
+Use a timeout mechanism where a transaction is rolled back if it waits longer than a predefined time limit. Tricky to select proper timneout.
+
+### Rollback Strategies
+
+**Immediate Rollback ~ Undo Logging**
+
+When a transaction fails, its actions are immediately undone using a log that records all changes.
+
+**Deferred Rollback ~ Redo Logging**
+
+Rollback is deferred until the end of the transaction’s execution. In case of failure, the system uses a log to redo all actions of the transaction.
+
+**Checkpoints**
+
+Periodically, the system takes a checkpoint storing the current state of the database. In case of failure, the system only needs to rollback to the last checkpoint.
+
+**Savepoints**
+
+Within a transaction, savepoints mark specific points that a transaction can roll back to, without needing to roll back the entire transaction.
+
+### Scheduling Strategies thinking of Rollback
+
+**Recoverable Schedule**
+
+Ensures that if a transaction T1 reads data written by another transaction T2, T2 must commit before T1. This prevents scenarios where T1 might need to be rolled back due to T2's failure, which could result in inconsistent data.
+
+**Cascadable Schedule ~ Cascadeless Schedule**
+
+In a cascadeless schedule, transactions only read data that has been committed, preventing cascading rollbacks where one transaction's failure causes a chain reaction of rollbacks in other transactions.
 
 ### Data Lake
 : ...

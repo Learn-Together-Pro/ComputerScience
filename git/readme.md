@@ -10,7 +10,7 @@ Awesome list of high-quality study materials for learning Git and GitHub.
 
 ## For beginners
 
-- ⭐ [Learn Git Branching through game](https://learngitbranching.js.org/) ( _interactive_ ) ( _reading_ )
+- ⭐ [Learn Git Branching through game](https://learngitbranching.js.org/) ⚡ ( _reading_ )
 - ⭐ [Git in 1 Hour](https://youtu.be/8JJ101D3knE) by [Programming with Mosh](https://www.youtube.com/c/programmingwithmosh) ( _video_ )
 - ⭐ [Git How To](https://githowto.com/uk) ( _reading_ ) ( _course_ )
 - [Course on Git](https://www.codecademy.com/learn/learn-git) from [Code Academy](https://www.codecademy.com/) ( _course_ )
@@ -67,4 +67,4 @@ Awesome list of high-quality study materials for learning Git and GitHub.
 - ( _reading_ ) - material to read
 - ( _video_ ) - material to watch
 - ( _cheatsheet_ ) - cheat sheet
-- ( _interactive_ ) - interactive
+- ⚡ - interactive
