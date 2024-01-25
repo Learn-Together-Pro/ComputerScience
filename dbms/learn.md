@@ -7,14 +7,46 @@ Awesome list of high-quality study materials for learning database management sy
 <!-- - []() by []() :movie_camera: -->
 <!-- - []() by []() :movie_camera: :mortar_board: -->
 
-## DBMS introduction
+## DBMS Introduction
 
 ( _dbms_ )
 
+- [Database Systems | PostgresSQL](https://www.youtube.com/watch?v=4cWkVbC2bNE) :movie_camera: :mortar_board: by Cornell University ( _level_1_ )
+- [Databases Course](https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO) :movie_camera: :mortar_board: by [Theoretical Computer Science](https://www.youtube.com/@TheComputerScience/playlists) ( _level_1_ )
+- [Databases](https://www.youtube.com/@CS186Berkeley/playlists) :movie_camera: :mortar_board: by [CS186Berkeley](https://www.youtube.com/@CS186Berkeley/playlists) ( _level_1_ )
+- [SQL Tutorial | MySQL](https://www.youtube.com/watch?v=-fW2X7fh7Yg) :movie_camera: :mortar_board: by [ freeCodeCamp](https://www.youtube.com/@freecodecamp/playlists) ( _level_0_ )
+- [SQL Tutorial](https://www.youtube.com/watch?v=HXV3zeQKqGY) :movie_camera: :mortar_board: by [ freeCodeCamp](https://www.youtube.com/@freecodecamp/playlists) ( _level_0_ )
+- [SQL For Web Developer](https://www.youtube.com/watch?v=KBDSJU3cGkc) :movie_camera: :mortar_board: by [ freeCodeCamp](https://www.youtube.com/@freecodecamp/playlists) ( _level_0_ )
 - [Database Systems](https://www.youtube.com/playlist?list=PLBlnK6fEyqRiyryTrbKHX1Sh9luYI0dhX) :movie_camera: :mortar_board: by [Neso Academy](https://www.youtube.com/@nesoacademy/playlists) ( _level_0_ )
-- [Database Systems](https://www.youtube.com/watch?v=4cWkVbC2bNE) :movie_camera: :mortar_board: by Cornell University ( _level_1_ )
+
+## DBMS Specific
+
+( _dbms_ )
+
 - [Database Systems](https://www.youtube.com/playlist?list=PL78V83xV2fYlT11CJXE77H0LD7C_gZmyf) :movie_camera: :mortar_board: by [The Magic of SQL](https://www.youtube.com/@TheMagicofSQL) ( _level_2_ )
 - [SQL Course](https://www.youtube.com/playlist?list=PLeb33PCuqDdcezLKJLBM9KgtycqrPBY0x) :movie_camera: :mortar_board: by [SQL TV](https://www.youtube.com/@SQLTVChannel/playlists) ( _level_2_ )
+
+## SQL Drills
+
+⚡
+
+- [SQL Practice](https://www.sql-practice.com/) ⚡
+- [Data Lemur](https://datalemur.com/questions?category=SQL) ⚡
+- [Hacker Rank](https://www.hackerrank.com/domains/sql) ⚡
+- [Leet Code](https://leetcode.com/studyplan/top-sql-50/) ⚡
+- [Strata Scratch](https://platform.stratascratch.com/coding?code_type=1) ⚡
+
+## Data Stacks
+
+⚡
+
+- [mode.com](https://mode.com/) ⚡
+
+## Certifications
+
+( _certificate_ )
+
+- [Hacker Rank](https://www.hackerrank.com/skills-verification) ( _certificate_ )
 
 ## DBMS concepts
 
@@ -77,7 +109,9 @@ Awesome list of high-quality study materials for learning database management sy
 - :page_facing_up: - either single article or single video-tutorial
 - :building_construction: - ideas for inspiration of mini-projects to add to your portfolio
 - :moneybag: - paid
+- ( _certificate_ ) - certification
 - 🔽 - download
+- ⚡ - practice
 - ( _official_ ) - official material
 - ( _interactive_ ) - it is possible to interact and get feedback from the system
 - ( _blog_ ) - blogs
