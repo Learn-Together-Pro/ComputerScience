@@ -182,6 +182,58 @@ In a **left-deep join** tree, the left child of each join node is always a base 
 
 In a **right-deep join** tree, the right child is always a base table. This structure is more conducive to hash joins, where each table is read only once and can be used for building or probing a hash table.
 
+### Read Anomalies ~ Lack of Isolation
+
+[Look](./cheatsheet.md#SQL-Isolation-Levels)
+
+**Dirty Read**
+
+Occurs when a transaction reads data written by another transaction that has not yet been committed. If the other transaction rolls back, the read data might be invalid.
+
+**Lost Update**
+
+Happens when two transactions read the same data and then update it based on the read, resulting in one of the updates being overwritten by the other.
+
+This occurs when two transactions read the same data and then both update it based on their respective reads. One of the updates can overwrite the other, leading to a "lost update". This is a write phenomenon where the inconsistency occurs because one transaction's update is overwritten by another's.
+
+Non-repeatable Read and Lost Update might considered the same anomaly, although described differently.
+
+**Non-repeatable Read**
+
+Happens when a transaction reads the same row twice and gets a different value each time, because another transaction modified the data between the two reads.
+
+This occurs when a transaction reads the same row twice and gets different values each time because another concurrent transaction has modified or updated that row. It's about the change in value of a specific data item that a transaction has already read.
+
+Non-repeatable Read and Lost Update might considered the same anomaly, although described differently.
+
+**Phantom Read**
+
+Occurs when a transaction re-executes a query returning a set of rows that satisfy a specific condition and finds that another transaction has added or removed rows that meet the condition, thus changing the result set.
+
+This happens when a transaction re-executes a query returning a set of rows that satisfy a certain condition and finds that another transaction has added or removed rows in the meantime, thus altering the result set of the query. It's about the change in the number of rows that satisfy a condition due to inserts or deletes by other transactions.
+
+### SQL Isolation Levels
+
+In summary, the differences between these levels of isolation are based on the degree of protection against different types of read inconsistencies and the level of concurrency that is allowed between transactions.
+
+[Look](./cheatsheet.md#SQL-Isolation-Levels)
+
+**Read Uncommitted**
+
+The lowest isolation level, allowing transactions to read uncommitted changes from other transactions, which can lead to dirty reads.
+
+**Read Committed**
+
+Ensures that a transaction can only read data committed before the start of the transaction, preventing dirty reads but still allowing non-repeatable reads and phantom reads.
+
+**Repeatable Read**
+
+Prevents dirty and non-repeatable reads by ensuring that the rows a transaction reads cannot change during the transaction, but it might still experience phantom reads.
+
+**Serializable**
+
+The highest isolation level, providing full isolation from other transactions. It prevents dirty reads, non-repeatable reads, and phantom reads, ensuring complete consistency.
+
 ### Data Lake
 : ...
 
@@ -280,18 +332,6 @@ Most modern database systems provide some form of non-volatile durability, as it
 **All-or-nothing atomicity**: In this type of atomicity, a transaction is either completed in its entirety or not at all. If any part of the transaction fails, the entire transaction is rolled back and the database is left in the state it was in before the transaction began.
 
 **Atomicity with partial failure**: In this type of atomicity, a transaction can be partially completed even if some part of it fails. The completed part of the transaction is still committed to the database, while the failed part is rolled back.
-
-### Isolation : Read uncommitted / Read committed / Repeatable read / Serializable
-
-**Read uncommitted**: In this level of isolation, transactions are not isolated from each other, and a transaction can read uncommitted data from another transaction. This level provides no protection against dirty reads, non-repeatable reads, or phantom reads.
-
-**Read committed**: In this level of isolation, a transaction can only read committed data from other transactions. This level provides protection against dirty reads, but still allows non-repeatable and phantom reads.
-
-**Repeatable read**: In this level of isolation, a transaction can read data that has been committed by other transactions, but cannot read data that has been modified but not yet committed. This level provides protection against dirty reads and non-repeatable reads, but still allows phantom reads.
-
-**Serializable**: This is the highest level of isolation, where transactions are completely isolated from each other. A transaction can only read data that has been committed by other transactions, and no other transaction can modify the data until the transaction is complete. This level provides complete protection against dirty reads, non-repeatable reads, and phantom reads, but can result in slower performance due to locking.
-
-In summary, the differences between these levels of isolation are based on the degree of protection against different types of read inconsistencies and the level of concurrency that is allowed between transactions.
 
 ### Document-based database
 ...
