@@ -23,6 +23,8 @@ Awesome list of high-quality study materials for learning database management sy
 
 ( _dbms_ )
 
+- [PostgresSQL Lessons](https://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj) :movie_camera: by [Hussein Nasser](https://www.youtube.com/@hnasr) ( _level_3_ ) : playlist cover many unrelated PostgresSQL-specific topcis
+- [SQL Lessons](https://www.youtube.com/playlist?list=PL2WDxXzl0Y2BVRdpYqqmkBv7fj0zb5Vk8) :movie_camera: by [Bert Wagner](https://www.youtube.com/@DataWithBert) ( _level_3_ ) : playlist cover many unrelated SQL-specific topcis
 - [Database Systems](https://www.youtube.com/playlist?list=PL78V83xV2fYlT11CJXE77H0LD7C_gZmyf) :movie_camera: :mortar_board: by [The Magic of SQL](https://www.youtube.com/@TheMagicofSQL) ( _level_2_ )
 - [SQL Course](https://www.youtube.com/playlist?list=PLeb33PCuqDdcezLKJLBM9KgtycqrPBY0x) :movie_camera: :mortar_board: by [SQL TV](https://www.youtube.com/@SQLTVChannel/playlists) ( _level_3_ )
 
@@ -52,8 +54,6 @@ Awesome list of high-quality study materials for learning database management sy
 
 ( _dbms_ )
 
-- [SQL Lessons](https://www.youtube.com/playlist?list=PL2WDxXzl0Y2BVRdpYqqmkBv7fj0zb5Vk8) :movie_camera: by [Bert Wagner](https://www.youtube.com/@DataWithBert) ( _level_3_ ) : playlist cover many unrelated SQL-specific topcis
-- [PostgresSQL Lessons](https://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj) :movie_camera: by [Hussein Nasser](https://www.youtube.com/@hnasr) ( _level_3_ ) : playlist cover many unrelated PostgresSQL-specific topcis
 - [7 Database Paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw) :movie_camera: by [Fireship](https://www.youtube.com/c/Fireship) ( _short_ )
 - [ACID Explained: Atomic, Consistent, Isolated & Durable](https://www.youtube.com/watch?v=yaQ5YMWkxq4) :movie_camera: by [the roadmap](https://www.youtube.com/c/theroadmap/playlists)
 - [What is Database Sharding?](https://www.youtube.com/watch?v=5faMjKuB9bc) :movie_camera: by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos)
@@ -94,6 +94,13 @@ Awesome list of high-quality study materials for learning database management sy
 
 - [What is InfluxDB?](https://www.youtube.com/watch?v=qye_c4_pWQ4) :movie_camera: by [CBT Nuggets](https://www.youtube.com/c/cbtnuggets/videos)
 
+## Useful Tools
+
+( _tool_ )
+
+- [Mermaid Cheatsheet](https://github.com/JakeSteam/Mermaid)
+- [Mermaid Documentation](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
+
 ## Tags legend
 
 ##### Kind of Resource
@@ -116,6 +123,7 @@ Awesome list of high-quality study materials for learning database management sy
 - ( _blog_ ) - blogs
 - ( _example_ ) - code sample that can be executed
 - ( _short_ ) - short overview
+- ( _tool_ ) - a tool
 
 ##### Level of Expertise
 
