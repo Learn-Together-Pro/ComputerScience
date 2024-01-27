@@ -349,6 +349,44 @@ Ensures that if a transaction T1 reads data written by another transaction T2, T
 
 In a cascadeless schedule, transactions only read data that has been committed, preventing cascading rollbacks where one transaction's failure causes a chain reaction of rollbacks in other transactions.
 
+### Key
+
+An attribute or a set of attributes used to uniquely identify rows in a table.
+
+### Key Kinds
+
+**Primary Key**
+
+Uniquely identifies each record in a table. It must contain unique values and cannot be null.
+
+**Secondary Key**
+
+Any key used mainly for data retrieval and not for identification purposes. Often refers to an index that's not the primary key. Secondary keys can be thought of as supplementary ways to access data efficiently, especially in large tables where multiple query patterns are common.
+
+**Foreign Key**
+
+A key that links two tables together, referring to the primary key of another table.
+
+**Composite Key**
+
+A key formed by combining two or more columns in a table.
+
+**Partial Key**
+
+Used in a composite key when part of the composite key is a foreign key. It's not sufficient by itself to uniquely identify a record.
+
+**Surrogate Key**
+
+An artificial key that uniquely identifies a record but is not derived from the data. It's often an auto-incrementing number.
+
+**Unique Key**
+
+Similar to a primary key, but it can accept one null value and can't uniquely identify a record.
+
+**Candidate Key**
+
+Any column or a combination of columns that can qualify as a primary key in the database.
+
 ### Data Lake
 : ...
 

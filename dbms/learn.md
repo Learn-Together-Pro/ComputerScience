@@ -12,7 +12,7 @@ Awesome list of high-quality study materials for learning database management sy
 ( _dbms_ )
 
 - [Database Systems | PostgresSQL](https://www.youtube.com/watch?v=4cWkVbC2bNE) :movie_camera: :mortar_board: by Cornell University ( _level_1_ )
-- [Databases Course](https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO) :movie_camera: :mortar_board: by [Theoretical Computer Science](https://www.youtube.com/@TheComputerScience/playlists) ( _level_1_ )
+- ⭐ [Databases Course](https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO) :movie_camera: :mortar_board: by [Theoretical Computer Science](https://www.youtube.com/@TheComputerScience/playlists) ( _level_1_ )
 - [Databases](https://www.youtube.com/@CS186Berkeley/playlists) :movie_camera: :mortar_board: by [CS186Berkeley](https://www.youtube.com/@CS186Berkeley/playlists) ( _level_1_ )
 - [SQL Tutorial | MySQL](https://www.youtube.com/watch?v=-fW2X7fh7Yg) :movie_camera: :mortar_board: by [ freeCodeCamp](https://www.youtube.com/@freecodecamp/playlists) ( _level_0_ )
 - [SQL Tutorial](https://www.youtube.com/watch?v=HXV3zeQKqGY) :movie_camera: :mortar_board: by [ freeCodeCamp](https://www.youtube.com/@freecodecamp/playlists) ( _level_0_ )
