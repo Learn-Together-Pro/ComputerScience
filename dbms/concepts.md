@@ -120,6 +120,8 @@ Sorts both tables by the join key and then merges them, efficiently finding matc
 
 ### Joins
 
+[Look](./cheatsheet.md#SQL-Join)
+
 **Inner Join ~ Cross Join**
 
 Returns rows with matching values in both tables. Produces the Cartesian product of the two tables. Semantically cross join and inner join are same.
