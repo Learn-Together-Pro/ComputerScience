@@ -122,9 +122,15 @@ Sorts both tables by the join key and then merges them, efficiently finding matc
 
 [Look](./cheatsheet.md#SQL-Join)
 
-**Inner Join ~ Cross Join**
+**Inner Join**
 
-Returns rows with matching values in both tables. Produces the Cartesian product of the two tables. Semantically cross join and inner join are same.
+Returns rows with matching values in both tables.
+
+**Cross Join** ~ **Cartesian Product**
+
+Produces the Cartesian product of the two tables.
+
+Semantically cross join and cartesian product are same. The primary difference bettwen inner join and cross join is that an inner join requires a matching condition and filters results based on that condition, while a cross join does not filter rows and combines all rows from the joined tables.
 
 **Self Join**
 
@@ -153,6 +159,18 @@ Returns rows from the first table where a match exists in the second table.
 **Anti Join**
 
 Returns rows from the first table where no match exists in the second table.
+
+**Natural Join**
+
+Operation in SQL that automatically joins two tables based on columns with the same names and compatible data types in both tables. Can be either inner join or outer join.
+
+### Non-monotonic behavior
+
+Behavior of a function or system when the addition of new information can invalidate previous conclusions or results.
+
+In other words, a system exhibits non-monotonic behavior if a conclusion drawn from a given set of information might change when new information is added. This contrasts with monotonic behavior, where once something is proven true, it remains true even when additional information is considered.
+
+For example, the COUNT() function is monotonic in the sense that as more rows are added to a table, the result of COUNT() will either stay the same or increase, assuming no rows are deleted. An example of a non-monotonic function is the AVG() (average) function in SQL. It calculates the average value of a numeric column. If new rows are added with values that are lower than the current average, the result of the AVG() function can decrease, which demonstrates non-monotonic behavior.
 
 ### SQL Sub-languages
 
