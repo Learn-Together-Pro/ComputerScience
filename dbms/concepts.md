@@ -395,7 +395,7 @@ A key formed by combining two or more columns in a table.
 
 Used in a composite key when part of the composite key is a foreign key. It's not sufficient by itself to uniquely identify a record.
 
-**Surrogate Key**
+**Surrogate Key** ~ **Internal Key**
 
 An artificial key that uniquely identifies a record but is not derived from the data. It's often an auto-incrementing number.
 
@@ -514,6 +514,15 @@ Most modern database systems provide some form of non-volatile durability, as it
 
 ### Relational database / Document-based database
 : ...
+
+### Nuances of SQL
+
+- All aggregation functions return null if zero rows, but `count( * )` returns 0, however `count( attribute )` works as expected.
+- `sum` of zero rows return null, not zero.
+- Order of attributes in group by does not matter.
+- Unversal quqntifier could be done with `NOT EXIST NOT`.
+- Natural join should be avoided because implicit nature of the join often cause problems.
+- Outer join should be prefered when ever possible, unless there is a good reason for inner join becuase using outer join help to see problem in data and decrase its harmfulness.
 
 ### Characteristics of a System
 
