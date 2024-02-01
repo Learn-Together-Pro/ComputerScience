@@ -553,6 +553,42 @@ Existence: A strong entity does not need any other entity to exist in the databa
 
 Identification: Strong entities are identified by their own primary key. Weak entities are identified by a composite key, which includes a foreign key linking them to a strong entity.
 
+### ID-Dependent Weak Entity
+
+Type of entity in database modeling that requires a strong entity for its identification and existence. Its primary key is a composite of its own attributes and the primary key of the related strong entity.
+
+### Identifying Relationship
+
+Type of relationship where a weak entity is associated with a strong entity, and this association is essential for the identification of the weak entity. In other words, the weak entity's existence and identity depend on the strong entity it is related to. Such weak entity is ID-Dependent weak entity.
+
+### Has-A Relationship ~ Composition Relationship ~ Aggregation Relationship / Is-A Relationship
+
+**Has-A Relationship ~ Composition Relationship ~ Aggregation Relationship**
+
+Also known as composition or aggregation, represents an association between two classes where one class is a part or member of another class. It indicates that one object "contains" or "possesses" another object.
+
+Composition/Aggregation: One class (the container or owning class) contains or owns the other class (the contained or member class).
+
+Dependency: The contained class is dependent on the container class for its existence (in the case of strong composition) or may exist independently (in the case of aggregation).
+
+Example: In a class design, if a 'Car' class has an object of 'Engine', this is a "Has-A" relationship. A 'Car' has an 'Engine'.
+
+**Is-A Relationship ~ Inheritance Relationship**
+
+Relationship where a subclass inherits from a superclass. It represents an "inheritance" relationship in object-oriented programming, indicating that one class (the subclass) is a type of another class (the superclass).
+
+Inheritance: The subclass inherits attributes and methods from the superclass.
+
+Subtyping: It implies that objects of the subclass can be treated as objects of the superclass.
+
+Example: In a class hierarchy, if 'Dog' is a subclass of 'Animal', this is an "Is-A" relationship. Every 'Dog' is an 'Animal'.
+
+"Is-A" is an inheritance relationship indicating that one entity is a specialized form of another. "Has-A" is a compositional relationship indicating that one entity contains or consists of other entities. In an "Is-A" relationship, the subclass can be substituted where the superclass is expected (polymorphism). In a "Has-A" relationship, the member class is not interchangeable with the container class.
+
+### Subtype Discriminator
+
+An attribute of a supertype entity used to determine to which subtype entity a particular instance of the supertype belongs. Essentially, it discriminates among the various subtypes that a supertype can have. Only exclusive inheritance could use subtype descriminator bacause in case of inclusive inheritance there could be more than one subtype entity inheriting supertype entity.
+
 ### Minimal Cardinality / Maximal Cardinality
 
 **Maximal Cardinality**
