@@ -369,13 +369,19 @@ Ensures that if a transaction T1 reads data written by another transaction T2, T
 
 In a cascadeless schedule, transactions only read data that has been committed, preventing cascading rollbacks where one transaction's failure causes a chain reaction of rollbacks in other transactions.
 
+### Domain ~ Constraints
+
+Set of permissible values that a column (or attribute) in a database table can hold. Constraints are rules enforced on data columns on a table in a database. Domains and constraints in a DBMS work together to maintain data integrity, accuracy, and consistency across a database.
+
+This is often defined by a data type and a range. For example, if a column is meant to store an employee's age, the domain might be set as integers ranging from 18 to 65. Domains and constraints are related in that they both serve to enforce data integrity in a database. While a domain defines what values are permissible for a given attribute, constraints enforce rules on how these values are used and related to each other in the database.
+
 ### Key
 
 An attribute or a set of attributes used to uniquely identify rows in a table.
 
 ### Key Kinds
 
-**Primary Key**
+**Primary Key** ~ **Entity Identifier**
 
 Uniquely identifies each record in a table. It must contain unique values and cannot be null.
 
@@ -391,11 +397,11 @@ A key that links two tables together, referring to the primary key of another ta
 
 A key formed by combining two or more columns in a table.
 
-**Partial Key**
+**Partial Key** ~ **Determinant**
 
 Used in a composite key when part of the composite key is a foreign key. It's not sufficient by itself to uniquely identify a record.
 
-**Surrogate Key** ~ **Internal Key**
+**Surrogate Key** ~ **Internal Key** ~ **Identity Column**
 
 An artificial key that uniquely identifies a record but is not derived from the data. It's often an auto-incrementing number.
 
@@ -514,6 +520,12 @@ Most modern database systems provide some form of non-volatile durability, as it
 
 ### Relational database / Document-based database
 : ...
+
+### Minimal Cardinality / Maximal Cardinality:
+
+Maximal cardinality refers to the maximum number of instances of one entity that can be associated with a single instance of another entity in a relationship. Minimal cardinality refers to the minimum number of instances of one entity that must be associated with a single instance of another entity in a relationship.
+
+While maximal cardinality focuses on how many entity instances can be in a relationship, minimal cardinality focuses on how many must be in that relationship.
 
 ### Nuances of SQL
 
