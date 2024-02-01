@@ -521,11 +521,52 @@ Most modern database systems provide some form of non-volatile durability, as it
 ### Relational database / Document-based database
 : ...
 
-### Minimal Cardinality / Maximal Cardinality:
+### Entity Set ~ Entity Class ~ Entity Type / Entity ~ Entity Instance
 
-Maximal cardinality refers to the maximum number of instances of one entity that can be associated with a single instance of another entity in a relationship. Minimal cardinality refers to the minimum number of instances of one entity that must be associated with a single instance of another entity in a relationship.
+**Entity Set ~ Entity Class ~ Entity Type**
 
-While maximal cardinality focuses on how many entity instances can be in a relationship, minimal cardinality focuses on how many must be in that relationship. In relational databases, the maximum cardinality of a relation is enforced by the uniqueness constraint on a foreign key, which effectively converts a many-to-one relationship. Maximum cardinality could be one or many, but not zero. In relational databases, the minimum cardinality of a relation is enforced by the nullability constraint of a foreign key. A non-nullable constraint changes a zero-or-more relationship to a one-or-more relationship. Minimum cardinality could be zero or one, but not many.
+A set of similar or related entities, a set of entities that share the same attributes but have different sets of values for those attributes.
+
+An entity set can be thought of as a table in a relational database, where each row represents an entity and each column represents an attribute. Sometimes in conversation, the term "entity" may be used to mean "entity set", which is consistent with the Barker taxonomy.
+
+**Entity ~ Entity Instance**
+
+Any distinct, identifiable object or thing of interest, an instance that can contain various attributes to describe its properties.
+
+Entities are usually physical objects like a person, a book, a car, or abstract concepts like a course or an idea.
+
+### Weak / Strong Entity
+
+**Weak Entity**
+
+Entity that cannot exist independently and relies on another, stronger entity for its identification. A weak entity does not have a primary key of its own but instead uses a foreign key in combination with some of its attributes to form a composite key.
+
+**Strong Entity**
+
+Entity that can exist independently of other entities. It has a primary key, which uniquely identifies each of its instances. The primary key is composed of one or more attributes that are inherent to the entity.
+
+**Difference**
+
+Independence: Strong entities are independent and have their own primary keys. Weak entities are dependent on other entities and use a combination of foreign keys and their attributes to form a composite key.
+
+Existence: A strong entity does not need any other entity to exist in the database, whereas a weak entity's existence is contingent upon the existence of a related strong entity.
+
+Identification: Strong entities are identified by their own primary key. Weak entities are identified by a composite key, which includes a foreign key linking them to a strong entity.
+
+### Minimal Cardinality / Maximal Cardinality
+
+**Maximal Cardinality**
+
+Maximum number of instances of one entity that can be associated with a single instance of another entity in a relationship.
+In relational databases, the maximum cardinality of a relation is enforced by the uniqueness constraint on a foreign key, which effectively converts a many-to-one relationship. Maximum cardinality could be one or many, but not zero.
+
+**Minimal cardinality**
+
+Minimum number of instances of one entity that must be associated with a single instance of another entity in a relationship. In relational databases, the minimum cardinality of a relation is enforced by the nullability constraint of a foreign key. A non-nullable constraint changes a zero-or-more relationship to a one-or-more relationship. Minimum cardinality could be zero or one, but not many.
+
+**Difference**
+
+While maximal cardinality focuses on how many entity instances can be in a relationship, minimal cardinality focuses on how many must be in that relationship. Cardinality usually shortcut for Maximal Cardinality, not Minimal.
 
 ### Nuances of SQL
 
