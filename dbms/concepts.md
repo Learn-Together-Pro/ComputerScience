@@ -535,6 +535,8 @@ While maximal cardinality focuses on how many entity instances can be in a relat
 - Unversal quqntifier could be done with `NOT EXIST NOT`.
 - Natural join should be avoided because implicit nature of the join often cause problems.
 - Outer join should be prefered when ever possible, unless there is a good reason for inner join becuase using outer join help to see problem in data and decrase its harmfulness.
+- Maximum carinality of a relation in a relation databases is enforced by uniqueness constraint of foreign key. Uniqueness constraint converts many to one.
+- Minimum carinality of a relation in a relation databases is enforced by nullability constraint of foreign key. Non-nullable constraint converts zero-or-x to one-or-x.
 
 ### Characteristics of a System
 
