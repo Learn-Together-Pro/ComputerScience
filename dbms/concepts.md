@@ -525,18 +525,27 @@ Most modern database systems provide some form of non-volatile durability, as it
 
 Maximal cardinality refers to the maximum number of instances of one entity that can be associated with a single instance of another entity in a relationship. Minimal cardinality refers to the minimum number of instances of one entity that must be associated with a single instance of another entity in a relationship.
 
-While maximal cardinality focuses on how many entity instances can be in a relationship, minimal cardinality focuses on how many must be in that relationship.
+While maximal cardinality focuses on how many entity instances can be in a relationship, minimal cardinality focuses on how many must be in that relationship. In relational databases, the maximum cardinality of a relation is enforced by the uniqueness constraint on a foreign key, which effectively converts a many-to-one relationship. Maximum cardinality could be one or many, but not zero. In relational databases, the minimum cardinality of a relation is enforced by the nullability constraint of a foreign key. A non-nullable constraint changes a zero-or-more relationship to a one-or-more relationship. Minimum cardinality could be zero or one, but not many.
 
 ### Nuances of SQL
 
-- All aggregation functions return null if zero rows, but `count( * )` returns 0, however `count( attribute )` works as expected.
+- When there are zero rows, all aggregation functions return null, except `count( * )`, which returns 0. However, `count(attribute)` behaves as expected.
+- The `sum` function returns null, not zero, when applied to zero rows.
+- The order of attributes in a `GROUP BY` clause does not affect the results.
+- A universal quantifier can be implemented using `NOT EXISTS NOT`.
+- Avoid using natural joins due to their implicit nature, which often leads to problems.
+- Prefer outer joins over inner joins, unless there's a specific reason not to. Outer joins can help identify and mitigate issues in the data.
+- In relational databases, the maximum cardinality of a relation is enforced by the uniqueness constraint on a foreign key, which effectively converts a many-to-one relationship. Maximum cardinality could be one or many, but not zero.
+- In relational databases, the minimum cardinality of a relation is enforced by the nullability constraint of a foreign key. A non-nullable constraint changes a zero-or-more relationship to a one-or-more relationship. Minimum cardinality could be zero or one, but not many.
+
+<!-- - All aggregation functions return null if zero rows, but `count( * )` returns 0, however `count( attribute )` works as expected.
 - `sum` of zero rows return null, not zero.
 - Order of attributes in group by does not matter.
 - Unversal quqntifier could be done with `NOT EXIST NOT`.
 - Natural join should be avoided because implicit nature of the join often cause problems.
 - Outer join should be prefered when ever possible, unless there is a good reason for inner join becuase using outer join help to see problem in data and decrase its harmfulness.
 - Maximum carinality of a relation in a relation databases is enforced by uniqueness constraint of foreign key. Uniqueness constraint converts many to one.
-- Minimum carinality of a relation in a relation databases is enforced by nullability constraint of foreign key. Non-nullable constraint converts zero-or-x to one-or-x.
+- Minimum carinality of a relation in a relation databases is enforced by nullability constraint of foreign key. Non-nullable constraint converts zero-or-x to one-or-x. -->
 
 ### Characteristics of a System
 
