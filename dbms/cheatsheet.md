@@ -20,28 +20,14 @@
 
 ![Self-Referential Structure](./cheatsheet/erd_self_referential.jpg)
 
-## Exclusive / Inclusive Inheritance
+## Self-Referential Relationship ( Barker Style )
 
-```text
-+-------------+                                             +-------------+
-|   STUDENT   |                                             |   STUDENT   |
-|-------------|                                             |-------------|
-| StudentID   |                                             | StudentID   |
-| LastName    |                                             | LastName    |
-| FirstName   |                                             | FirstName   |
-| isGradStudnt|                                             +-------------+
-+-------------+                                                    |
-        | isGradStudent                                            |
-        |                                                          |
-+-------------------+   +------------------+                 +-----------+
-|  UNDERGRADUATE    |   |    GRADUATE      |                 |           |
-|-------------------|   |------------------| +-------------------+   +------------------+
-| StudentID         |   | StudentID        | |  HIKING_CLUB      |   |  SAILING_CLUB    |
-| HighSchoolGPA     |   | UndergradGPA     | |-------------------|   |------------------|
-| ScoreOnSAT        |   | ScoreOnGMAT      | | StudentID         |   | StudentID        |
-+-------------------+   +------------------+ | DateDuesPaid      |   | DateDuesPaid     |
-                                             | AmountPaid        |   | AmountPaid       |
-                                             +-------------------+   +------------------+
+![Self-Referential Relationship](./cheatsheet/erd_selfref.jpg)
 
-(a) Exclusive Subtypes with Discriminator          (b) Inclusive Subtypes
-```
+## Entity Relationship Diagram ( Barker Style )
+
+![Entity Relationship Diagram](./cheatsheet/erd_barker.jpg)
+
+## Entity Relationship Diagram ( UML Style )
+
+![Entity Relationship Diagram](./cheatsheet/erd_uml.jpg)
