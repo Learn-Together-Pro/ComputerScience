@@ -33,6 +33,8 @@
 ## ERD: Barkers Notation
 
 ![Barker Notation](./cheatsheet/erd_barkers_notation.png)
+![Barker Notation](./cheatsheet/erd_barkers_notation_2.jpg)
+![Barker Notation](./cheatsheet/erd_barkers_notation_3.jpg)
 
 ## ERD: Bachmans Notation
 
