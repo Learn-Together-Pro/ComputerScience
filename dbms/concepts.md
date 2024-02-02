@@ -612,8 +612,9 @@ While maximal cardinality focuses on how many entity instances can be in a relat
 - A universal quantifier can be implemented using `NOT EXISTS NOT`.
 - Avoid using natural joins due to their implicit nature, which often leads to problems.
 - Prefer outer joins over inner joins, unless there's a specific reason not to. Outer joins can help identify and mitigate issues in the data.
-- In relational databases, the maximum cardinality of a relation is enforced by the uniqueness constraint on a foreign key, which effectively converts a many-to-one relationship. Maximum cardinality could be one or many, but not zero.
+- In relational databases, the maximum cardinality of a relation is enforced by the uniqueness constraint on a foreign key, which effectively converts a many relationship to one relationship. Maximum cardinality could be one or many, but not zero.
 - In relational databases, the minimum cardinality of a relation is enforced by the nullability constraint of a foreign key. A non-nullable constraint changes a zero-or-more relationship to a one-or-more relationship. Minimum cardinality could be zero or one, but not many.
+- While possible, a mandatory many-to-many relationship is usually avoided because it can complicate database operations and does not typically align with the real-world scenarios that the database is intended to model. You cannot insert an entity in one table without already having a related entity in the other table, and vice versa. This can make the initial population of the database very difficult.
 
 <!-- - All aggregation functions return null if zero rows, but `count( * )` returns 0, however `count( attribute )` works as expected.
 - `sum` of zero rows return null, not zero.
