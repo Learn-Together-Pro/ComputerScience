@@ -11,8 +11,10 @@ Awesome list of high-quality study materials for learning database management sy
 
 ( _dbms_ )
 
-- [Database Systems | PostgresSQL](https://www.youtube.com/watch?v=4cWkVbC2bNE) :movie_camera: :mortar_board: by Cornell University ( _level_1_ )
-- ⭐ [Databases Course](https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO) :movie_camera: :mortar_board: by [Theoretical Computer Science](https://www.youtube.com/@TheComputerScience/playlists) ( _level_1_ )
+- [Database Systems and PostgresSQL](https://www.youtube.com/watch?v=4cWkVbC2bNE) | [2 part](https://www.youtube.com/watch?v=lxEdaElkQhQ) :movie_camera: :mortar_board: by [Professor Immanuel Trummer](https://itrummer.github.io/) ( _level_1_ ) at Cornell University
+- ⭐ [Databases Course](https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO) :movie_camera: :mortar_board: by [Professor Jörg Endrullis](https://www.youtube.com/@TheComputerScience/playlists) ( _level_1_ ) at Vrije Universiteit Amsterdam
+- ⭐ [Database Design & Management](https://www.youtube.com/playlist?list=PL1LIXLIF50uURxYXfBCaAXDzSdZlQiESy) :movie_camera: :mortar_board: by [Dr. Daniel Soper](https://www.youtube.com/@DanielSoper) ( _level_1_ ) at California State University
+- [Database Design & Management](https://www.youtube.com/playlist?list=PLYp4IGUhNFmw8USiYMJvCUjZe79fvyYge) :movie_camera: :mortar_board: by [Professor Joseph Hellerstein](https://itrummer.github.io/) ( _level_1_ ) at Berkley Univirsity
 - [Databases](https://www.youtube.com/@CS186Berkeley/playlists) :movie_camera: :mortar_board: by [CS186Berkeley](https://www.youtube.com/@CS186Berkeley/playlists) ( _level_1_ )
 - [SQL Tutorial | MySQL](https://www.youtube.com/watch?v=-fW2X7fh7Yg) :movie_camera: :mortar_board: by [ freeCodeCamp](https://www.youtube.com/@freecodecamp/playlists) ( _level_0_ )
 - [SQL Tutorial](https://www.youtube.com/watch?v=HXV3zeQKqGY) :movie_camera: :mortar_board: by [ freeCodeCamp](https://www.youtube.com/@freecodecamp/playlists) ( _level_0_ )
@@ -101,6 +103,15 @@ Awesome list of high-quality study materials for learning database management sy
 - [Mermaid Cheatsheet](https://github.com/JakeSteam/Mermaid)
 - [Mermaid Documentation](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
 
+## Amazing People and Organizations
+
+( _subjects_ )
+
+- [Professor Immanuel Trummer](https://itrummer.github.io/) and [his lecture on DBMS](https://www.youtube.com/watch?v=4cWkVbC2bNE) : lecturer at Cornell University
+- [Professor Jörg Endrullis](http://joerg.endrullis.de/teaching/) and [his lectures](https://www.youtube.com/@TheComputerScience/playlists) : lecturer and amazing source of knowledge at Vrije Universiteit Amsterdam
+- [Dr. Daniel Soper](https://www.danielsoper.com) and [his lectures](https://www.youtube.com/@DanielSoper/playlists) : lecturer and amazing source of knowledge at California State University
+- [Professor Joseph Hellerstein](https://itrummer.github.io/) and [his lecture on DBMS](https://www.youtube.com/@CS186Berkeley/playlists) : lecturer at Berkley Univirsity
+
 ## Tags legend
 
 ##### Kind of Resource
@@ -124,6 +135,7 @@ Awesome list of high-quality study materials for learning database management sy
 - ( _example_ ) - code sample that can be executed
 - ( _short_ ) - short overview
 - ( _tool_ ) - a tool
+- ( _subjects_ ) - people and organizations
 
 ##### Level of Expertise
 
