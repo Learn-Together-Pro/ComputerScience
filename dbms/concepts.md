@@ -413,6 +413,55 @@ Similar to a primary key, but it can accept one null value and can't uniquely id
 
 Any column or a combination of columns that can qualify as a primary key in the database.
 
+**Super Key**
+
+Set of one or more columns (attributes) that can uniquely identify a row in a table. It's a superset of a candidate key, which means a superkey may contain additional columns that are not necessary for unique identification. Every table is guaranteed to have at least one superkey because the set of all columns combined is always a superkey. However, the goal is typically to find the minimal superkey, which is a candidate key with no unnecessary attributes.
+
+### Full Functional Dependency / Partial Functional Dependency
+
+**Full Functional Dependency**
+
+A functional dependency X → Y is a full functional dependency in relation schema R if removal of any attribute A from X means that the dependency does not hold anymore.
+
+**Partial Functional Dependency**
+
+A functional dependency X → Y is a partial functional dependency in relation schema R if some attribute A can be removed from X and the dependency still holds.
+
+### Normal Forms
+
+**First Normal Form (1NF)**
+
+Each table cell should contain a single value, and each record needs to be unique.
+
+**Second Normal Form (2NF)**
+
+The table is in 1NF and all non-key attributes are fully functional dependent on the primary key.
+
+**Third Normal Form (3NF)**
+
+The table is in 2NF and all the attributes are functionally independent of any other non-primary-key attributes.
+
+**Boyce-Codd Normal Form (BCNF)**
+
+A stricter version of 3NF where for every dependency X → Y, X should be a superkey.
+
+**Fourth Normal Form (4NF)**
+
+The table is in BCNF and has no multi-valued dependencies.
+
+**Fifth Normal Form (5NF)**
+
+The table is in 4NF and cannot be decomposed into any number of smaller tables without loss of data.
+
+**Domain-Key Normal Form (DKNF)**
+
+Every constraint on the table is a domain constraint or a key constraint.
+
+**Sixth Normal Form (6NF)**
+
+The table is in 5NF and has no temporal data anomalies.
+
+
 ### Data Lake
 : ...
 
@@ -469,14 +518,14 @@ NoSQL paradigm: Wide column databases are part of the NoSQL movement, which emph
 
 Column-oriented storage: Wide column databases store data in column families, which are groups of columns that are often accessed together. This allows for efficient storage and retrieval of data, especially when only a subset of columns is needed for a particular query. Relational databases, on the other hand, store data in rows, which can make it harder to optimize queries for specific subsets of columns.
 
-##### Example
+**Example**
 
 HBase, Google Big Table, Cassandra, ScyllaDB
 
 ### Graph DB
 ...
 
-##### Example
+**Example**
 
 Neo4J, FlockDB
 
