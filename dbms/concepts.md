@@ -663,7 +663,7 @@ Minimum number of instances of one entity that must be associated with a single 
 
 While maximal cardinality focuses on how many entity instances can be in a relationship, minimal cardinality focuses on how many must be in that relationship. Cardinality usually shortcut for Maximal Cardinality, not Minimal.
 
-### Nuances of SQL
+### Nuances
 
 - When there are zero rows, all aggregation functions return null, except `count( * )`, which returns 0. However, `count(attribute)` behaves as expected.
 - The `sum` function returns null, not zero, when applied to zero rows.
@@ -678,14 +678,14 @@ While maximal cardinality focuses on how many entity instances can be in a relat
 
 ### Characteristics of a System
 
-[Resilience](https://www.youtube.com/watch?v=NIy9HMRlpjQ)
-: ability to handle and recovery from failure gracefully.
+**[Resilience](https://www.youtube.com/watch?v=NIy9HMRlpjQ)**
+Фbility to handle and recovery from failure gracefully.
 
-Idempotent
-: in computer science, the term is used more comprehensively to describe an operation that will produce the same results if executed once or multiple times.
+**Idempotent**
+An operation that will produce the same results if executed once or multiple times.
 
-CAP Theorem
-: in theoretical computer science, the CAP theorem, states that any distributed data store can provide only two of the following three guarantees.
+**CAP Theorem**
+States that any distributed data store can provide only two of the following three guarantees.
 
 <!-- ## Tags legend -->
 <!-- - ( _:movie_camera:_ ) - video material -->
