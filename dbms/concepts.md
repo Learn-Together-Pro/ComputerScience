@@ -164,6 +164,10 @@ Returns rows from the first table where no match exists in the second table.
 
 Operation in SQL that automatically joins two tables based on columns with the same names and compatible data types in both tables. Can be either inner join or outer join.
 
+**Equi Join**
+
+Operation that combines rows from two or more tables based on the equality of specified columns between these tables.
+
 ### Non-monotonic behavior
 
 Behavior of a function or system when the addition of new information can invalidate previous conclusions or results.
