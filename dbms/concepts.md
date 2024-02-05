@@ -401,7 +401,7 @@ A key formed by combining two or more columns in a table.
 
 Used in a composite key when part of the composite key is a foreign key. It's not sufficient by itself to uniquely identify a record.
 
-**Surrogate Key** ~ **Internal Key** ~ **Identity Column**
+**Surrogate Key** ~ **Internal Key** ~ **Identity Column** ~ **Artificial Identifier**
 
 An artificial key that uniquely identifies a record but is not derived from the data. It's often an auto-incrementing number.
 
@@ -416,6 +416,16 @@ Any column or a combination of columns that can qualify as a primary key in the 
 **Super Key**
 
 Set of one or more columns (attributes) that can uniquely identify a row in a table. It's a superset of a candidate key, which means a superkey may contain additional columns that are not necessary for unique identification. Every table is guaranteed to have at least one superkey because the set of all columns combined is always a superkey. However, the goal is typically to find the minimal superkey, which is a candidate key with no unnecessary attributes.
+
+### Primary Attribute / Secondary Attribute
+
+**Primary Attribute**
+
+An attribute that is a part of some candidate key of a relation.
+
+**Secondary Attribute** ~ **Non-primary Attribute**
+
+An attribute that is not part of any candidate key of a relation.
 
 ### Full Functional Dependency / Partial Functional Dependency
 
@@ -664,15 +674,7 @@ While maximal cardinality focuses on how many entity instances can be in a relat
 - In relational databases, the maximum cardinality of a relation is enforced by the uniqueness constraint on a foreign key, which effectively converts a many relationship to one relationship. Maximum cardinality could be one or many, but not zero.
 - In relational databases, the minimum cardinality of a relation is enforced by the nullability constraint of a foreign key. A non-nullable constraint changes a zero-or-more relationship to a one-or-more relationship. Minimum cardinality could be zero or one, but not many.
 - While possible, a mandatory many-to-many relationship is usually avoided because it can complicate database operations and does not typically align with the real-world scenarios that the database is intended to model. You cannot insert an entity in one table without already having a related entity in the other table, and vice versa. This can make the initial population of the database very difficult.
-
-<!-- - All aggregation functions return null if zero rows, but `count( * )` returns 0, however `count( attribute )` works as expected.
-- `sum` of zero rows return null, not zero.
-- Order of attributes in group by does not matter.
-- Unversal quqntifier could be done with `NOT EXIST NOT`.
-- Natural join should be avoided because implicit nature of the join often cause problems.
-- Outer join should be prefered when ever possible, unless there is a good reason for inner join becuase using outer join help to see problem in data and decrase its harmfulness.
-- Maximum carinality of a relation in a relation databases is enforced by uniqueness constraint of foreign key. Uniqueness constraint converts many to one.
-- Minimum carinality of a relation in a relation databases is enforced by nullability constraint of foreign key. Non-nullable constraint converts zero-or-x to one-or-x. -->
+- A join can be conceptualized as a Cartesian product followed by a selection operation.
 
 ### Characteristics of a System
 
