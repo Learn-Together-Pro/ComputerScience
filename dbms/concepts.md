@@ -441,6 +441,10 @@ A functional dependency X → Y is a full functional dependency in relation sche
 
 A functional dependency X → Y is a partial functional dependency in relation schema R if some attribute A can be removed from X and the dependency still holds.
 
+### Legal Relation State / Valid Relation State
+
+One in which all the data in the database adheres to these predefined rules and constraints.
+
 ### Normal Forms
 
 **First Normal Form (1NF)**

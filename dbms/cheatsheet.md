@@ -12,6 +12,10 @@
 
 ![SQL Isolation Levels](./cheatsheet/sql_isolation_level.png)
 
+## Normalization Steps
+
+![Normalization Steps](./cheatsheet/normalization_steps.jpg)
+
 ## ERD: Chens Notation
 
 ![Chens Notation](./cheatsheet/erd_chens_notation.png)
