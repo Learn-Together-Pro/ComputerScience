@@ -421,6 +421,10 @@ Any column or a combination of columns that can qualify as a primary key in the 
 
 Set of one or more columns (attributes) that can uniquely identify a row in a table. It's a superset of a candidate key, which means a superkey may contain additional columns that are not necessary for unique identification. Every table is guaranteed to have at least one superkey because the set of all columns combined is always a superkey. However, the goal is typically to find the minimal superkey, which is a candidate key with no unnecessary attributes.
 
+### Determinant
+
+In the context of relational databases, a determinant is an attribute or a set of attributes on which some other attribute or set of attributes is fully functionally dependent. Essentially, if you have a functional dependency A → B, A is the determinant, because the value of A determines the value of B.
+
 ### Primary Attribute / Secondary Attribute
 
 **Primary Attribute**
