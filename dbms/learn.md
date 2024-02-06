@@ -29,6 +29,7 @@ Awesome list of high-quality study materials for learning database management sy
 - [SQL Lessons](https://www.youtube.com/playlist?list=PL2WDxXzl0Y2BVRdpYqqmkBv7fj0zb5Vk8) :movie_camera: by [Bert Wagner](https://www.youtube.com/@DataWithBert) ( _level_3_ ) : playlist cover many unrelated SQL-specific topcis
 - [Database Systems](https://www.youtube.com/playlist?list=PL78V83xV2fYlT11CJXE77H0LD7C_gZmyf) :movie_camera: :mortar_board: by [The Magic of SQL](https://www.youtube.com/@TheMagicofSQL) ( _level_2_ )
 - [SQL Course](https://www.youtube.com/playlist?list=PLeb33PCuqDdcezLKJLBM9KgtycqrPBY0x) :movie_camera: :mortar_board: by [SQL TV](https://www.youtube.com/@SQLTVChannel/playlists) ( _level_3_ )
+- [PostgreSQL Perfomance Tuning](https://www.youtube.com/playlist?list=PLBrWqg4Ny6vX8e2LnQbNajGSKnFDe94kg) :movie_camera: :mortar_board: by [High-Performance Programming](https://www.youtube.com/@HighPerformanceProgramming) ( _level_3_ ) ( _postgresql_ )
 
 ## SQL Drills
 
