@@ -20,9 +20,13 @@
 
 ![Transitive vs Full Dependencies](./cheatsheet/transitive_vs_full_dependencies.jpg)
 
-## All normal forms
+## All Normal Forms
 
-![All normal forms](./cheatsheet/all_normal_forms.jpg)
+![All Normal Forms](./cheatsheet/all_normal_forms.jpg)
+
+## Functions Mapping
+
+![Functions Mapping](./cheatsheet/functions_mapping.jpg)
 
 ## Many to Many in Relational DB
 
@@ -44,6 +48,7 @@
 
 ![Chens Notation](./cheatsheet/erd_chens_notation.png)
 ![Chens Notation](./cheatsheet/erd_chens_notation_2.png)
+![Relations to Chens Notation](./cheatsheet/relations_to_chen.jpg)
 
 ## ERD: ISO Notation
 

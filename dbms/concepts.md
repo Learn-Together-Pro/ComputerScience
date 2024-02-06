@@ -514,6 +514,16 @@ The table is in 5NF and has no temporal data anomalies.
 ### Column-oriented database / Row-oriented database
 : ...
 
+### Internal Sorting / External Sorting
+
+**Internal Sorting**
+
+Sorting algorithms that work on data that entirely fits into the main memory (RAM) of a computer. These algorithms assume that all the data to be sorted can be held in the memory at one time for processing.
+
+**External Sorting**
+
+Used for large data sets that do not fit into the main memory. It involves sorting data that resides on external storage devices, such as disk drives. This process requires the algorithm to read, process, and write data in chunks that the main memory can accommodate.
+
 ### Column-wide database ~ Big Table database
 
 A column-based database, also known as a columnar database, is a type of database management system that stores data in columns rather than in rows. In a column-based database, each column of a table is stored separately on disk, rather than storing each row as a separate record. This makes columnar databases well-suited for analytics workloads that require complex queries across large volumes of data, as it allows for much faster querying and analysis of data. Column-based databases are often used for data warehousing and business intelligence applications, as well as for storing large amounts of structured and semi-structured data. They are known for their high performance, scalability, and ability to handle large volumes of data with low latency. Some popular examples of column-based databases include Apache Cassandra, Apache HBase, and Google Bigtable.
