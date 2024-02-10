@@ -180,19 +180,19 @@ For example, the COUNT() function is monotonic in the sense that as more rows ar
 
 SQL (Structured Query Language) encompasses several sub-languages, each serving different purposes in the database environment.
 
+- DQL (Data Query Language): It deals primarily with the retrieval of data and includes the SELECT command, which is used to query data from the database. Technically part of DML, but sometimes considered separately.
 - DDL (Data Definition Language): Used for defining and modifying the database structure and schema. Key commands include:
 - DML (Data Manipulation Language): Used for managing data within database objects (like tables). Key commands include:
 - DCL (Data Control Language): Used for controlling access to data in the database. Key commands include:
 - TCL (Transaction Control Language): Used to manage transactions within the database. Key commands include:
-- DQL (Data Query Language): It deals primarily with the retrieval of data and includes the SELECT command, which is used to query data from the database. Technically part of DML, but sometimes considered separately.
 
 Some commands.
 
+- DQL: SELECT
 - DDL: CREATE, ALTER, DROP, TRUNCATE, COMMENT, RENAME
 - DML: SELECT, INSERT, UPDATE, DELETE, MERGE
 - DCL: GRANT, REVOKE
 - TCL: COMMIT, ROLLBACK, SAVEPOINT, SET TRANSACTION
-- DQL: SELECT
 
 ### Clustered Index / Non-Clustered Index
 

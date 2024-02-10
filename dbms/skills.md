@@ -1,0 +1,34 @@
+# Key skills of DBMS
+
+- Database Design
+  - - ERD
+  - - Types of relationships
+  - - Normalization
+- SQL
+  - - reading ( DQL )
+  - - - projecting ( select )
+  - - - filtering ( where )
+  - - - sorting ( order by )
+  - - - aggregation ( group by )
+  - - - renaming
+  - - - string functions and formatting
+  - - - time, date and formatting
+  - - - array, sets and formatting
+  - - - case
+  - - - set operations
+  - - - cartesian product
+  - - - joining ( join )
+  - - - - taxonomy of joins
+  - - - subquery
+  - - - - anonimous subquery
+  - - - - named subquery ( CTE )
+  - - - - recursive subquery ( hierarchical CTE )
+  - - defining ( DDL )
+  - - - create
+  - - - alter
+  - - - drop
+  - - manipulation ( DML )
+  - - - update
+  - - - delete
+  - - access control ( DCL )
+  - - transaction ( TCL )
