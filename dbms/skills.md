@@ -1,4 +1,4 @@
-# Key skills of DBMS
+# Key skills/competences of DBMS
 
 - Database Design
   - - ERD
@@ -27,7 +27,10 @@
   - - - create
   - - - alter
   - - - drop
+  - - - constrains
+  - - - views
   - - manipulation ( DML )
+  - - - add, insert
   - - - update
   - - - delete
   - - access control ( DCL )
