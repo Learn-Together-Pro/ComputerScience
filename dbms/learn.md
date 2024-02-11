@@ -25,8 +25,8 @@ Awesome list of high-quality study materials for learning database management sy
 
 ( _dbms_ )
 
+- [Database Engineering](https://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2) :movie_camera: ( _level_3_ ) by [Hussein Nasser](https://www.youtube.com/@hnasr) : playlist cover many unrelated PostgresSQL-specific topcis
 - [PostgresSQL Lessons](https://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj) :movie_camera: ( _level_3_ ) by [Hussein Nasser](https://www.youtube.com/@hnasr) : playlist cover many unrelated PostgresSQL-specific topcis
-- [SQL Lessons](https://www.youtube.com/playlist?list=PL2WDxXzl0Y2BVRdpYqqmkBv7fj0zb5Vk8) :movie_camera: ( _level_3_ ) by [Bert Wagner](https://www.youtube.com/@DataWithBert) : playlist cover many unrelated SQL-specific topcis
 - [Database Systems](https://www.youtube.com/playlist?list=PL78V83xV2fYlT11CJXE77H0LD7C_gZmyf) :movie_camera: :mortar_board: ( _level_2_ ) by [The Magic of SQL](https://www.youtube.com/@TheMagicofSQL)
 - [SQL Course](https://www.youtube.com/playlist?list=PLeb33PCuqDdcezLKJLBM9KgtycqrPBY0x) :movie_camera: :mortar_board: ( _level_3_ ) by [SQL TV](https://www.youtube.com/@SQLTVChannel/playlists)
 - [PostgreSQL Perfomance Tuning](https://www.youtube.com/playlist?list=PLBrWqg4Ny6vX8e2LnQbNajGSKnFDe94kg) :movie_camera: :mortar_board: ( _level_3_ ) ( _postgresql_ )
@@ -34,7 +34,10 @@ Awesome list of high-quality study materials for learning database management sy
 
 ## SQL
 
-- [SQL Skills](https://www.youtube.com/playlist?list=PLeb33PCuqDdff8tXh93kKrglcS6YEe-SR) :movie_camera: ( _level_1_ ) by [techTFQ](https://www.youtube.com/@techTFQ/playlists)
+( _sql_ ) ( _skill_ )
+
+- ⭐ [SQL Skills](https://www.youtube.com/playlist?list=PLeb33PCuqDdff8tXh93kKrglcS6YEe-SR) :movie_camera: ( _level_1_ ) ( _sql_ ) ( _skill_ ) by [techTFQ](https://www.youtube.com/@techTFQ/playlists)
+- [SQL Lessons](https://www.youtube.com/playlist?list=PL2WDxXzl0Y2BVRdpYqqmkBv7fj0zb5Vk8) :movie_camera: ( _level_3_ ) ( _sql_ ) ( _skill_ ) by [Bert Wagner](https://www.youtube.com/@DataWithBert) : playlist cover many unrelated SQL-specific topcis
 
 ## SQL Drills
 
@@ -142,6 +145,7 @@ Awesome list of high-quality study materials for learning database management sy
 - ( _short_ ) - short overview
 - ( _tool_ ) - a tool
 - ( _subjects_ ) - people and organizations
+- ( _skill_ ) - not a theory, but practices oriented
 
 ##### Level of Expertise
 
@@ -158,3 +162,4 @@ Awesome list of high-quality study materials for learning database management sy
 - ( _document-oriented_ ) - document-oriented DBMS
 - ( _wide_column_ ) - wide column database
 - ( _relational_ ) - relational database
+- ( _sql_ ) - sql related
