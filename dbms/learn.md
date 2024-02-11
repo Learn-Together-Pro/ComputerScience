@@ -25,8 +25,8 @@ Awesome list of high-quality study materials for learning database management sy
 
 ( _dbms_ )
 
-- [Database Engineering](https://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2) :movie_camera: ( _level_3_ ) by [Hussein Nasser](https://www.youtube.com/@hnasr) : playlist cover many unrelated PostgresSQL-specific topcis
-- [PostgresSQL Lessons](https://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj) :movie_camera: ( _level_3_ ) by [Hussein Nasser](https://www.youtube.com/@hnasr) : playlist cover many unrelated PostgresSQL-specific topcis
+- [Database Engineering](https://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2) :movie_camera: ( _level_2_ ) by [Hussein Nasser](https://www.youtube.com/@hnasr) : playlist cover many unrelated PostgresSQL-specific topcis
+- [PostgresSQL Lessons](https://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj) :movie_camera: ( _level_2_ ) by [Hussein Nasser](https://www.youtube.com/@hnasr) : playlist cover many unrelated PostgresSQL-specific topcis
 - [Database Systems](https://www.youtube.com/playlist?list=PL78V83xV2fYlT11CJXE77H0LD7C_gZmyf) :movie_camera: :mortar_board: ( _level_2_ ) by [The Magic of SQL](https://www.youtube.com/@TheMagicofSQL)
 - [SQL Course](https://www.youtube.com/playlist?list=PLeb33PCuqDdcezLKJLBM9KgtycqrPBY0x) :movie_camera: :mortar_board: ( _level_3_ ) by [SQL TV](https://www.youtube.com/@SQLTVChannel/playlists)
 - [PostgreSQL Perfomance Tuning](https://www.youtube.com/playlist?list=PLBrWqg4Ny6vX8e2LnQbNajGSKnFDe94kg) :movie_camera: :mortar_board: ( _level_3_ ) ( _postgresql_ )
