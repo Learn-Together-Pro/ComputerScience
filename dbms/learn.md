@@ -11,25 +11,30 @@ Awesome list of high-quality study materials for learning database management sy
 
 ( _dbms_ )
 
-- [Database Systems and PostgresSQL](https://www.youtube.com/watch?v=4cWkVbC2bNE) | [2 part](https://www.youtube.com/watch?v=lxEdaElkQhQ) :movie_camera: :mortar_board: by [Professor Immanuel Trummer](https://itrummer.github.io/) ( _level_1_ ) at Cornell University
-- ⭐ [Databases Course](https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO) :movie_camera: :mortar_board: by [Professor Jörg Endrullis](https://www.youtube.com/@TheComputerScience/playlists) ( _level_1_ ) at Vrije Universiteit Amsterdam
-- ⭐ [Database Design & Management](https://www.youtube.com/playlist?list=PL1LIXLIF50uURxYXfBCaAXDzSdZlQiESy) :movie_camera: :mortar_board: by [Dr. Daniel Soper](https://www.youtube.com/@DanielSoper) ( _level_1_ ) at California State University
-- [Database Design & Management](https://www.youtube.com/playlist?list=PLeb33PCuqDdfS_ljg40TaA0e9p-m_ZF4_) :movie_camera: :mortar_board: by [Professor Joseph Hellerstein](https://dsf.berkeley.edu/jmh/index.html) ( _level_2_ ) at Berkley Univirsity
-- [Databases](https://www.youtube.com/@CS186Berkeley/playlists) :movie_camera: :mortar_board: by [CS186Berkeley](https://www.youtube.com/@CS186Berkeley/playlists) ( _level_1_ )
-- [SQL Tutorial | MySQL](https://www.youtube.com/watch?v=-fW2X7fh7Yg) :movie_camera: :mortar_board: by [ freeCodeCamp](https://www.youtube.com/@freecodecamp/playlists) ( _level_0_ )
-- [SQL Tutorial](https://www.youtube.com/watch?v=HXV3zeQKqGY) :movie_camera: :mortar_board: by [ freeCodeCamp](https://www.youtube.com/@freecodecamp/playlists) ( _level_0_ )
-- [SQL For Web Developer](https://www.youtube.com/watch?v=KBDSJU3cGkc) :movie_camera: :mortar_board: by [ freeCodeCamp](https://www.youtube.com/@freecodecamp/playlists) ( _level_0_ )
-- [Database Systems](https://www.youtube.com/playlist?list=PLBlnK6fEyqRiyryTrbKHX1Sh9luYI0dhX) :movie_camera: :mortar_board: by [Neso Academy](https://www.youtube.com/@nesoacademy/playlists) ( _level_0_ )
+- [Database Systems and PostgresSQL](https://www.youtube.com/watch?v=4cWkVbC2bNE) | [2 part](https://www.youtube.com/watch?v=lxEdaElkQhQ) :movie_camera: :mortar_board: ( _level_1_ ) by [Professor Immanuel Trummer](https://itrummer.github.io/) at Cornell University
+- ⭐ [Databases Course](https://www.youtube.com/playlist?list=PL3TE2CsKK478JNAXYLD_hzQFx5JE360KO) :movie_camera: :mortar_board: ( _level_1_ ) by [Professor Jörg Endrullis](https://www.youtube.com/@TheComputerScience/playlists) at Vrije Universiteit Amsterdam
+- ⭐ [Database Design & Management](https://www.youtube.com/playlist?list=PL1LIXLIF50uURxYXfBCaAXDzSdZlQiESy) :movie_camera: :mortar_board: ( _level_1_ ) by [Dr. Daniel Soper](https://www.youtube.com/@DanielSoper) at California State University
+- [Database Design & Management](https://www.youtube.com/playlist?list=PLeb33PCuqDdfS_ljg40TaA0e9p-m_ZF4_) :movie_camera: :mortar_board: ( _level_2_ ) by [Professor Joseph Hellerstein](https://dsf.berkeley.edu/jmh/index.html) at Berkley Univirsity
+- [Databases](https://www.youtube.com/@CS186Berkeley/playlists) :movie_camera: :mortar_board: ( _level_1_ ) by [CS186Berkeley](https://www.youtube.com/@CS186Berkeley/playlists)
+- [SQL Tutorial | MySQL](https://www.youtube.com/watch?v=-fW2X7fh7Yg) :movie_camera: :mortar_board: ( _level_0_ ) by [ freeCodeCamp](https://www.youtube.com/@freecodecamp/playlists)
+- [SQL Tutorial](https://www.youtube.com/watch?v=HXV3zeQKqGY) :movie_camera: :mortar_board: ( _level_0_ ) by [ freeCodeCamp](https://www.youtube.com/@freecodecamp/playlists)
+- [SQL For Web Developer](https://www.youtube.com/watch?v=KBDSJU3cGkc) :movie_camera: :mortar_board: ( _level_0_ ) by [ freeCodeCamp](https://www.youtube.com/@freecodecamp/playlists)
+- [Database Systems](https://www.youtube.com/playlist?list=PLBlnK6fEyqRiyryTrbKHX1Sh9luYI0dhX) :movie_camera: :mortar_board: ( _level_0_ ) by [Neso Academy](https://www.youtube.com/@nesoacademy/playlists)
 
 ## DBMS Specific
 
 ( _dbms_ )
 
-- [PostgresSQL Lessons](https://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj) :movie_camera: by [Hussein Nasser](https://www.youtube.com/@hnasr) ( _level_3_ ) : playlist cover many unrelated PostgresSQL-specific topcis
-- [SQL Lessons](https://www.youtube.com/playlist?list=PL2WDxXzl0Y2BVRdpYqqmkBv7fj0zb5Vk8) :movie_camera: by [Bert Wagner](https://www.youtube.com/@DataWithBert) ( _level_3_ ) : playlist cover many unrelated SQL-specific topcis
-- [Database Systems](https://www.youtube.com/playlist?list=PL78V83xV2fYlT11CJXE77H0LD7C_gZmyf) :movie_camera: :mortar_board: by [The Magic of SQL](https://www.youtube.com/@TheMagicofSQL) ( _level_2_ )
-- [SQL Course](https://www.youtube.com/playlist?list=PLeb33PCuqDdcezLKJLBM9KgtycqrPBY0x) :movie_camera: :mortar_board: by [SQL TV](https://www.youtube.com/@SQLTVChannel/playlists) ( _level_3_ )
-- [PostgreSQL Perfomance Tuning](https://www.youtube.com/playlist?list=PLBrWqg4Ny6vX8e2LnQbNajGSKnFDe94kg) :movie_camera: :mortar_board: by [High-Performance Programming](https://www.youtube.com/@HighPerformanceProgramming) ( _level_3_ ) ( _postgresql_ )
+- [PostgresSQL Lessons](https://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj) :movie_camera: ( _level_3_ ) by [Hussein Nasser](https://www.youtube.com/@hnasr) : playlist cover many unrelated PostgresSQL-specific topcis
+- [SQL Lessons](https://www.youtube.com/playlist?list=PL2WDxXzl0Y2BVRdpYqqmkBv7fj0zb5Vk8) :movie_camera: ( _level_3_ ) by [Bert Wagner](https://www.youtube.com/@DataWithBert) : playlist cover many unrelated SQL-specific topcis
+- [Database Systems](https://www.youtube.com/playlist?list=PL78V83xV2fYlT11CJXE77H0LD7C_gZmyf) :movie_camera: :mortar_board: ( _level_2_ ) by [The Magic of SQL](https://www.youtube.com/@TheMagicofSQL)
+- [SQL Course](https://www.youtube.com/playlist?list=PLeb33PCuqDdcezLKJLBM9KgtycqrPBY0x) :movie_camera: :mortar_board: ( _level_3_ ) by [SQL TV](https://www.youtube.com/@SQLTVChannel/playlists)
+- [PostgreSQL Perfomance Tuning](https://www.youtube.com/playlist?list=PLBrWqg4Ny6vX8e2LnQbNajGSKnFDe94kg) :movie_camera: :mortar_board: ( _level_3_ ) ( _postgresql_ )
+ by [High-Performance Programming](https://www.youtube.com/@HighPerformanceProgramming)
+
+## SQL
+
+- [SQL Skills](https://www.youtube.com/playlist?list=PLeb33PCuqDdff8tXh93kKrglcS6YEe-SR) :movie_camera: ( _level_1_ ) by [techTFQ](https://www.youtube.com/@techTFQ/playlists)
 
 ## SQL Drills
 
