@@ -467,6 +467,12 @@ A functional dependency X → Y is a full functional dependency in relation sche
 
 A functional dependency X → Y is a partial functional dependency in relation schema R if some attribute A can be removed from X and the dependency still holds.
 
+## Multivalued Dependencies ~ MVD
+
+Occur in a relational database when there is a relationship between attributes that allows multiple rows to be associated independently of each other.
+
+An MVD is a more complex form of dependency than the functional dependency typically addressed in the lower normal forms.
+
 ## Legal Relation State / Valid Relation State
 
 One in which all the data in the database adheres to these predefined rules and constraints.
@@ -477,24 +483,27 @@ In Database Management Systems (DBMS), data anomalies are problems or irregulari
 
 > **Insertion Anomalies**
 
-An insertion anomaly occurs when certain data cannot be inserted into the database without the presence of other data. This typically happens in databases that are not normalized and where tables are designed to store multiple types of data together. For example, if a database table designed to store information about employees and their departments requires that each employee be assigned to a department, inserting an employee without a department would be problematic, leading to an insertion anomaly.
+Occurs when certain data cannot be inserted into the database without the presence of other data. This typically happens in databases that are not normalized and where tables are designed to store multiple types of data together. For example, if a database table designed to store information about employees and their departments requires that each employee be assigned to a department, inserting an employee without a department would be problematic, leading to an insertion anomaly.
 
 > **Deletion Anomalies**
 
-A deletion anomaly occurs when deleting a row from a table inadvertently results in the loss of additional, unintended data. This is common in tables that store multiple types of related data. For example, if an employee is the only one working in a particular department and their record is deleted from the database, information about the department could be lost if it's only stored in relation to employee records. This indicates poor database design, where the deletion of data from one entity indirectly affects the data of another entity.
+Occurs when deleting a row from a table inadvertently results in the loss of additional, unintended data. This is common in tables that store multiple types of related data. For example, if an employee is the only one working in a particular department and their record is deleted from the database, information about the department could be lost if it's only stored in relation to employee records. This indicates poor database design, where the deletion of data from one entity indirectly affects the data of another entity.
 
 > **Update Anomalies**
 
-An update anomaly occurs when changes to data in one row of a table require multiple rows of data to be updated to maintain consistency. This problem arises in databases where the same piece of data is stored redundantly in multiple places. For example, if an employee's address is stored in multiple records because they are associated with multiple projects, updating the address in one record requires updating it in all other records as well. Failure to do so results in inconsistent data, which is an update anomaly.
+Occurs when changes to data in one row of a table require multiple rows of data to be updated to maintain consistency. This problem arises in databases where the same piece of data is stored redundantly in multiple places. For example, if an employee's address is stored in multiple records because they are associated with multiple projects, updating the address in one record requires updating it in all other records as well. Failure to do so results in inconsistent data, which is an update anomaly.
 
-> **Phantom Anomaly** ~ **Anomaly of False Rows**
+> **Anomaly of False Rows**
 
-This type of anomaly refers to the issue where queries return rows that do not accurately represent the current state of the database. It often occurs in concurrent database environments, where transactions executed by one user are not immediately visible to other users. As a result, a transaction might read a set of rows that includes rows inserted by another transaction, leading to inconsistencies or "phantom" data that appears to exist but does not reflect a single, consistent view of the database.
+Occurs when decomposed table does not join in the original table, but gives false rows, redundant rows which were not present in the original table.
 
-## Conclusion
+## Anomalies and Software Design Princpiles Analogies
 
-These anomalies underscore the importance of good database design, particularly the need for database normalization. Normalization involves organizing the attributes of the database to reduce redundancy and eliminate undesirable anomalies. It ensures that each piece of data is stored only once, making the database more efficient and easier to maintain.
+Update anomaly ~ dont repeat yourself.
 
+Insert anomaly ~ coupling.
+
+Delete anomaly ~ single responsibility principle.
 
 ## Normal Forms
 
@@ -528,7 +537,9 @@ A stricter version of 3NF where for every dependency X → Y, X should be a supe
 
 > **Fourth Normal Form (4NF)**
 
-The table is in BCNF and has no multi-valued dependencies.
+There is no non-trivial multivalued dependencies on a non-key.
+
+Multivalued dependencies occur in a relational database when there is a relationship between attributes that allows multiple rows to be associated independently of each other. An MVD is a more complex form of dependency than the functional dependency typically addressed in the lower normal forms. A multivalued dependency is considered trivial if the attribute(s) on the left side of the arrow and the attribute(s) on the right side of the arrow together make up all the attributes in the table.
 
 > **Fifth Normal Form (5NF)**
 
