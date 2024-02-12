@@ -265,7 +265,7 @@ There is a RW conflict between Ty and Tz if there is an item Y Ty reads Y and af
 
 > **Write Write Conflict** (WW)
 
-There is a WW conflict between T, and Ta if there is an item Y: Ty writes Y and afterwards, Ta writes Y. This write becomes overwritten, in another words it might cause *lost update*. But if there is no action which depends on the first write it's called **xxx writes**.
+There is a WW conflict between T, and Ta if there is an item Y: Ty writes Y and afterwards, Ta writes Y. This write becomes overwritten, in another words it might cause *lost update*. But if there is no action which depends on the first write it's called **blind writes**.
 
 ## Read Anomalies ~ Lack of Isolation
 
@@ -391,6 +391,12 @@ This is often defined by a data type and a range. For example, if a column is me
 
 An attribute or a set of attributes used to uniquely identify rows in a table.
 
+## Determinant
+
+An attribute or a set of attributes on which some other attribute or set of attributes is fully functionally dependent. Essentially, if you have a functional dependency A → B, A is the determinant, because the value of A determines the value of B.
+
+Not all determinants are keys, and a determinant does not have to be unique or mandatory.
+
 ## Key Kinds
 
 > **Primary Key** ~ **Entity Identifier**
@@ -428,10 +434,6 @@ Any column or a combination of columns that can qualify as a primary key in the 
 > **Super Key**
 
 Set of one or more columns (attributes) that can uniquely identify a row in a table. It's a superset of a candidate key, which means a superkey may contain additional columns that are not necessary for unique identification. Every table is guaranteed to have at least one superkey because the set of all columns combined is always a superkey. However, the goal is typically to find the minimal superkey, which is a candidate key with no unnecessary attributes.
-
-## Determinant
-
-In the context of relational databases, a determinant is an attribute or a set of attributes on which some other attribute or set of attributes is fully functionally dependent. Essentially, if you have a functional dependency A → B, A is the determinant, because the value of A determines the value of B.
 
 ## Primary Attribute / Secondary Attribute
 
@@ -507,7 +509,7 @@ Delete anomaly ~ single responsibility principle.
 
 ## Normal Forms
 
-> **First Normal Form (1NF)**
+> **First Normal Form** ~ **1NF**
 
 Each table cell should contain a single value, and each record needs to be unique, order of rows should not be used to convey information.
 
@@ -517,39 +519,39 @@ First level of database normalization that a database table must satisfy:
 - Having a table without a primary key is not permitted.
 - Several values per cell is not permitted.
 
-> **Second Normal Form (2NF)**
+> **Second Normal Form** ~ **2NF**
 
 Each non-key attribute must depend on the entire primary key.
 
 The table is in 1NF and all non-key attributes are fully functional dependent on the primary key.
 
-> **Third Normal Form (3NF)**
+> **Third Normal Form** ~ **3NF**
 
 Every non-key attribute in a table should depend on the key, the whole key, and nothing but the key.
 
 The table is in 2NF and all the attributes are functionally independent of any other non-primary-key attributes.
 
-> **Boyce-Codd Normal Form (BCNF)**
+> **Boyce-Codd Normal Form** ~ **BCNF**
 
 Every ( not only non-key ) attribute in a table should depend on the key, the whole key, and nothing but the key.
 
 A stricter version of 3NF where for every dependency X → Y, X should be a superkey.
 
-> **Fourth Normal Form (4NF)**
+> **Fourth Normal Form** ~ **4NF**
 
 There is no non-trivial multivalued dependencies on a non-key.
 
 Multivalued dependencies occur in a relational database when there is a relationship between attributes that allows multiple rows to be associated independently of each other. An MVD is a more complex form of dependency than the functional dependency typically addressed in the lower normal forms. A multivalued dependency is considered trivial if the attribute(s) on the left side of the arrow and the attribute(s) on the right side of the arrow together make up all the attributes in the table.
 
-> **Fifth Normal Form (5NF)**
+> **Fifth Normal Form** ~ **5NF** ~ **PJNF**
 
 The table is in 4NF and cannot be decomposed into any number of smaller tables without loss of data.
 
-> **Domain-Key Normal Form (DKNF)**
+> **Domain-Key Normal Form** ~ **DKNF**
 
 Every constraint on the table is a domain constraint or a key constraint.
 
-> **Sixth Normal Form (6NF)**
+> **Sixth Normal Form** ~ **6NF**
 
 The table is in 5NF and has no temporal data anomalies.
 
