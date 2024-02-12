@@ -535,6 +535,7 @@ The table is in 2NF and all the attributes are functionally independent of any o
 
 Every ( not only non-key ) attribute in a table should depend on the key, the whole key, and nothing but the key.
 
+With the exception of trivial functional every functinal dependency in a table must be a dependency on a superkey.
 A stricter version of 3NF where for every dependency X → Y, X should be a superkey.
 
 > **Fourth Normal Form** ~ **4NF**

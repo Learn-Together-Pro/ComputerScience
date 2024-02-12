@@ -7,9 +7,13 @@
 - SQL
   - - reading ( DQL )
   - - - projecting ( select )
-  - - - filtering ( where )
+  - - - filtering ( where, distinct )
+  - - - top clause ( limit )
   - - - sorting ( order by )
-  - - - aggregation ( group by )
+  - - - aggregation clause ( group by )
+  - - - aggregation functions ( group by )
+  - - - window functions
+  - - - pivoting
   - - - renaming
   - - - string functions and formatting
   - - - time, date and formatting
@@ -36,3 +40,17 @@
   - - - delete
   - - access control ( DCL )
   - - transaction ( TCL )
+  - - performance tuning
+  - - - explain
+  - - - table statistics
+  - - - table partitioning
+  - - - profiling and tracing
+  - - programming
+  - - - user defined functions
+  - - - stored procedures
+  - - - trigger
+  - - - PL/SQL
+  - - - - collections types
+  - - - - cursor
+  - - - - packages
+  - - - - control statements

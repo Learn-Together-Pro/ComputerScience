@@ -20,13 +20,13 @@
 
 ![Transitive vs Full Dependencies](./cheatsheet/transitive_vs_full_dependencies.jpg)
 
-## All Normal Forms
-
-![All Normal Forms](./cheatsheet/all_normal_forms.jpg)
-
 ## Functions Mapping
 
 ![Functions Mapping](./cheatsheet/functions_mapping.jpg)
+
+## All Normal Forms
+
+![All Normal Forms](./cheatsheet/all_normal_forms.jpg)
 
 ## Many to Many in Relational DB
 
