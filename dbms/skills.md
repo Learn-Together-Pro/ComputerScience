@@ -24,6 +24,7 @@
   - - - - named subquery ( CTE )
   - - - - recursive subquery ( hierarchical CTE )
   - - defining ( DDL )
+  - - - data types
   - - - create
   - - - alter
   - - - drop
