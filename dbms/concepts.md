@@ -530,6 +530,7 @@ The table is in 1NF and all non-key attributes are fully functional dependent on
 Every non-key attribute in a table should depend on the key, the whole key, and nothing but the key.
 
 The table is in 2NF and all the attributes are functionally independent of any other non-primary-key attributes.
+3NF unlike BCND does preserve all functional dependencies, normalization does not lead to losing any of FDs.
 
 > **Boyce-Codd Normal Form** ~ **BCNF**
 
@@ -537,6 +538,7 @@ Every ( not only non-key ) attribute in a table should depend on the key, the wh
 
 With the exception of trivial functional every functinal dependency in a table must be a dependency on a superkey.
 A stricter version of 3NF where for every dependency X → Y, X should be a superkey.
+BCNF unlike 3NF does not preserve all functional dependencies, some could be lost during normalization.
 
 > **Fourth Normal Form** ~ **4NF**
 

@@ -1,5 +1,16 @@
 # Cheat sheets
 
+```plantuml
+
+@startuml
+Entity01 }|..|| Entity02
+Entity03 }o..o| Entity04
+Entity05 ||--o{ Entity06
+Entity07 |o--|| Entity08
+@enduml
+
+```
+
 ## SQL Join
 
 ![SQL Join](./cheatsheet/sql_join.jpg)
