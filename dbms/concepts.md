@@ -246,6 +246,30 @@ Two schedules have final state equivalence if they result in the same final stat
 
 The largest subset. Serial, conflict serializable and view equivalent schedules are final State Equivalent. Final state equivalent schedules is the least restrictive one, but anomalies are possible.
 
+## Concurrency Controls Methods
+
+> **Pessimistic Concurrency Control** ~ **Lock-Based Concurrency Control**
+
+It uses locks to ensure that only one transaction can access a data item at a time.
+
+This is one of the most common concurrency control methods.
+
+> **Optimistic Concurrency Control**
+
+Optimistic Concurrency Control assumes that multiple transactions can often complete without interfering with each other. Transactions proceed without locking and then verify at the end that they have not interfered with other transactions.
+
+> **Backward Optimistic Concurrency Control** ~ **BOCC**
+
+Type of OCC where transactions are allowed to run to completion without checking for conflicts. Only when a transaction reaches the commit point does the system check for conflicts with other transactions. If a conflict is detected, the committing transaction is rolled back.
+
+> **Forward Optimistic Concurrency Control** ~ **FOCC**
+
+Type of OCC where transactions are checked for conflicts during their execution phase, as soon as a potential conflict could occur. If a conflict is detected, the transaction may be rolled back immediately before it reaches the commit phase.
+
+> **Multiversion Concurrency Control** ~ **MVCC** ~ **Snapshot Isolation**
+
+Concurrency control method used in database management systems to provide concurrent access to the database and enhance read/write performance. MVCC achieves this by creating multiple, time-stamped versions of a data item (hence "multiversion"), which allows for more granular levels of locking and increases concurrency.
+
 ## Conflicting Actions
 
 Two actions in a schedule conflict if they:
@@ -297,6 +321,14 @@ Occurs when a transaction re-executes a query returning a set of rows that satis
 
 This happens when a transaction re-executes a query returning a set of rows that satisfy a certain condition and finds that another transaction has added or removed rows in the meantime, thus altering the result set of the query. It's about the change in the number of rows that satisfy a condition due to inserts or deletes by other transactions.
 
+While multiversion concurrency control may guarantee freedom from phantom reads, it alone cannot ensure freedom from write skew anomalies.
+
+> **Write Skew Anomaly**
+
+A write skew occurs when two transactions concurrently read an overlapping data set, and then each transaction updates some portion of that data set such that the updates are not based on the most recent version of the data. This can result in a database state that would not be possible if the transactions were executed serially, thereby violating the database's consistency.
+
+Only the serializable isolation level guarantees that anomalies such as write skew do not occur. While multiversion concurrency control may guarantee freedom from phantom reads, it alone cannot ensure freedom from write skew anomalies.
+
 ## SQL Isolation Levels
 
 In summary, the differences between these levels of isolation are based on the degree of protection against different types of read inconsistencies and the level of concurrency that is allowed between transactions.
@@ -313,7 +345,7 @@ Ensures that a transaction can only read data committed before the start of the 
 
 > **Repeatable Read**
 
-Prevents dirty and non-repeatable reads by ensuring that the rows a transaction reads cannot change during the transaction, but it might still experience phantom reads.
+Prevents dirty and non-repeatable reads by ensuring that the rows a transaction reads cannot change during the transaction, but it might still experience phantom reads. Still allowing non-repetable aggregation, because extra new row might appear.
 
 > **Serializable**
 
@@ -334,6 +366,22 @@ In this protocol, a transaction holds all its exclusive locks (write locks) unti
 > **Preclaiming 2PL**
 
 Here, a transaction requests all the locks it needs at the beginning. If all the required locks are granted, the transaction proceeds; otherwise, it either waits or is rolled back. This approach can reduce the likelihood of deadlocks but may lead to underutilization of resources due to holding locks for extended periods.
+
+## Intention Lock
+
+A type of lock in database systems that indicates a transaction's intention to acquire a more specific lock on a lower-level database object, such as a row or page, within a larger object like a table.
+
+In databases, there are different levels at which locks can be applied, such as the row level, page level, or table level. Intention locks are a type of lock set on a higher-level database object, such as a table or page, indicating the intention to acquire a lock on a specific lower-level object, like a row, within that higher-level object.
+
+|    | S | X | IS | IX |
+|----|---|---|----|----|
+| S  |   | X |    | X  |
+| X  | X | X | X  | X  |
+| IS |   | X |    |    |
+| IX | X | X |    |    |
+
+IS - Intention Shared Lock. Indicates that a shared lock will be placed on some lower level object. It allows concurrent transactions to read from the higher-level object.
+IX - Intention Exclusive Lock. Indicates that an exclusive lock will be placed on some lower level object. It signals that the transaction intends to modify a lower level object and that no other transactions are permitted to acquire an intention exclusive on the higher-level object.
 
 ## Deadlocks Resolving Strategies
 
@@ -475,9 +523,23 @@ Non-functional depdendency which occur in a relational database when there is a 
 
 An MVD is a more complex form of dependency than the functional dependency typically addressed in the lower normal forms.
 
+Example of multivalued dependencies. Due to employee ->> favoriteFramework and employee ->> databaseSystem, swap of two cells is possible
+
+| employee     | favoriteFramework | databaseSystem |
+|--------------|-------------------|----------------|
+| Alice Cooper | React             | PostgreSQL     |
+| Alice Cooper | Vue               | SQL Server     |
+
+the table must also contain the following rows
+
+| employee     | favoriteFramework | databaseSystem |
+|--------------|-------------------|----------------|
+| Alice Cooper | Vue               | PostgreSQL     |
+| Alice Cooper | React             | SQL Server     |
+
 ## Legal Relation State / Valid Relation State
 
-One in which all the data in the database adheres to these predefined rules and constraints.
+One in which all the data in the database adheres to predefined rules and constraints.
 
 ## Database Anomalies
 
@@ -494,10 +556,6 @@ Occurs when deleting a row from a table inadvertently results in the loss of add
 > **Update Anomalies**
 
 Occurs when changes to data in one row of a table require multiple rows of data to be updated to maintain consistency. This problem arises in databases where the same piece of data is stored redundantly in multiple places. For example, if an employee's address is stored in multiple records because they are associated with multiple projects, updating the address in one record requires updating it in all other records as well. Failure to do so results in inconsistent data, which is an update anomaly.
-
-> **Anomaly of False Rows**
-
-Occurs when decomposed table does not join in the original table, but gives false rows, redundant rows which were not present in the original table.
 
 ## Anomalies and Software Design Princpiles Analogies
 
