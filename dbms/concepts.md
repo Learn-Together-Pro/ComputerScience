@@ -471,7 +471,7 @@ A functional dependency X → Y is a partial functional dependency in relation s
 
 ## Multivalued Dependencies ~ MVD
 
-Occur in a relational database when there is a relationship between attributes that allows multiple rows to be associated independently of each other.
+Non-functional depdendency which occur in a relational database when there is a relationship between attributes that allows multiple rows to be associated independently of each other.
 
 An MVD is a more complex form of dependency than the functional dependency typically addressed in the lower normal forms.
 
@@ -507,6 +507,14 @@ Insert anomaly ~ coupling.
 
 Delete anomaly ~ single responsibility principle.
 
+## Decomposition Theorem
+
+The split of relations is guaranteed to be lossless if the intersection (the shared set attributes) of the attributes of the new tables is a key of at least one of them.
+
+## Multivalued Dependencies
+
+Occur in a relational database when there is a relationship between attributes that allows multiple rows to be associated independently of each other. An MVD is a more complex form of dependency than the functional dependency typically addressed in the lower normal forms. A multivalued dependency is considered trivial if the attribute(s) on the left side of the arrow and the attribute(s) on the right side of the arrow together make up all the attributes in the table.
+
 ## Normal Forms
 
 > **First Normal Form** ~ **1NF**
@@ -539,6 +547,14 @@ Every ( not only non-key ) attribute in a table should depend on the key, the wh
 With the exception of trivial functional every functinal dependency in a table must be a dependency on a superkey.
 A stricter version of 3NF where for every dependency X → Y, X should be a superkey.
 BCNF unlike 3NF does not preserve all functional dependencies, some could be lost during normalization.
+
+Example of relation in 3NF, but not in BCNF
+
+```
+Addresses( streetAddress, city, state, zip )
+streetAddress, city, state → zip
+zip → state
+```
 
 > **Fourth Normal Form** ~ **4NF**
 
@@ -771,6 +787,7 @@ While maximal cardinality focuses on how many entity instances can be in a relat
 - In relational databases, the minimum cardinality of a relation is enforced by the nullability constraint of a foreign key. A non-nullable constraint changes a zero-or-more relationship to a one-or-more relationship. Minimum cardinality could be zero or one, but not many.
 - While possible, a mandatory many-to-many relationship is usually avoided because it can complicate database operations and does not typically align with the real-world scenarios that the database is intended to model. You cannot insert an entity in one table without already having a related entity in the other table, and vice versa. This can make the initial population of the database very difficult.
 - A join can be conceptualized as a Cartesian product followed by a selection operation.
+- BCNF unlike 3NF does not preserve all functional dependencies, some could be lost during normalization.
 
 ## Characteristics of a System
 
