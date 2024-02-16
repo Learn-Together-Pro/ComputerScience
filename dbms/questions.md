@@ -5,17 +5,22 @@
 ## SQL :: Optimization
 
 - Outline the procedure for optimizing an SQL query.
+- Describe the sequence of operations in SQL statement execution.
 
 ## SQL :: General
 
-- What are the definitions and examples of DDL (Data Definition Language) and DML (Data Manipulation Language) in SQL?
+- What are the definitions and examples of DDL and DML in SQL?
 - Can you elucidate the differences between the DELETE and TRUNCATE statements in SQL?
+- Can you elucidate the differences between the DELETE and DROP statements in SQL?
 - For what reasons would one utilize the CASE statement in SQL, and could you provide an illustrative example?
 - How do the DISTINCT clause and GROUP BY clause differ in their functionality?
 - What are the essential principles to follow when employing the UNION operator in SQL queries?
+- What are the distinctions between the UNION and UNION ALL operators?
 - Describe the role of aggregate functions in SQL and enumerate various types with explanations.
+- How do scalar functions differ from aggregate functions in SQL?
 - Can aggregate functions be repurposed as window functions in SQL, and if so, how is this achieved?
 - Detail the differences among the RANK, DENSE_RANK, and ROW_NUMBER window functions in SQL.
+- Define Analytical functions in SQL.
 - What distinguishes COUNT(*) from COUNT(column) in terms of their output?
 - Differentiate between the WHERE and HAVING clauses in the context of SQL queries.
 - Which SQL syntax would be used to express a year in words?
@@ -23,9 +28,12 @@
 - What function would you use to obtain yesterday's date in SQL, and can you provide an example?
 - In SQL, if you have a FNAME column with entries like "James Bond", "Avraam Lincoln", and "Merlin Menson", which functions would you use to extract only the first name? Include an example.
 - Define the MERGE statement in SQL and illustrate its application with an example.
+- Which SQL operations are reversible with a rollback, and which are irreversible?
+- What is the purpose of the `COALESCE` function in SQL?
 
 ## SQL :: Code
 
+- What are the key differences between SQL and PL/SQL?
 - Under what circumstances is a function not callable within a SELECT statement?
 - Compare and contrast triggers with functions in SQL.
 - Highlight the distinctions between SQL functions and procedures.
@@ -35,10 +43,15 @@
 ## SQL :: Join
 
 - Describe the relationship between the cartesian product and the SQL JOIN operation.
+- When would you utilize a Cross Join in SQL?
 - Elucidate the differences among LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN, and INNER JOIN.
+- Explain the concept of Joins in SQL and list the various kinds of Joins that exist.
+- What is the minimum number of Joins needed to connect 6 separate tables?
 
 ## SQL :: Constraints and Relationships
 
+- Define Constraints in the context of SQL and enumerate the different types available.
+- What is the maximum number of primary keys and unique keys allowed in a single SQL table?
 - Delineate the differences among primary key, unique key, and foreign key constraints.
 - What ranges of values are possible for minimal and maximal cardinality? Does this range vary?
 - Identify which constraints affect the minimum cardinality and which influence the maximum cardinality. Is this consistent across all cases?

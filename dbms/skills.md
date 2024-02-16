@@ -35,6 +35,7 @@
   - - - constrains
   - - - views
   - - - synonym
+  - - - truncate
   - - - index
   - - - - btree
   - - - - hash

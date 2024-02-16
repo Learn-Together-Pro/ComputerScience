@@ -310,6 +310,10 @@ Some commands.
 - DCL: GRANT, REVOKE
 - TCL: COMMIT, ROLLBACK, SAVEPOINT, SET TRANSACTION
 
+## Window Functions ~ Analytical Functions
+
+Perform a calculation across a set of table rows that are somehow related to the current row. Unlike aggregate functions, which return a single result for a group of rows, analytical functions can return multiple results — one for each row in the partition of the query result set.
+
 ## Clustered Index / Non-Clustered Index
 
 A **clustered index** determines the physical order of data in a table. It sorts and stores the data rows of the table based on the indexed columns. Each table can have only one clustered index because the data rows themselves can be sorted in only one order. The primary key of a table is often a clustered index.
@@ -601,6 +605,10 @@ An attribute that is a part of some candidate key of a relation.
 
 An attribute that is not part of any candidate key of a relation.
 
+## Decomposition Theorem
+
+The split of relations is guaranteed to be lossless if the intersection (the shared set attributes) of the attributes of the new tables is a key of at least one of them.
+
 ## Functional Dependency ~ FD
 
 A functional dependency (FD) in a relational database is said to exist when one attribute (or a group of attributes) uniquely determines another attribute (or a group of attributes). This relationship is denoted as `(A → B)`, meaning the value of attribute `(A)` (or set of attributes) uniquely determines the value of attribute `(B)` (or set of attributes).
@@ -629,7 +637,7 @@ A functional dependency X → Y is a partial functional dependency in relation s
 
 Non-functional depdendency which occur in a relational database when there is a relationship between attributes that allows multiple rows to be associated independently of each other.
 
-An MVD is a more complex form of dependency than the functional dependency typically addressed in the lower normal forms.
+Occur in a relational database when there is a relationship between attributes that allows multiple rows to be associated independently of each other. An MVD is a more complex form of dependency than the functional dependency typically addressed in the lower normal forms. A multivalued dependency is considered trivial if the attribute(s) on the left side of the arrow and the attribute(s) on the right side of the arrow together make up all the attributes in the table. An MVD is a more complex form of dependency than the functional dependency typically addressed in the lower normal forms.
 
 Example of multivalued dependencies. Due to employee ->> favoriteFramework and employee ->> databaseSystem, swap of two cells is possible
 
@@ -672,14 +680,6 @@ Update anomaly ~ dont repeat yourself.
 Insert anomaly ~ coupling.
 
 Delete anomaly ~ single responsibility principle.
-
-## Decomposition Theorem
-
-The split of relations is guaranteed to be lossless if the intersection (the shared set attributes) of the attributes of the new tables is a key of at least one of them.
-
-## Multivalued Dependencies
-
-Occur in a relational database when there is a relationship between attributes that allows multiple rows to be associated independently of each other. An MVD is a more complex form of dependency than the functional dependency typically addressed in the lower normal forms. A multivalued dependency is considered trivial if the attribute(s) on the left side of the arrow and the attribute(s) on the right side of the arrow together make up all the attributes in the table.
 
 ## Normal Forms
 
