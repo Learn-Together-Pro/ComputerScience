@@ -52,6 +52,43 @@ The individual storage area for a single piece of information ( data point ) wit
 
 Since each column represents an attribute of the table, the data within a cell can also be referred to as the attribute value for that particular row.
 
+## Index Types
+
+> **B-tree Indexes**
+
+- **Default index type**. Ideal for equality and range queries.
+- Supports searching, sorting, and queries with `=`, `<`, `<=`, `>`, and `>=`.
+
+> **Hash Indexes**
+
+- Suitable for **simple equality comparisons**.
+- Faster than B-tree for equality but does not support range queries.
+
+> **Generalized Inverted Indexes (GIN)**
+
+- Optimized for **composite values** such as full-text search and indexing array data.
+- Useful for data types with multiple component values (arrays, JSONB).
+
+> **Generalized Search Tree (GiST) Indexes**
+
+- **Extensible indexing structure** supporting various types of searches.
+- Often used for indexing **geometric data** and **geospatial data** with PostGIS.
+
+> **Space-partitioned GiST Indexes (SP-GiST)**
+
+- Supports various **partitioning strategies**.
+- Useful for **non-balanced data structures** like quad-trees, k-d trees.
+
+> **Block Range Indexes (BRIN)**
+
+- Suitable for **very large tables** with naturally ordered data.
+- Stores summaries of values in a range of table blocks, very space-efficient.
+
+> **Bloom Filters**
+
+- **Probabilistic data structure** for testing element set membership.
+- Space-efficient with possible false positives, good for large value lists.
+
 ## Join Algorithms
 
 > **Nested Loop Join**
@@ -125,6 +162,77 @@ Sorts both tables by the join key and then merges them, efficiently finding matc
 - **Dependency on Indexes**: Benefits from sorted data.
 - **Parallelizability**: Good.
 - **Improvement**: No, original.
+
+## SQL Query Optimization
+
+**Understand the Query and Requirements**
+
+- Ensure the query fulfills its intended purpose.
+- Request only the data that is necessary.
+
+**Analyze the Execution Plan**
+
+- Use `EXPLAIN` or similar command to review the execution plan.
+- Identify full table scans and other bottlenecks.
+
+**Database Statistics and Parameters**
+
+- Update `ANALYZE` or similar command update statistics for the query optimizer.
+- Review and adjust configuration parameters.
+
+**Index Optimization**
+
+- Confirm efficient index usage.
+- Add missing indexes on key columns.
+- Balance indexing with write operation performance.
+
+**Query Refactoring**
+
+- Rewrite subqueries as joins when beneficial.
+- Use CTEs or derived tables to replace correlated subqueries.
+- Simplify complex calculations.
+
+**Optimize Joins**
+
+- Join on indexed columns.
+- Consider the join order.
+- Reduce row sets early.
+
+**Use Appropriate WHERE Clauses**
+
+- Employ predicates that leverage indexes.
+- Avoid functions on indexed columns in `WHERE`.
+- Minimize data before joins/aggregations.
+
+**Aggregate Function Optimization**
+
+- Limit use of costly aggregate functions.
+- Pre-aggregate data with indexed views/materialized views.
+
+**Limit the Data Returned**
+
+- Use `LIMIT` to restrict rows returned.
+- Specify columns explicitly instead of using `SELECT *`.
+
+**Avoiding Locks and Latency**
+
+- Identify impacts of locks or blocking queries.
+- Consider transaction isolation levels for consistency requirements.
+
+**Caching and Materialization**
+
+- Cache frequently executed queries when possible.
+- Utilize materialized views for expensive queries.
+
+**Server and Hardware Considerations**
+
+- Ensure adequate CPU, memory, and I/O capacity.
+- Match query performance with hardware capabilities.
+
+**Iterative Testing and Monitoring**
+
+- Test each change for performance improvements.
+- Continuously monitor query performance over time.
 
 ## Joins
 

@@ -34,6 +34,15 @@
   - - - drop
   - - - constrains
   - - - views
+  - - - synonym
+  - - - index
+  - - - - btree
+  - - - - hash
+  - - - - bloom filter
+  - - - - GIN
+  - - - - GiST
+  - - - - SP-GiST
+  - - - - BRIN
   - - manipulation ( DML )
   - - - add, insert
   - - - update
