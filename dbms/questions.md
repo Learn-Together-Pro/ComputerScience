@@ -18,9 +18,6 @@
 - What are the distinctions between the UNION and UNION ALL operators?
 - Describe the role of aggregate functions in SQL and enumerate various types with explanations.
 - How do scalar functions differ from aggregate functions in SQL?
-- Can aggregate functions be repurposed as window functions in SQL, and if so, how is this achieved?
-- Detail the differences among the RANK, DENSE_RANK, and ROW_NUMBER window functions in SQL.
-- Define Analytical functions in SQL.
 - What distinguishes COUNT(*) from COUNT(column) in terms of their output?
 - Differentiate between the WHERE and HAVING clauses in the context of SQL queries.
 - Which SQL syntax would be used to express a year in words?
@@ -30,6 +27,13 @@
 - Define the MERGE statement in SQL and illustrate its application with an example.
 - Which SQL operations are reversible with a rollback, and which are irreversible?
 - What is the purpose of the `COALESCE` function in SQL?
+
+## SQL :: Window Functions
+
+- Can aggregate functions be repurposed as window functions in SQL, and if so, how is this achieved?
+- Detail the differences among the ROW_NUMBER, RANK, DENSE_RANK and NTILE window functions in SQL.
+- Detail the differences among the CUME_DIST and PERCENT_RANK window functions in SQL.
+- Define Analytical functions in SQL.
 
 ## SQL :: Code
 

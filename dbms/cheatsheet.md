@@ -12,6 +12,10 @@
 
 ![SQL Isolation Levels](./cheatsheet/sql_isolation_level.png)
 
+## SQL : Aggregate vs Window Functions
+
+![SQL : Aggregate vs Window Functions](./cheatsheet/sql_aggregate_vs_window_functions.jpg)
+
 ## Normalization Steps
 
 ![Normalization Steps](./cheatsheet/normalization_steps.jpg)
