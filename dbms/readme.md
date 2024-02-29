@@ -13,3 +13,5 @@ Here you can find:
 - __:mortar_board:__ [Learn](./learn.md) : collection of materials to master DBMS.
 - __:old_key:__ [Comprehend](./concepts.md) : key concepts and dichotomies of DBMS.
 - __:chart_with_upwards_trend:__ [Systemize](./cheatsheets.md) : cheatsheets on DBMS.
+- __:chart_with_upwards_trend:__ [Systemize](./cheatsheets_erd.md) : cheatsheets on ERD.
+- __:chart_with_upwards_trend:__ [Systemize](./cheatsheets_psql.md) : cheatsheets on PostgreSQL.

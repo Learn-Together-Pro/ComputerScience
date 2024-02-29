@@ -83,3 +83,10 @@
 
 - Discuss the benefits and drawbacks of data normalization and denormalization.
 - Identify the normal form that ensures all functional dependencies are maintained. Which normal form fails to guarantee this?
+
+###
+
+- Can foreign key refer non-primary key? When?
+- Can unqiue cooumn have duplicates? When?
+- Can foreign key refer nullable key?
+- Can primary key field be changed?
