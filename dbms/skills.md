@@ -64,3 +64,4 @@
   - - - - cursor
   - - - - packages
   - - - - control statements
+  - - sequence
