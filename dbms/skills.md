@@ -36,6 +36,8 @@
   - - - views
   - - - synonym
   - - - truncate
+  - - - enum
+  - - - sequence
   - - - index
   - - - - btree
   - - - - hash
@@ -64,4 +66,3 @@
   - - - - cursor
   - - - - packages
   - - - - control statements
-  - - sequence
