@@ -34,6 +34,7 @@
   - - - drop
   - - - constrains
   - - - views
+  - - - stored column ~ generated column
   - - - synonym
   - - - truncate
   - - - enum
