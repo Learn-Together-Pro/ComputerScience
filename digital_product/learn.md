@@ -10,6 +10,15 @@ Awesome list of high-quality study materials for learning Digital Product.
 ## Problem Solving
 
 - [Root cause analysis](https://www.youtube.com/playlist?list=PLxENun6kHfaB4vJsQAO4zXgDbXZ-1i8l_) by [skilltecs](https://www.youtube.com/@skilltecs) :movie_camera: :mortar_board:
+- [Root cause analysis](https://www.youtube.com/playlist?list=PL55ZwvYHxcu2QqhSl-NwKvIF8kUeww-JB) by [Lean and Six Sigma](https://www.youtube.com/@learnandapply) :movie_camera: :mortar_board:
+
+## Testing
+
+- [Software Testing](https://www.youtube.com/playlist?list=PLL34mf651faM_nn8uKlnwbQPw5zSh_F84) by [Software Testing Mentor](https://www.youtube.com/@softwaretestingmentor) :movie_camera: :mortar_board:
+
+## Management
+
+[Agile Totorial](https://www.youtube.com/playlist?list=PLL34mf651faPu9Ouit44hlt3yoP0vIMi4) by [Software Testing Mentor](https://www.youtube.com/@softwaretestingmentor) :movie_camera: :mortar_board:
 
 ## Tags legend
 
