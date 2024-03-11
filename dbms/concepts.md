@@ -320,6 +320,8 @@ A **clustered index** determines the physical order of data in a table. It sorts
 
 A **non-clustered index**, on the other hand, does not alter the physical order of the rows. It creates a separate structure within the table which holds the values of the indexed columns and pointers to the corresponding rows. A table can have multiple non-clustered indexes.
 
+Both can store either values or pointers.
+
 ## Left-Deep Plans / Right-Deep Plans
 
 In a **left-deep join** tree, the left child of each join node is always a base table, not another join. This allows for the possibility of using nested loops joins efficiently, where the left table can be kept in memory while the right table is scanned multiple times. It is advantageous in scenarios where indexes are available on the inner tables.

@@ -15,3 +15,4 @@ Here you can find:
 - [High Performance Computation](./hpc)
 - [Git and GitHub](./git)
 - [Database Management Systems](./dbms)
+- [Digital Product](./digital_product)
