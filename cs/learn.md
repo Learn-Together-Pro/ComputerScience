@@ -12,8 +12,11 @@ Awesome collection of learning materials to master modern Computer Science.
 ( _systems_design_ )
 
 - [The System Design Primer](https://github.com/donnemartin/system-design-primer) by [ View donnemartin's full-sized avatar
-Donne Martin ](https://github.com/donnemartin) ( _systems_design_ )
-- [Collection on System Design Interview](https://github.com/checkcheckzz/system-design-interview) by [Zach](https://github.com/checkcheckzz) ( _collection_ ) ( _systems_design_ )
+Donne Martin ](https://github.com/donnemartin) :open_file_folder: ( _systems_design_ )
+- [Collection on System Design Interview](https://github.com/checkcheckzz/system-design-interview) by [Zach](https://github.com/checkcheckzz) ( _collection_ ) :open_file_folder: ( _systems_design_ )
+- [System Design for Beginners](https://www.youtube.com/playlist?list=PL8hP5HjAnJ3_mT7IHXjlbpYX_xiz4v_kP) by [Code with Irtiza](https://www.youtube.com/@irtizahafiz) :mortar_board: :movie_camera: ( _systems_design_ )
+- [System Design Fundamentals](https://www.youtube.com/playlist?list=PL1MM4yIzUdPnU8n75kjTIbgewdLr5DFox) by [Software Interviews Prep](https://www.youtube.com/@SoftwareInterviewsPrep) :mortar_board: :movie_camera: ( _systems_design_ )
+- [System Design for Beginners](https://www.youtube.com/watch?v=m8Icp_Cid5o) by [freeCodeCamp](https://www.youtube.com/@freecodecamp) :mortar_board: :movie_camera: ( _systems_design_ )
 
 ## Architecture
 
@@ -58,12 +61,6 @@ Donne Martin ](https://github.com/donnemartin) ( _systems_design_ )
 ( _lld_ )
 
 - [Low Level System Design](https://www.youtube.com/playlist?list=PL564gOx0bCLqTolRIHIsR2JPv11w8LESW) :mortar_board: :movie_camera: by [Udit Agarwal](https://www.youtube.com/c/anomaly2104/playlists)
-
-## Systems design courses
-
-- [System Design for Beginners](https://www.youtube.com/playlist?list=PL8hP5HjAnJ3_mT7IHXjlbpYX_xiz4v_kP) by [Code with Irtiza](https://www.youtube.com/@irtizahafiz) :mortar_board: :movie_camera:
-- [System Design Fundamentals](https://www.youtube.com/playlist?list=PL1MM4yIzUdPnU8n75kjTIbgewdLr5DFox) by [Software Interviews Prep](https://www.youtube.com/@SoftwareInterviewsPrep) :mortar_board: :movie_camera:
-- [System Design for Beginners](https://www.youtube.com/watch?v=m8Icp_Cid5o) by [freeCodeCamp](https://www.youtube.com/@freecodecamp) :mortar_board: :movie_camera:
 
 ## Systems design key concepts
 
@@ -183,6 +180,7 @@ _systems_design_ )
 - :page_facing_up: - reading
 - :mortar_board: - online course with or without feedback
 - :chart_with_upwards_trend: - cheetsheets
+- :open_file_folder: - collections of collections
 - ( _short_ ) - short overview
 - ( _systems_design_ ) - systems design
 - ( _communication_ ) - back-end, networking, RPC, IPC
