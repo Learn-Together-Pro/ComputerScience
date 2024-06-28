@@ -71,6 +71,7 @@
 - Compare and contrast Common Table Expressions (CTEs) with views.
 - Describe the distinctions between views and synonyms, providing examples.
 - Compare views with materialized views in terms of functionality and usage.
+- How to avoid creating a view if you need to add few request-time columns?
 
 ## Index
 
@@ -86,7 +87,7 @@
 
 ###
 
-- Can foreign key refer non-primary key? When?
-- Can unqiue cooumn have duplicates? When?
-- Can foreign key refer nullable key?
+- Can foreign key refer non-primary key? When? Yes, if it has unique constraint
+- Can unqiue cooumn have duplicates? When? Only nulls.
+- Can foreign key refer nullable key? Yes
 - Can primary key field be changed?

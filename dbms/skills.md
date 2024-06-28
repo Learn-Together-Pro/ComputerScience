@@ -34,6 +34,8 @@
   - - - drop
   - - - constrains
   - - - views
+  - - - materialzid views
+  - - - prepare statement
   - - - stored column ~ generated column
   - - - synonym
   - - - truncate

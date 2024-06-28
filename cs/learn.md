@@ -59,11 +59,17 @@ Donne Martin ](https://github.com/donnemartin) ( _systems_design_ )
 
 - [Low Level System Design](https://www.youtube.com/playlist?list=PL564gOx0bCLqTolRIHIsR2JPv11w8LESW) :mortar_board: :movie_camera: by [Udit Agarwal](https://www.youtube.com/c/anomaly2104/playlists)
 
+## Systems design courses
+
+- [System Design for Beginners](https://www.youtube.com/playlist?list=PL8hP5HjAnJ3_mT7IHXjlbpYX_xiz4v_kP) by [Code with Irtiza](https://www.youtube.com/@irtizahafiz) :mortar_board: :movie_camera:
+- [System Design Fundamentals](https://www.youtube.com/playlist?list=PL1MM4yIzUdPnU8n75kjTIbgewdLr5DFox) by [Software Interviews Prep](https://www.youtube.com/@SoftwareInterviewsPrep) :mortar_board: :movie_camera:
+- [System Design for Beginners](https://www.youtube.com/watch?v=m8Icp_Cid5o) by [freeCodeCamp](https://www.youtube.com/@freecodecamp) :mortar_board: :movie_camera:
+
 ## Systems design key concepts
 
 ( _systems_design_ )
 
--  [Distributed Systems](https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB) :mortar_board: :movie_camera: by [Martin Kleppmann](https://www.youtube.com/channel/UClB4KPy5LkJj1t3SgYVtMOQ/videos) ( _systems_design_ ) ( _distributed_system_ )
+- [Distributed Systems](https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB) :mortar_board: :movie_camera: by [Martin Kleppmann](https://www.youtube.com/channel/UClB4KPy5LkJj1t3SgYVtMOQ/videos) ( _systems_design_ ) ( _distributed_system_ )
 - [Moving from Monoliths to Microservices](https://www.youtube.com/watch?v=rckfN7xFig0) :movie_camera: by [Gaurav Sen](https://www.youtube.com/c/GauravSensei/videos) ( _systems_design_ )
 - [Microservices explained](https://www.youtube.com/watch?v=rv4LlmLmVWk) :movie_camera: by [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana/videos)
 - [Microservices Explained and their Pros & Cons](https://www.youtube.com/watch?v=T-m7ZFxeg1A) :movie_camera: by [Hussein Nasser](https://www.youtube.com/c/HusseinNasser-software-engineering/videos)

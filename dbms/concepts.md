@@ -691,8 +691,8 @@ Each table cell should contain a single value, and each record needs to be uniqu
 
 First level of database normalization that a database table must satisfy:
 - Using row order to convey information is not permitted.
-- Mixing data types within the same column is not permitted.
 - Having a table without a primary key is not permitted.
+- Mixing data types within the same column is not permitted.
 - Several values per cell is not permitted.
 
 > **Second Normal Form** ~ **2NF**
@@ -706,7 +706,7 @@ The table is in 1NF and all non-key attributes are fully functional dependent on
 Every non-key attribute in a table should depend on the key, the whole key, and nothing but the key.
 
 The table is in 2NF and all the attributes are functionally independent of any other non-primary-key attributes.
-3NF unlike BCND does preserve all functional dependencies, normalization does not lead to losing any of FDs.
+3NF unlike BCNF does preserve all functional dependencies, normalization does not lead to losing any of FDs.
 
 > **Boyce-Codd Normal Form** ~ **BCNF**
 

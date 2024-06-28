@@ -11,6 +11,7 @@ Awesome list of high-quality study materials for learning Digital Product.
 
 - [Root cause analysis](https://www.youtube.com/playlist?list=PLxENun6kHfaB4vJsQAO4zXgDbXZ-1i8l_) by [skilltecs](https://www.youtube.com/@skilltecs) :movie_camera: :mortar_board:
 - [Root cause analysis](https://www.youtube.com/playlist?list=PL55ZwvYHxcu2QqhSl-NwKvIF8kUeww-JB) by [Lean and Six Sigma](https://www.youtube.com/@learnandapply) :movie_camera: :mortar_board:
+- [FMEA](https://www.youtube.com/playlist?list=PLHm5EVKgoDDSj-5mcaHSRQ66CrtCL0fj5) by [Paul Allen](https://www.youtube.com/@paulallen5321) :movie_camera: :mortar_board:
 
 ## Testing
 
