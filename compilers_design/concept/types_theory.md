@@ -18,7 +18,7 @@ The strictness of type enforcement in programming languages affects error detect
 
 **Strongly Typed Languages** enforce strict type rules, preventing implicit conversions and catching errors early, whereas **Weakly Typed Languages** allow implicit conversions, which can lead to unexpected behaviors.
 
-## **Typing Explicitness** > Implicit Typing / Explicit Typing
+## **Typing Explicitness** ~ **Level of Inference** > Implicit Typing / Explicit Typing
 
 The level of type inference required in programming languages determines the explicitness of type declarations.
 
@@ -29,3 +29,11 @@ The level of type inference required in programming languages determines the exp
 The timing of type checking in programming languages influences flexibility and error detection.
 
 **Dynamic Languages** perform type checking at runtime, offering flexibility but potentially leading to runtime errors, whereas **Static Typed Languages** perform type checking at compile time, ensuring type safety before execution.
+
+## Symbol Table
+
+A data structure used by compilers to store information about identifiers and scope.
+
+Symbol tables are crucial in the compilation process, as they keep track of variable names, function names, objects, and other identifiers, along with their associated attributes such as type, scope, and memory location. This information is used during semantic analysis and code generation to ensure correct program execution and to optimize resource allocation.
+
+Symbol tables are typically implemented as hash tables or linked lists, allowing efficient insertion, deletion, and lookup operations. They are often organized hierarchically to reflect the scope of identifiers, with nested tables representing nested scopes in the source code.
