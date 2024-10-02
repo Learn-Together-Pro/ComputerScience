@@ -6,6 +6,10 @@ Cheatsheets for Parsing Theory.
 
 <!-- - []() by []() ( _:movie_camera:_ ) -->
 
+## Chomsky's Hierarchy of Grammars
+
+![Chomsky's Hierarchy of Grammars](./chomsky.png)
+
 ## Ambiguity in CFG
 
 ```text

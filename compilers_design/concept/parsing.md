@@ -92,14 +92,16 @@ Abstract machines using a finite number of registers to perform computations.
 
 A classification of formal grammars based on their generative power and complexity, proposed by Noam Chomsky.
 
+![Chomsky's Hierarchy of Grammars](../cheatsheet/chomsky.png)
+
 ##### Type 0: **Unrestricted Grammar**
 - **Production Rule**: α → β
   - α is a string of terminals and/or non-terminals with at least one non-terminal
   - β is a string of terminals and/or non-terminals
 - **Generative Power**: Can generate any language that can be recognized by a Turing machine.
 - **Computational Models**: Recognized by Turing machines.
-- **Complexity**: Most general and least restrictive, allowing any form of production.
 - **Memory**: Unlimited, allowing for complex computations and context sensitivity.
+- **Recognition Complexity**: Generally undecidable, as it can require arbitrary computation.
 - **Limitations**: Computationally expensive and difficult to implement for practical use.
 
 ##### Type 1: **Context-Sensitive Grammar** ~ **CSG**
@@ -108,8 +110,8 @@ A classification of formal grammars based on their generative power and complexi
   - α, β, γ are strings of terminals and/or non-terminals
 - **Generative Power**: Can generate context-sensitive languages.
 - **Computational Models**: Recognized by linear bounded automata.
-- **Complexity**: More restrictive than Type 0, ensuring non-decreasing production length.
 - **Memory**: Limited but sufficient for context-sensitive rules.
+- **Recognition Complexity**: Polynomial time, as it is constrained by the linear bounded automaton.
 - **Limitations**: More complex than CFGs, making them harder to parse and implement.
 
 ##### Type 2: **Context-Free Grammar** ~ **CFG**
@@ -118,8 +120,8 @@ A classification of formal grammars based on their generative power and complexi
   - γ is a string of terminals and/or non-terminals
 - **Generative Power**: Can generate context-free languages.
 - **Computational Models**: Recognized by pushdown automata.
-- **Complexity**: Suitable for nested structures, used in programming languages.
 - **Memory**: Uses a stack, allowing for nested and recursive structures.
+- **Recognition Complexity**: Generally cubic time, O(n^3), but can be optimized to O(n^2) or O(n) for specific grammars.
 - **Limitations**: Cannot handle context-sensitive languages or enforce certain constraints.
 
 ##### Type 3: **Regular Grammar**
@@ -132,8 +134,8 @@ A classification of formal grammars based on their generative power and complexi
     - a is a terminal
 - **Generative Power**: Can generate regular languages.
 - **Computational Models**: Recognized by finite automata.
-- **Complexity**: Most restrictive, suitable for simple patterns and sequences.
 - **Memory**: Limited to current state, no additional memory or stack.
+- **Recognition Complexity**: Linear time, O(n), as it is processed by finite automata.
 - **Limitations**: Cannot handle nested or recursive structures, counting, or context sensitivity.
 
 ## RLG ~ Right Linear Grammar
