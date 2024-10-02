@@ -6,39 +6,135 @@ Key concepts of Parsing Theory.
 
 <!-- - []() by []() ( _:movie_camera:_ ) -->
 
-<!-- ## Architecture -->
+## Computational Models
 
-## Chomsky's hierarchy of grammars
+Theoretical frameworks used to study and understand the nature of computation.
+
+Computational models provide a formal structure for analyzing the capabilities and limitations of different computational processes. They explore fundamental questions about what can be computed, the resources required for computation, and the complexity of computational problems. These models serve as the foundation for understanding various aspects of computation, such as decidability, expressiveness, and efficiency.
+
+### Classic Computational Models
+
+- **Turing Machines**: Model general computation and are capable of simulating any algorithmic process.
+- **Finite Automata**: Used for simpler computational tasks and recognize regular languages.
+- **Pushdown Automata**: Extend finite automata with a stack to recognize context-free languages.
+- **Lambda Calculus**: Provides a formal system for expressing computation through function abstraction and application.
+- **Register Machines**: Use a finite number of registers to perform computations.
+- **Cellular Automata**: Consist of a grid of cells, each in one of a finite number of states, evolving over discrete time steps according to a set of rules.
+- **Markov Algorithms**: A string rewriting system that provides a model of computation based on the application of rules to strings.
+- **Petri Nets**: A mathematical modeling language used for the description of distributed systems.
+
+Each of these models offers unique insights into different aspects of computation, and they are often used to compare the computational power and efficiency of various algorithms and systems.
+
+## Abstract Machines
+
+Simplified, theoretical representations of computer systems used to analyze algorithms and programming languages.
+
+Abstract machines are a subset of computational models that focus on simulating the behavior of a computer or a specific computational process. They provide a high-level abstraction of how computations are executed, often ignoring the complexities of actual hardware. Abstract machines are used to study the execution of algorithms, the semantics of programming languages, and the efficiency of computational processes. Examples include the Turing machine, which is a universal model of computation, and the finite state machine, which models systems with a limited number of states. These machines are instrumental in understanding the practical implementation of computational theories.
+
+The key difference between computational models and abstract machines lies in their scope and application. **Computational models** are broad theoretical constructs that explore the fundamental principles and limits of computation, often focusing on the theoretical analysis of what can be computed. In contrast, **abstract machines** are specific instances of computational models that simulate the execution of computations, providing a practical framework for analyzing algorithms and programming languages. While computational models address the "what" and "why" of computation, abstract machines focus on the "how" of executing computational processes.
+
+## Computational Models > Finite Automata
+
+Abstract machines used to recognize regular languages with a finite number of states.
+
+- **Memory**: Limited to the current state (no additional memory).
+- **Control Structure**: Finite set of states and transitions.
+- **Input/Output**: Processes input symbols to determine acceptance.
+- **Computation**: Based on state transitions for each input symbol.
+- **Universality**: Limited to recognizing regular languages.
+- **Equivalence**: Equivalent to regular expressions.
+
+## Computational Models > Pushdown Automata
+
+Extend finite automata with a stack to recognize context-free languages.
+
+- **Memory**: Finite states plus a stack for additional memory.
+- **Control Structure**: Finite set of states and stack operations.
+- **Input/Output**: Reads input symbols and manipulates the stack.
+- **Computation**: Uses state transitions and stack operations.
+- **Universality**: Recognizes context-free languages, not universal.
+- **Equivalence**: Equivalent to context-free grammars.
+
+## Computational Models > Turing Machine
+
+A theoretical model with an infinite tape and a set of rules for reading, writing, and moving the tape head.
+
+- **Memory**: Infinite tape providing unlimited memory.
+- **Control Structure**: Finite set of states and a transition function.
+- **Input/Output**: Reads and writes symbols on the tape.
+- **Computation**: Defined by state transitions and tape operations.
+- **Universality**: Capable of simulating any other computational model.
+- **Equivalence**: Equivalent to lambda calculus, register machines, and other universal models.
+
+## Computational Models > Lambda Calculus
+
+A formal system for expressing computation through function abstraction and application.
+
+- **Memory**: Abstract representation through variables and functions.
+- **Control Structure**: Function abstraction and application.
+- **Input/Output**: Function application and variable substitution.
+- **Computation**: Based on function evaluation and substitution.
+- **Universality**: Equivalent to Turing machines in computational power.
+- **Equivalence**: Equivalent to Turing machines and other universal models.
+
+## Computational Models > Register Machines
+
+Abstract machines using a finite number of registers to perform computations.
+
+- **Memory**: Finite number of registers for storing data.
+- **Control Structure**: Instructions for manipulating register values.
+- **Input/Output**: Operates on data stored in registers.
+- **Computation**: Defined by a sequence of instructions.
+- **Universality**: Capable of simulating any Turing machine.
+- **Equivalence**: Equivalent to Turing machines and other universal models.
+
+## Chomsky's Hierarchy of Grammars
+
+A classification of formal grammars based on their generative power and complexity, proposed by Noam Chomsky.
 
 ##### Type 0: **Unrestricted Grammar**
-- Production Rule: α → β
+- **Production Rule**: α → β
   - α is a string of terminals and/or non-terminals with at least one non-terminal
   - β is a string of terminals and/or non-terminals
-- Can generate any language that can be recognized by a Turing machine.
+- **Generative Power**: Can generate any language that can be recognized by a Turing machine.
+- **Computational Models**: Recognized by Turing machines.
+- **Complexity**: Most general and least restrictive, allowing any form of production.
+- **Memory**: Unlimited, allowing for complex computations and context sensitivity.
+- **Limitations**: Computationally expensive and difficult to implement for practical use.
 
 ##### Type 1: **Context-Sensitive Grammar** ~ **CSG**
-- Production Rule: αAβ → αγβ
+- **Production Rule**: αAβ → αγβ
   - A is a non-terminal
   - α, β, γ are strings of terminals and/or non-terminals
-- The length of αβ must be less than or equal to the length of αγβ.
-- Can generate context-sensitive languages.
+- **Generative Power**: Can generate context-sensitive languages.
+- **Computational Models**: Recognized by linear bounded automata.
+- **Complexity**: More restrictive than Type 0, ensuring non-decreasing production length.
+- **Memory**: Limited but sufficient for context-sensitive rules.
+- **Limitations**: More complex than CFGs, making them harder to parse and implement.
 
 ##### Type 2: **Context-Free Grammar** ~ **CFG**
-- Production Rule: A → γ
+- **Production Rule**: A → γ
   - A is a non-terminal
   - γ is a string of terminals and/or non-terminals
-- Can generate context-free languages, which are recognized by pushdown automata.
+- **Generative Power**: Can generate context-free languages.
+- **Computational Models**: Recognized by pushdown automata.
+- **Complexity**: Suitable for nested structures, used in programming languages.
+- **Memory**: Uses a stack, allowing for nested and recursive structures.
+- **Limitations**: Cannot handle context-sensitive languages or enforce certain constraints.
 
 ##### Type 3: **Regular Grammar**
-- Right Linear Grammar (RLG):
-  - Production Rule: A → aB or A → a
+- **Production Rule**: Can be either Right Linear Grammar (RLG) or Left Linear Grammar (LLG).
+  - **Right Linear Grammar (RLG)**: A → aB or A → a
     - A and B are non-terminals
     - a is a terminal
-- Left Linear Grammar (LLG):
-  - Production Rule: A → Ba or A → a
+  - **Left Linear Grammar (LLG)**: A → Ba or A → a
     - A and B are non-terminals
     - a is a terminal
-- Can generate regular languages, which are recognized by finite automata.
+- **Generative Power**: Can generate regular languages.
+- **Computational Models**: Recognized by finite automata.
+- **Complexity**: Most restrictive, suitable for simple patterns and sequences.
+- **Memory**: Limited to current state, no additional memory or stack.
+- **Limitations**: Cannot handle nested or recursive structures, counting, or context sensitivity.
 
 ## RLG ~ Right Linear Grammar
 
