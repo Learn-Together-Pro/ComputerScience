@@ -1,5 +1,21 @@
 # Parsing Algorithms
 
+## CFG Parsing Methods Expressivity Comparison
+
+A comparison of the expressivity and restrictions of various context-free grammar (CFG) parsing methods.
+
+##### Grammars Restrictions
+- **CFG > LR(k) > LR(1) > LALR(1) > SLR(1)**: Context-Free Grammars (CFGs) are the most expressive, with each subsequent method imposing more restrictions on the grammar.
+- **LR(k) > LL(k) > LL(1)**: LR(k) parsers can handle a broader range of grammars compared to LL(k) parsers, with LL(1) being the most restrictive among them.
+- **LR(1) > LL(1)**: LR(1) parsers are more expressive than LL(1) parsers, allowing for a wider range of grammars.
+- **LALR(1) != LL(1)**: LALR(1) and LL(1) parsers are not directly comparable in terms of expressivity, as they handle different types of grammar restrictions.
+
+##### Languages Restrictions
+- **CFG > LR(k)**: Context-Free Grammars can describe a broader set of languages than LR(k) parsers.
+- **LR(k) = LR(1) = LALR(1) = SLR(1)**: These parsing methods are equivalent in terms of the languages they can recognize, despite differences in grammar restrictions.
+- **LR(1) > LL(k) > LL(1)**: LR(1) parsers can recognize a broader set of languages compared to LL(k) and LL(1) parsers.
+- **LALR(1) != LL(1)**: LALR(1) and LL(1) parsers are not directly comparable in terms of the languages they can recognize, as they are designed for different parsing strategies.
+
 ## Traversing Order > Top-down Parser / Bottom-up Parser
 
 Two parsing methods distinguished by the order in which they process grammar rules and input strings.

@@ -88,14 +88,13 @@ Abstract machines using a finite number of registers to perform computations.
 - **Universality**: Capable of simulating any Turing machine.
 - **Equivalence**: Equivalent to Turing machines and other universal models.
 
-## Chomsky's Hierarchy of Grammars
-
-A classification of formal grammars based on their generative power and complexity, proposed by Noam Chomsky.
-
 ![Chomsky's Hierarchy of Grammars](../cheatsheet/chomsky.png)
 
 ##### Type 0: **Unrestricted Grammar**
-- **Production Rule**: α → β
+
+- **Production Rule**: (Σ ∪ N)+ → (Σ ∪ N)*
+  - No restrictions on production rules.
+  - Alternatively: α → β
   - α is a string of terminals and/or non-terminals with at least one non-terminal
   - β is a string of terminals and/or non-terminals
 - **Generative Power**: Can generate any language that can be recognized by a Turing machine.
@@ -115,7 +114,9 @@ A classification of formal grammars based on their generative power and complexi
 - **Limitations**: More complex than CFGs, making them harder to parse and implement.
 
 ##### Type 2: **Context-Free Grammar** ~ **CFG**
-- **Production Rule**: A → γ
+- **Production Rule**: N → (Σ ∪ N)*
+  - Non-terminals are replaced by combinations of terminals and non-terminals
+  - Alternatively: A → γ
   - A is a non-terminal
   - γ is a string of terminals and/or non-terminals
 - **Generative Power**: Can generate context-free languages.
@@ -125,7 +126,9 @@ A classification of formal grammars based on their generative power and complexi
 - **Limitations**: Cannot handle context-sensitive languages or enforce certain constraints.
 
 ##### Type 3: **Regular Grammar**
-- **Production Rule**: Can be either Right Linear Grammar (RLG) or Left Linear Grammar (LLG).
+- **Production Rule**: N → Σ * N?
+  - Production rules replace non-terminals with a terminal followed by an optional non-terminal.
+  - Can be either Right Linear Grammar (RLG) or Left Linear Grammar (LLG).
   - **Right Linear Grammar (RLG)**: A → aB or A → a
     - A and B are non-terminals
     - a is a terminal
