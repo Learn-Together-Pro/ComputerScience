@@ -16,3 +16,4 @@ Here you can find:
 - [Git and GitHub](./git)
 - [Database Management Systems](./dbms)
 - [Digital Product](./digital_product)
+- [Compilers Design](./compilers_design)
