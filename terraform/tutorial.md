@@ -444,6 +444,25 @@ resource "aws_instance" "web" {
 }
 ```
 
+```terraform
+
+variable "users" {
+    type = list(string)
+    default = [ "/root/user1", "/root/user2", "/root/user3", "/root/user1" ]
+}
+
+variable "content" {
+    default = "password: abc"
+}
+
+resource "local_sensitive_file" "name" {
+  filename = var.users[count.index]
+  content = var.content
+  count = length(var.users)
+}
+
+```
+
 In blocks with count, **count.index** provides the index number (starting at 0) for the current object.
 
 ## For_Each
@@ -462,6 +481,26 @@ resource "aws_iam_user" "user" {
   for_each = toset(var.usernames)  # Convert list to set
   name     = each.key
 }
+```
+
+```terraform
+
+variable "users" {
+    type = list(string)
+    default = [ "/root/user1", "/root/user2", "/root/user3", "/root/user1" ]
+}
+
+variable "content" {
+    default = "password: abc"
+}
+
+resource "local_sensitive_file" "name" {
+    filename = each.value
+    content = var.content
+    for_each = toset( var.users )
+}
+
+
 ```
 
 ## For Expressions

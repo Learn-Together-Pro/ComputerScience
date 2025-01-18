@@ -1,6 +1,6 @@
-# :mortar_board: Learn Graphs and Automata Theory
+# :mortar_board: Learn Probability Theory and Satistics
 
-Awesome collection of learning materials to master modern Graphs and Automata Theory.
+Awesome collection of learning materials to master modern Probability Theory and Satistics.
 
 [:arrow_down: Tags legend](#tags-legend) at the end of the page.
 
@@ -8,8 +8,6 @@ Awesome collection of learning materials to master modern Graphs and Automata Th
 <!-- - []() by []() :movie_camera: :mortar_board: -->
 
 ## General
-
-- [Automata Theory Course](https://www.youtube.com/playlist?list=PL3TE2CsKK478cNgQa7UTnEdFkXzii5CII) :movie_camera: :mortar_board: by [Theoretical Computer Science](https://www.youtube.com/@TheComputerScience)
 
 ## Tags legend
 
