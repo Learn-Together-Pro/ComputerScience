@@ -107,25 +107,6 @@ Where:
 - X̄ and Ȳ are the means of X and Y, respectively.
 - n is the number of data points.
 
-## Correlation
-
-Correlation is a statistical measure that describes the strength and direction of a linear relationship between two variables.
-
-It is a standardized form of covariance that ranges from -1 to 1.
-
-- **Positive Correlation**: Indicates that as one variable increases, the other variable also increases.
-- **Negative Correlation**: Indicates that as one variable increases, the other variable decreases.
-- **Zero Correlation**: Suggests no linear relationship between the variables.
-
-The Pearson correlation coefficient between two variables X and Y can be expressed in terms of covariance and variance:
-
-r = Cov(X, Y) / √(Var(X) * Var(Y))
-
-Where:
-- Cov(X, Y) is the covariance between X and Y.
-- Var(X) is the variance of X.
-- Var(Y) is the variance of Y.
-
 ## Expected Value
 
 The expected value is a fundamental concept in probability and statistics that represents the average or mean value of a random variable over a large number of trials.
@@ -226,7 +207,6 @@ If the population standard deviation is unknown, the sample standard deviation (
 
 SE = s / √n
 
-
 ## Confidence Interval
 
 A confidence interval (CI) is a range of values, derived from sample data, that is likely to contain the true population parameter (such as the mean or proportion) with a specified level of confidence.
@@ -246,3 +226,67 @@ Where:
 - X̄ is the sample mean.
 - Z is the Z-score corresponding to the desired confidence level (e.g., 1.96 for 95% confidence).
 - SE is the standard error of the sample mean ( variance )
+
+## Correlation ~ Pearson's R
+
+Correlation is a statistical measure that describes the strength and direction of a linear relationship between two variables.
+
+It quantifies how changes in one variable are associated with changes in another.
+
+- **Range**: Correlation coefficients range from -1 to 1.
+  - **+1**: Perfect positive correlation, meaning as one variable increases, the other also increases proportionally.
+  - **-1**: Perfect negative correlation, meaning as one variable increases, the other decreases proportionally.
+  - **0**: No linear correlation, indicating no linear relationship between the variables.
+
+The most common measure of correlation is the Pearson correlation coefficient, which is calculated as:
+
+r = Cov(X, Y) / √(Var(X) * Var(Y))
+
+Where:
+- Cov(X, Y) is the covariance between X and Y.
+- Var(X) is the variance of X.
+- Var(Y) is the variance of Y. -->
+
+## R² (R-Squared)
+
+R², or R-squared, is a statistical measure that represents the proportion of the variance for a dependent variable that's explained by an independent variable or variables in a regression model.
+
+It provides an indication of how well the independent variables explain the variability of the dependent variable.
+
+- **Range**: R² values range from 0 to 1.
+  - **0**: Indicates that the independent variables do not explain any of the variability of the dependent variable.
+  - **1**: Indicates that the independent variables explain all the variability of the dependent variable.
+
+- **Interpretation**:
+  - A higher R² value indicates a better fit of the model to the data.
+  - R² is often expressed as a percentage. For example, an R² of 0.75 means that 75% of the variance in the dependent variable is predictable from the independent variables.
+
+R² = ( SS_mean - SS_res ) / SS_mean
+
+Where:
+- SS_res is the sum of squares of residuals (the difference between observed and predicted values).
+- SS_tot is the total sum of squares (the difference between observed values and the mean of the dependent variable).
+- SS_mean is the sum of squares of mean.
+
+## Linear Regression
+
+Linear regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables by fitting a linear equation to observed data.
+
+It is one of the most commonly used techniques for predictive modeling and data analysis.
+
+- **Simple Linear Regression**: Involves one independent variable and one dependent variable. The relationship is modeled with a straight line (y = mx + b), where:
+  - y is the dependent variable.
+  - x is the independent variable.
+  - m is the slope of the line.
+  - b is the y-intercept.
+
+- **Multiple Linear Regression**: Involves two or more independent variables. The relationship is modeled with a linear equation (y = b₀ + b₁x₁ + b₂x₂ + ... + bₙxₙ), where:
+  - y is the dependent variable.
+  - x₁, x₂, ..., xₙ are the independent variables.
+  - b₀ is the y-intercept.
+  - b₁, b₂, ..., bₙ are the coefficients representing the change in y for a one-unit change in each x.
+
+- **Linearity**: The relationship between the dependent and independent variables is linear.
+- **Independence**: Observations are independent of each other.
+- **Homoscedasticity**: Constant variance of errors.
+- **Normality**: The residuals (differences between observed and predicted values) are normally distributed.
