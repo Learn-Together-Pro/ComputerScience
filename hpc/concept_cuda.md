@@ -119,6 +119,8 @@ CUDA architecture includes a memory hierarchy designed to optimize data access a
 
 An important observation is that local memory is significantly slower than register memory, often by hundreds of times. Variables that are too large to be stored in registers are instead placed in DRAM, which is where local memory resides. This means that accessing local memory is much slower compared to accessing registers. Therefore, it's crucial to manage variable sizes and register usage efficiently to minimize reliance on local memory and maintain optimal performance in CUDA applications.
 
+![CUDA Memory Model](./cheatsheet/cuda_momory_model.jpg)
+
 ##### Registers
 
 Fastest memory, used for storing frequently accessed variables by individual threads.
